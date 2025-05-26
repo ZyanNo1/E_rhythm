@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="./css/user_home.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            overflow-x: hidden; /* 防止水平滚动条 */
+        }
+
+        .sidebar {
+            width: 100px; /* 侧边栏初始宽度 */
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑动画效果 */
+            z-index: 1000; /* 确保侧边栏在主内容区域之上 */
+        }
+
+        .sidebar:hover {
+            width: 150px; /* 鼠标悬停时侧边栏宽度增加到170像素 */
+            background-color: #444; /* 鼠标悬停时改变背景色（可选） */
+        }
+
+        .main-content {
+            margin-left: 500px; /* 确保主内容区域从侧边栏的最大宽度开始留出空间 */
+            margin-right: 500px;
+            margin-top: 20px;
+            padding: 40px;
+            overflow-y: auto; /* 允许正文内容垂直滚动 */
+            flex-grow: 1; /* 占据剩余空间 */
+            height: 100vh; /* 占据整个视口高度 */
+            /* 可以根据需要添加其他样式 */
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* 可选：为侧边栏链接添加样式 */
+        .sidebar a {
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            text-align: center;
+            transition: color 0.3s ease-in-out; /* 平滑文字颜色变化（可选） */
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+            color: #f0f0f0; /* 鼠标悬停在链接上时改变文字颜色（可选） */
+        }
+
+        .content-wrapper {
+            flex-grow: 1; /* 占据剩余空间 */
+            display: flex;
+            flex-direction: column; /* 垂直排列子元素 */
+            overflow: hidden; /* 隐藏滚动条（如果需要的话，可以在内部元素上设置滚动） */
+            background-color: rgba(255, 255, 255, 0.5); /* 半透明背景色 */
+            background-image: url('./img/b.jpg');
+            background-size: cover; /* 让背景图片覆盖整个区域 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-position: center; /* 将背景图片居中 */
+        }
+ 
+        .top-navbar {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0); 
+            padding: 10px 20px;
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 将容器分为12等份 */  
+            align-items: center; /* 垂直居中 */
+        }
+        
+        .nav-right {  
+            grid-column: 9 / 11; /* 右边的标签占据第3列（可以调整为更右的列，根据需要） */  
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 15px; /* 标签之间的间距 */  
+            font-size: 25px;
+        }  
+
+        .nav-right a {  
+            color: white;  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(0, 0, 0); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+        }  
+ 
+        .nav-right a:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* 悬停时背景变亮 */
+        }
+ 
+        .main-content {
+            flex-grow: 1; /* 占据剩余空间 */
+            overflow-y: auto; /* 允许正文内容垂直滚动 */
+            padding: 20px;
+            box-sizing: border-box; /* 包括内边距和边框在内的元素总宽度和高度 */
+            background-color: #ffffff;
+        }
+
+    </style>
+</head>
+
+<body class="content" id="content">
+    <div class="sidebar">
+        <a href="/home"><img src="./img/logo.png "style="border-radius: 15px;width: 40px;height: 40px;" alt="产品logo"></a>
+        <a href="/write">创作</a>
+        <a href="/cowork">论坛</a>
+        <a href="/collection">收藏夹</a>
+        <a href="/workshop">工坊</a>
+        <a href="/user/info"><img src="./img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="top-navbar">
+            <div class="nav-right">
+                <% if(user && user.username){ %>
+                    <a><%= user.username %></a> 
+                    <a href="/user/logout">注销</a>  
+                    <a href="/user/info"><img src="<%= user.avatar ? user.avatar : '../img/用户.jpg' %>" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+                <% }else{ %>
+                    <a href="/user/login">登录</a>
+                    <a href="/user/reg">注册</a>
+                    <a href="/user/login"><img src="../img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+                <% } %>
+            </div>
+        </div>
+        <div class="main-content">
+            <!-- 正文内容 -->
+            <h2>Workshop</h2>
+            <p>这是一些正文内容...</p>
+            <!-- 你可以根据需要添加更多内容 -->
+        </div>
+    </div>
+</body>
+
+</html>

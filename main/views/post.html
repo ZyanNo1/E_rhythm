@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="./css/user_home.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <style>
+        body {
+            font-family: '楷体', 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            overflow-x: hidden; /* 防止水平滚动条 */
+            overflow-y: scroll;
+        }
+        
+        .space{
+            background-color: #367446;
+            z-index: 10;
+            position: relative;
+            margin: auto;
+            width: 100vh;
+            height: 100px;
+        }
+        .sidebar {
+            width: 100px; /* 侧边栏初始宽度 */
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑动画效果 */
+            z-index: 1000; /* 确保侧边栏在主内容区域之上 */
+        }
+
+        .sidebar:hover {
+            width: 150px; /* 鼠标悬停时侧边栏宽度增加到170像素 */
+            background-color: #444; /* 鼠标悬停时改变背景色（可选） */
+        }
+
+        .main-content {
+            margin-left: 440px; /* 确保主内容区域从侧边栏的最大宽度开始留出空间 */
+            margin-right: 440px;
+            margin-top: 20px;
+            padding: 40px;
+            /* flex-grow: 1; 占据剩余空间 */
+            height: 900px; /* 占据整个视口高度 */
+            /* 可以根据需要添加其他样式 */
+            display: flex;
+        }
+
+        /* 可选：为侧边栏链接添加样式 */
+        .sidebar a {
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            text-align: center;
+            transition: color 0.3s ease-in-out; /* 平滑文字颜色变化（可选） */
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+            color: #f0f0f0; /* 鼠标悬停在链接上时改变文字颜色（可选） */
+        }
+
+        .content-wrapper {
+            flex-grow: 1; /* 占据剩余空间 */
+            height: 1150px;
+            display:flex;
+            flex-direction: column; /* 垂直排列子元素 */
+            background-color: rgba(255, 255, 255, 0.5); /* 半透明背景色 */
+            background-image: url('./img/b.jpg');
+            background-size: cover; /* 让背景图片覆盖整个区域 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-position: center; /* 将背景图片居中 */
+        }
+
+        .top-navbar {
+            background-color: #ffffffb9;;
+            color: rgb(0, 0, 0); 
+            padding: 10px 20px;
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 将容器分为12等份 */  
+            align-items: center; /* 垂直居中 */
+        }
+        
+        .nav-right {  
+            grid-column: 10 / 12; /* 右边的标签占据第3列（可以调整为更右的列，根据需要） */  
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 15px; /* 标签之间的间距 */  
+            font-size: 25px;
+        }  
+
+        .nav-1 {  
+            grid-column: 2;
+            display: flex;  
+            justify-content: flex-end; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 1%; /* 标签之间的间距 */  
+            font-size: 20px;
+        }  
+
+        .nav-2 {  
+            grid-column: 3;
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 1%; /* 标签之间的间距 */  
+            font-size: 20px;
+        }  
+
+        .nav-2 a {  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(59, 59, 59); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+        }  
+
+        .nav-3 {  
+            grid-column: 5/8;
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 1%; /* 标签之间的间距 */  
+            font-size: 20px;
+        } 
+
+        /* 搜索框容器的样式 */
+        .search-container {
+            width: 800px; /* 搜索框宽度 */
+            position: relative; /* 相对定位，用于放置搜索按钮 */
+        }
+        
+        /* 输入框的样式 */
+        .search-input {
+            width: 60%; /* 宽度占满容器 */
+            padding: 10px; /* 内边距 */
+            font-size: 16px; /* 字体大小 */
+            border: none; /* 无边框 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+            outline: none; /* 去除焦点时的轮廓线 */
+            border-radius: 24px; /* 圆角 */
+            display: inline-block;
+        }
+        
+        /* 搜索按钮的样式 */
+        .search-button {
+            border-radius: 24px; /* 圆角 */
+            position: relative; /* 绝对定位，相对于搜索框容器 */
+            right: 0; /* 右侧对齐 */
+            top: 0; /* 与输入框顶部对齐 */
+            height: 39px; /* 高度与输入框一致 */
+            border: none; /* 无边框 */
+            background-color: #3d7375; /* 背景颜色 */
+            color: #fff; /* 字体颜色 */
+            padding: 0 15px; /* 内边距 */
+            cursor: pointer; /* 鼠标悬停时变为手形 */
+            outline: none; /* 去除焦点时的轮廓线 */
+            display: inline-block;
+            background-image: url('./img/搜索.png');
+            background-size: cover; /* 让背景图片覆盖整个区域 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-position: center; /* 将背景图片居中 */
+
+        }
+        
+        /* 鼠标悬停时搜索按钮的样式变化 */
+        .search-button:hover {
+            background-color: #5cb9b9; /* 背景颜色变深 */
+        }
+        
+        /* 搜索框占位符文本的样式 */
+        .search-input::placeholder {
+            color: #999; /* 占位符文本颜色 */
+            opacity: 1; /* 透明度 */
+        }
+
+        input[type="text"],
+        input[type="submit"] {
+            display: inline-block; /* 使元素横向排列 */
+            margin-right: 10px; /* 右侧外边距，调整元素之间的间距 */
+        }
+
+        .nav-right a {  
+            color: white;  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(0, 0, 0); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+        }  
+ 
+        .nav-right a:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* 悬停时背景变亮 */
+        }
+
+        .main-content {
+        /* flex-grow: 1; */
+            padding: 0px;
+            box-sizing: border-box; /* 包括内边距和边框在内的元素总宽度和高度 */
+            position: relative;
+        }
+        .left-panel {
+            height: 1200px;
+            flex: 7; /* 左边部分稍微宽一点，使用比例值分配宽度 */
+            background-color: #ffffff; /* 示例背景色 */
+            padding: 20px;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+            margin-right: 10px; /* 添加右边距以产生空隙 */
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .right {
+            display:flex ;
+            flex-direction: column; 
+            height: 1100px;
+            flex: 3;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+        }
+        .right-panel {
+            height: 450px;
+            /* flex: 3; */
+            background-color: #ffffff; /* 示例背景色 */
+            padding: 20px;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+        }
+        .right-panel2 {
+            height: 500px;
+            /* flex: 3; */
+            background-color: #ffffff; /* 示例背景色 */
+            padding: 20px;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+        }
+
+        .tabs {
+            display: flex;
+            justify-content:left;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            font-family: 'youshebiaotihei';
+            font-size: 24px;
+            align-items: center; /* 垂直居中 */
+        }
+
+        .heat {
+            font-family: 'youshebiaotihei';
+            width: 80px;
+            height: 20px;
+            font-size: 18px;
+            color: #fa6868;
+            background-color: #ffeaea;
+            border-radius: 24px; /* 圆角 */
+            padding: 5px;
+        }
+
+        .action-btn {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            margin-left: 30px;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .action-btn1 {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            margin-left: 30px;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .action-btn1.active, .action-btn1:hover {
+            background-color: #c2f7cf;
+        }
+
+        .action-btn:hover {
+            background-color: #f0f0f0;
+        }
+
+        .poem-content {
+            width: 97%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 28px;
+            outline: none;
+            resize: none;
+        }
+
+        ::placeholder {
+            font-family: 'youshebiaotihei',Arial, sans-serif;
+            color: #999;
+            opacity: 1;
+        }
+
+        .comment-section {
+            max-width: 800px;
+            height: 250px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            height: 20px;
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+        
+        .btn {
+            margin-left: 10px;
+            padding: 5px 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        
+        .comments {
+            margin-top: 20px;
+            overflow-y: scroll;
+        }
+        
+        .comment {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .comment-header {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+            height: 40px;
+        }
+        
+        .avatar {
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .name {
+            font-weight: bold;
+        }
+        
+        .comment-content {
+            margin: 10px;
+            line-height: 1.6;
+            background-color: #ebebeb;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .tab1 {
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            align-items: center;
+            transition: border-color 0.3s;
+        }
+
+        .tab1:hover {
+            background-color: #d4d4d4;
+        }
+
+        .tab2 {
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            align-items: center;
+            transition: border-color 0.3s;
+        }
+
+        .tab.active, .tab:hover {
+            border-bottom: 2px solid #3498db;
+        }
+
+        .user-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            cursor: pointer; /* 鼠标悬停时变为手形 */
+        }
+
+        .username {
+            font-size: 16px;
+            font-family: 'youshebiaotihei';
+        }
+
+        .dark {
+            background-color: #367446;
+        }
+    </style>
+</head> 
+<body>
+    <div class="content-wrapper">
+        <div class="top-navbar">
+            <div class="nav-1">
+                <a href="./home.html"><img src="./img/logo.png" style="border-radius: 15px;width: 40px;height: 40px;" alt="首页"></a>
+            </div>
+            <div class="nav-2">
+                <a href="./test.html">E-R社区</a>
+            </div>
+            <div class="nav-3">
+                <form action="" method="get" class="display: flex">
+                    <input type="text" name="wd" class="search-input" placeholder="  搜索你想要的内容">
+                    <input type="submit" value="搜索" class="search-button">
+                </form>
+            </div>
+            <div class="nav-right">
+                <a href="./log.html">登录</a>
+                <a href="./register.html">注册</a>
+                <a href="./user.html"><img src="./img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="left-panel">
+                <div class="tabs">
+                    <img src="./img/./用户.jpg" style="width: 40px;">
+                    <p> &nbsp;&nbsp;<span id="username">fant1650</span</p><br>
+                </div>
+                <div>
+                    <h1 style="font-family: 'youshebiaotihei';font-weight: 500;">将进酒赏析</h1><hr>
+                    <p style="font-family: '宋体';text-indent: 2em;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">君不见，黄河之水天上来，奔流到海不复回
+
+                        李白在《将进酒》一诗中表达了对怀才不遇的感叹，又抱着乐观、通达的情怀，也流露了人生几何当及时行乐的消极情绪。但全诗洋溢着豪情逸兴，取得出色的艺术成就。《将进酒》即其代表作。
+    李白咏酒的诗篇极能表现他的个性，本诗为长安放还以后所作，思想内容更为深沉，艺术表现更为成熟。诗由黄河起兴，感情发展也像黄河之水那样奔腾激荡，不易把握。而通篇都讲饮酒，字面上诗人是在宣扬纵酒行乐，而且诗中用欣赏肯定的态度，用豪迈的气势来写饮酒，把它写得很壮美，也确实有某种消极作用，不过反映了诗人当时找不到对抗黑暗势力的有效武器。酒是他个人反抗的兴奋剂，有了酒，像是有了千军万马的力量，但酒，也是他的精神麻醉剂，使他在沉湎中不能做正面的反抗，这些都表现了时代和阶级的局限。理想的破灭是黑暗的社会造成的，诗人无力改变，于是把冲天的激愤之情化做豪放的行乐之举，发泄不满，排遣忧愁，反抗现实。
+                    </p>
+                    <div style="display: flex;margin-top: 20px;">
+                        <span class="heat"><img src="./img/火焰-copy.png" style="width: 18px;"> 3k</span>
+                        <div class="action-btn" id="41"><img src="./img/赞.png" style="width: 18px;" id="myImage7"></div>
+                        <div class="action-btn" id="42"><img src="./img/收藏.png" style="width: 18px;" id="myImage8"></div>
+                    </div>
+                </div><br>
+                <div class="comment-section">
+                    <div class="tabs" style="margin: 0%;">
+                        <p>&nbsp;评论</p>
+                        <div class="tab active" style="margin-left: auto;">默认</div>
+                        <div class="tab" >最新</div>
+                    </div>
+
+                    <div class="comments">
+                        <div class="comment">
+                            <div class="comment-header">
+                                <img src="./img/fant1650.jpg" alt="Avatar" class="avatar">
+                                <span class="name">fant1650</span>
+                            </div><hr>
+                            <p class="comment-content">这是一条评论内容。</p>
+                        </div>
+                        <!-- 重复上面的 .comment div 来添加更多评论 -->
+                    </div>
+                </div><br>
+                <form action="">
+                    <textarea class="poem-content" id="content" placeholder="写下对该作者的评论吧"></textarea>
+                    <input type="submit" value="发布" class="action-btn" style="border-radius: 50px;">
+                </form>
+                
+            </div>
+                
+            <div class="right">
+                <div class="right-panel">
+                    <div class="tabs">
+                        <p> &nbsp;&nbsp;<span id="username">创作者信息</span</p><br>
+                    </div>
+                    <div class="user-bar" data-username="user1">
+                        <img src="./img/fant1650.jpg" alt="User 1 Avatar" class="avatar">
+                        <span class="username">fant1650</span>
+                    </div>
+                    <div class="tabs" style="display: contents;">
+                        <div class="tab1"><img src="./img/id.png" alt="" style="height: 30px;"><span style="color: #5cb9b9;">用户ID:</span> <span>123</span></div>
+                        <div class="tab1"><img src="./img/文章.png" alt="" style="height: 30px;"><span style="color: #6dad72;">发文数量:</span> <span>3</span></div>
+                        <div class="tab1"><img src="./img/猫友贡献2.png" alt="" style="height: 30px;"><span style="color: #ffc558;">社区贡献:</span> <span>100</span></div>
+                    </div><br><br>
+                    <div class="tab2" style="font-family: 'youshebiaotihei';">关注他了解更多信息<div class="action-btn1" id="1" style="border-radius: 50px;"><img src="./img/加关注.png" style="width: 18px;" id="01"></div></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tabs = document.querySelectorAll('.tab');
+     
+        // 为每个标签元素添加点击事件监听器
+        tabs.forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                // 清除所有标签的激活状态
+                tabs.forEach(function(t) {
+                    t.classList.remove('active');
+                });
+                // 为被点击的标签添加激活状态
+                this.classList.add('active');
+            });
+        });
+
+        var button7 = document.getElementById('41');
+        var button8 = document.getElementById('42');
+        var image7 = document.getElementById('myImage7');
+        var image8 = document.getElementById('myImage8');
+        var button = document.getElementById('1');
+        var image = document.getElementById('01');
+        var i7=0;var i8=0;var i=0;
+        button7.addEventListener('click', function() {
+            if(i7===0){
+                image7.src = './img/点赞.png'
+                i7=1;
+            }else{
+                image7.src = './img/赞.png'
+                i7=0;
+            }
+        });
+        button8.addEventListener('click', function() {
+            if(i8===0){
+                image8.src = './img/收藏1.png'
+                i8=1;
+            }else{
+                image8.src = './img/收藏.png'
+                i8=0;
+            }
+        });
+        button.addEventListener('click', function() {
+            if(i===0){
+                image.src = './img/加关注1.png'
+                i=1;
+            }else{
+                image.src = './img/加关注.png'
+                i=0;
+            }
+        });
+        var j=0
+        button.addEventListener('click', function() {
+                if(j===0){
+                    this.classList.add('active');
+                    j=1;
+                }else{
+                    this.classList.remove('active');
+                    j=0;
+                }
+            });
+    </script>
+</body>
+</html>

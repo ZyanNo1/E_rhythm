@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="./css/user_home.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/katex.min.css"/>
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/luogu3.css?ver=20190102">
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/css/highlight_tomorrow.css">
+    <link rel="stylesheet" href="https://cdn.luogu.com.cn/markdown-palettes/markdown-palettes.css?ver=20190219">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            overflow-x: hidden; /* 防止水平滚动条 */
+        }
+        
+        .space{
+            background-color: #367446;
+            z-index: 10;
+            position: relative;
+            margin: auto;
+            width: 100vh;
+            height: 100px;
+        }
+        .sidebar {
+            width: 100px; /* 侧边栏初始宽度 */
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑动画效果 */
+            z-index: 1000; /* 确保侧边栏在主内容区域之上 */
+        }
+
+        .sidebar:hover {
+            width: 150px; /* 鼠标悬停时侧边栏宽度增加到170像素 */
+            background-color: #444; /* 鼠标悬停时改变背景色（可选） */
+        }
+
+        .main-content {
+            margin-left: 420px; /* 确保主内容区域从侧边栏的最大宽度开始留出空间 */
+            margin-right: 420px;
+            margin-top: 20px;
+            padding: 40px;
+            overflow-y: auto; /* 允许正文内容垂直滚动 */
+            /* flex-grow: 1; 占据剩余空间 */
+            height: 900px; /* 占据整个视口高度 */
+            /* 可以根据需要添加其他样式 */
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* 可选：为侧边栏链接添加样式 */
+        .sidebar a {
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            text-align: center;
+            transition: color 0.3s ease-in-out; /* 平滑文字颜色变化（可选） */
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+            color: #f0f0f0; /* 鼠标悬停在链接上时改变文字颜色（可选） */
+        }
+
+        .content-wrapper {
+            flex-grow: 1; /* 占据剩余空间 */
+            display:flex;
+            flex-direction: column; /* 垂直排列子元素 */
+            overflow: hidden; /* 隐藏滚动条（如果需要的话，可以在内部元素上设置滚动） */
+            background-color: rgba(255, 255, 255, 0.5); /* 半透明背景色 */
+            background-image: url('./img/b.jpg');
+            background-size: cover; /* 让背景图片覆盖整个区域 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-position: center; /* 将背景图片居中 */
+        }
+
+        .top-navbar {
+            background-color: #ffffffb9;;
+            color: rgb(0, 0, 0); 
+            padding: 10px 20px;
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 将容器分为12等份 */  
+            align-items: center; /* 垂直居中 */
+        }
+        
+        .nav-right {  
+            grid-column: 10 / 12; /* 右边的标签占据第3列（可以调整为更右的列，根据需要） */  
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 15px; /* 标签之间的间距 */  
+            font-size: 25px;
+        }  
+
+        .nav-right a {  
+            color: white;  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(0, 0, 0); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+        }  
+ 
+        .nav-right a:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* 悬停时背景变亮 */
+        }
+ 
+        .main-content {
+        
+            /* flex-grow: 1; */
+            overflow-y: auto; /* 允许正文内容垂直滚动 */
+            padding: 20px;
+            box-sizing: border-box; /* 包括内边距和边框在内的元素总宽度和高度 */
+            background-color: #fdfdfdd0;
+            position: relative;
+        }
+
+        .swiper {
+            width: 600px;
+            height: 300px;
+            margin-left: 0%;
+            position: relative;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit:fill;
+        }
+
+        .swiper-pagination-bullet {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            color: #000;
+            opacity: 1;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .swiper-pagination-bullet-active {
+            color: #fff;
+            background: #367446;
+        }
+        .poem-container {
+            width: 370px; /* 宽度为页面的80% */
+            height: 200px;
+            margin: auto; /* 上下50px外边距，水平居中 */
+            padding: 20px; /* 内边距 */
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 轻微的阴影效果 */
+            border-radius: 8px; /* 圆角边框 */
+        }
+    
+        .poem-title {
+            font-size: 28px; /* 标题字体大小 */
+            font-family: '楷体';
+            font-weight: bold; /* 加粗 */
+            text-align: center; /* 居中对齐 */
+            margin-bottom: 20px; /* 下外边距 */
+        }
+        
+        .poem-lines {
+            list-style-type: none; /* 移除列表的默认样式 */
+            padding: 0; /* 移除内边距 */
+        }
+        
+        .poem-lines li {
+            font-family: '楷体';
+            font-size: 18px; /* 字体大小 */
+            margin-bottom: 15px; /* 每行诗歌之间的外边距 */
+            text-align: justify; /* 文本两端对齐 */
+            text-indent: 2em; /* 每行首行缩进2个字符宽度 */
+        }
+        
+        .poem-attribution {
+            font-family: '楷体';
+            font-size: 20px; /* 作者署名字体大小 */
+            font-style: italic; /* 斜体 */
+            text-align: right; /* 右对齐 */
+            margin-top: 20px; /* 上外边距 */
+        }
+
+        .post-area {
+            display: inline-block;
+            width: 710px;
+            height: 300px;
+            margin-left: 20px;
+            margin-top: 5px;
+            background-color: #fff;
+            background-image: url('./img/4.jpg');
+            overflow-y: auto; /* 添加垂直滚动条 */
+            max-height: 400px; /* 限制帖子区的高度 */
+            padding: 10px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        }
+        
+        .post {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .post-title {
+            flex: 1; /* 标题占据大部分空间 */
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        
+        .post-author {
+            font-size: 14px;
+            text-decoration: none;
+            color: #666;
+        }
+        
+
+        .announcement-board {
+            width: 225px;
+            height: 300px;
+            /* margin-top: 20px; */
+            margin-left: 10px;
+            background-color: #fff;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+            padding: 20px;
+            display: inline-block;
+        }
+        
+        .board-title {
+            margin-top: 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #000000; /* 与边框颜色相匹配 */
+            text-align: center;
+        }
+        
+        .announcement-list {
+            list-style-type: none; /* 去除默认的列表样式 */
+            padding: 0;
+            margin: 20px 0 0;
+            text-align: center;
+        }
+        
+        .announcement-list li {
+            margin: 10px 0;
+        }
+        
+        .announcement-link {
+            display: inline-block;
+            padding: 8px 16px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #32bfc9;
+            border-radius: 5px; /* 圆角 */
+            transition: background-color 0.3s ease; /* 平滑过渡效果 */
+        }
+        
+        .announcement-link:hover {
+            background-color: #6bc6d4; /* 悬停时背景色变深 */
+        }
+
+    </style>
+</head>
+
+<body >
+    <div class="sidebar">
+        <a href="./home.html"><img src="./img/logo.png "style="border-radius: 15px;width: 40px;height: 40px;" alt="产品logo"></a>
+        <a href="./write.html">创作</a>
+        <a href="./cowork.html">合作</a>
+        <a href="./collection.html">收藏夹</a>
+        <a href="./workshop.html">工坊</a>
+        <a href="./user.html"><img src="./img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="top-navbar">
+            <div class="nav-right">
+                <a href="/user/login">登录</a>
+                <a href="./register.html">注册</a>
+                <a href="./user.html"><img src="./img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div style="display: flex;">
+                <span class="swiper mySwiper" style="display: inline-block;margin-left: 0%;">
+                    <span class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./img/001.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/2.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/3.jpg" alt=""></div>
+                    </span>
+                    <div class="swiper-pagination"></div>
+                </span>
+                <span class="am-u-md-4 lg-punch am-text-center" style="width: 370px;height: 300px;margin-right: auto;display: inline;">
+                    <div class="lg-punch-padding am-show-lg" style="display: inline-block;"></div>
+                        <div class="lg-index-calendar lg-fg-greendark" style="display: inline-block;">
+                            <span class="lg-punch-small ">十一月小</span>
+                            <span class="lg-punch-big">13</span>
+                            <span class="lg-punch-small ">星期三</span>
+                            <br><br>
+                            <span class="poem-container" style="display: inline-block;">
+                                <ul class="poem-lines">
+                                  <li>晴川历历汉阳树，芳草萋萋鹦鹉洲</li>
+                                  <li>日暮乡关何处是？烟波江上使人愁</li>
+                                </ul>
+                                <p class="poem-attribution">----崔颢</p>
+                                <hr>
+                            </span>
+                        </div>
+                    </div>
+                </span><br>
+                <div class="am-g">
+                    <div class="am-u-md-3">
+                        <div class="lg-article lg-index-stat">
+                            <h2>诗词检索</h2>
+                            <div class="am-input-group am-input-group-primary am-input-group-sm">
+                                <input type="text" class="am-form-field" placeholder="请输入诗词名" name="toproblem">
+                            </div>
+                            <p>
+                                <button class="am-btn am-btn-danger am-btn-sm" name="goto" style="color: #e9e7e7;">跳转</button>
+                                <button class="am-btn am-btn-primary am-btn-sm" name="gotorandom" style="color: #e9e7e7;">随机检索</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="am-u-md-9" style="display: inline-block;">
+                        <div class="lg-article lg-index-stat" style="padding: 0">
+                            <div class=" am-g" style="padding: 15px">
+                                <div class="am-u-md-4 am-text-center" style="object-fit:fill;">
+                                    <img src="./img/004.jpg" width="250" style="object-fit:fill;">
+                                </div>
+                                <div class="am-u-md-4 am-text-center" style="object-fit:fill;">
+                                    <img src="./img/002.jpg" width="250" style="object-fit:fill;">
+                                </div>
+                                <div class="am-u-md-4 am-text-center" style="object-fit:fill;">
+                                    <img src="./img/003.png" width="250" style="object-fit:fill;">
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+                </div>
+                <div style="display: flex;">
+                    <span class="announcement-board" style="display: inline-block;">
+                        <h2 class="board-title">公告</h2>
+                        <ul class="announcement-list">
+                            <li><a href="#" class="announcement-link">新用户必读</a></li>
+                            <li><a href="#" class="announcement-link">论坛使用规范</a></li>
+                            <li><a href="#" class="announcement-link">开发人员名单</a></li>
+                            <li><a href="#" class="announcement-link">网站更新日志</a></li>
+                        </ul>
+                    </span>
+                    <span class="post-area" style="display: inline-block;">
+                        <a href=""><h2 style="color: #367979;">社区最新动态</h2></a><hr>
+                        <div>
+                            <div class="post">
+                                <a href="#" class="post-title">那些小众而又惊艳无比诗词</a>
+                                <a href="#" class="post-author">fant1650</a>
+                            </div>
+                            <div class="post">
+                                <a href="#" class="post-title">在诗词的春雨中流连忘返</a>
+                                <a href="#" class="post-author">hector</a>
+                            </div>
+                            <div class="post">
+                                <a href="#" class="post-title">为什么唐诗的整体水平在历史上是最高的？</a>
+                                <a href="#" class="post-author">Byktue</a>
+                            </div>
+                        </div>
+                        
+                        <!-- 可以继续添加更多帖子 -->
+                    </span>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- <div class="main-content">
+
+        </div> -->
+    </div>
+</body>
+<script src="./js/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+
+    const currentDate = new Date();
+
+    const year = currentDate.getFullYear();
+    const month = currentDate.getMonth() + 1;
+    const day = currentDate.getDate();
+
+    const dayOfWeek = currentDate.getDay();
+
+    const daysOfWeek = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+
+    const currentDayOfWeek = daysOfWeek[dayOfWeek];
+
+    const discussionItems = document.querySelectorAll('.discussion-item');
+ 
+    // 为每个讨论项添加点击事件监听器
+    discussionItems.forEach(item => {
+        item.addEventListener('click', function() {
+            // 在这里添加点击后的逻辑，比如跳转到详细内容页面
+            // 例如，使用 window.location.href 或显示一个模态框
+            alert('你点击了讨论标题：' + this.textContent);
+            
+            // 如果你想要跳转到详细内容页面，可以这样做（但这里需要实际的URL）：
+            // window.location.href = '/discussion-details?id=' + this.dataset.id;
+            // 注意：上面的URL是示例，你需要根据你的后端路由来设置正确的URL。
+            // 同时，你可能需要在讨论项上添加一个data属性来存储讨论ID，例如：data-id="123"。
+        });
+    });
+
+</script>
+
+</html>

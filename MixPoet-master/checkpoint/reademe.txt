@@ -1,0 +1,5 @@
+模型请到百度网盘下载：
+通过网盘分享的文件：Mixpoet-checkpoint
+链接: https://pan.baidu.com/s/1yZ3th_txKTFR8PPvRDErtQ?pwd=7897 提取码: 7897
+
+将下载的文件解压放在本目录下

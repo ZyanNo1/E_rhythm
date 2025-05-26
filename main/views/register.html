@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册界面</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000; /* Fallback for browsers that do not support gradients */
+            background-image: url('./img/4.jpg'); /* Placeholder for gradient fallback */
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            color: rgb(0, 0, 0);
+        }
+        
+        .register-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            opacity: 0.5; /* Adjust opacity as needed */
+            z-index: -1;
+        }
+        
+        .register-form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 350px;
+            height: 500px;
+        }
+        
+        .register-form h1 {
+            margin-bottom: 10px;
+            font-size: xx-large;
+        }
+        
+        .register-form p {
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4dd3cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #24a5a5;
+        }
+        
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+        
+        a {
+            color: #1bb1b6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <div class="background-image" style="background-image: url('your-image-path.jpg');"></div>
+        <div class="register-form">
+            <h1>注册</h1>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="registerUsername">用户名</label>
+                    <input type="text" id="registerUsername" name="registerUsername" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">邮箱</label>
+                    <input type="email" id="registerEmail" name="registerEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">密码</label>
+                    <input type="password" id="registerPassword" name="registerPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">确认密码</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+                <button type="submit">注册</button>
+            </form>
+            <hr>
+            <p>已有账号? <a href="./log.html">登录</a></p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            
+            // Perform validation here
+            if (username === '' || password === '') {
+                alert('用户名和密码不能为空');
+                return;
+            }
+            
+            // Here you can add AJAX or form submission logic
+            // For example:
+            // fetch('/login', {
+            //     method: 'POST',
+            //     headers: {
+            //         'Content-Type': 'application/json'
+            //     },
+            //     body: JSON.stringify({ username, password })
+            // })
+            // .then(response => response.json())
+            // .then(data => {
+            //     if (data.success) {
+            //         alert('登录成功');
+            //         // Redirect to another page
+            //         window.location.href = 'dashboard.html';
+            //     } else {
+            //         alert('登录失败: ' + data.message);
+            //     }
+            // })
+            // .catch(error => console.error('Error:', error));
+            
+            // For simplicity, just show an alert
+            alert('表单已提交（实际逻辑需要自行实现）');
+        });
+    </script>
+</body>
+</html>

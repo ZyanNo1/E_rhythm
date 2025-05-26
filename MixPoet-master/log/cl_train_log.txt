@@ -1,0 +1,1440 @@
+epoch: 1, 1/428 0.2%, 0.001 s per iter, lr: 0.0000
+  cl_xw loss: 1.103, accu: 29.7, f1: 28.5; 
+  cl_w loss: 1.102, accu: 31.2, f1: 15.9; 
+
+epoch: 1, 101/428 23.6%, 0.013 s per iter, lr: 0.0001
+  cl_xw loss: 1.041, accu: 54.4, f1: 48.0; 
+  cl_w loss: 1.097, accu: 34.5, f1: 21.3; 
+
+epoch: 1, 201/428 47.0%, 0.010 s per iter, lr: 0.0002
+  cl_xw loss: 0.764, accu: 68.4, f1: 64.9; 
+  cl_w loss: 1.072, accu: 40.0, f1: 29.0; 
+
+epoch: 1, 301/428 70.3%, 0.011 s per iter, lr: 0.0003
+  cl_xw loss: 0.613, accu: 75.2, f1: 72.8; 
+  cl_w loss: 1.049, accu: 43.3, f1: 35.3; 
+
+epoch: 1, 401/428 93.7%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.512, accu: 79.6, f1: 77.7; 
+  cl_w loss: 1.036, accu: 45.1, f1: 38.9; 
+
+epoch: 2, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.488, accu: 80.6, f1: 78.8; 
+  cl_w loss: 1.032, accu: 45.6, f1: 39.8; 
+
+epoch: 2, 101/428 23.6%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.411, accu: 83.8, f1: 82.3; 
+  cl_w loss: 1.019, accu: 47.2, f1: 42.3; 
+
+epoch: 2, 201/428 47.0%, 0.011 s per iter, lr: 0.0006
+  cl_xw loss: 0.360, accu: 85.9, f1: 84.7; 
+  cl_w loss: 1.012, accu: 48.1, f1: 43.8; 
+
+epoch: 2, 301/428 70.3%, 0.011 s per iter, lr: 0.0007
+  cl_xw loss: 0.320, accu: 87.6, f1: 86.5; 
+  cl_w loss: 1.005, accu: 48.9, f1: 45.1; 
+
+epoch: 2, 401/428 93.7%, 0.011 s per iter, lr: 0.0008
+  cl_xw loss: 0.290, accu: 88.8, f1: 87.8; 
+  cl_w loss: 1.000, accu: 49.4, f1: 45.9; 
+
+epoch: 3, 1/428 0.2%, 0.000 s per iter, lr: 0.0008
+  cl_xw loss: 0.282, accu: 89.1, f1: 88.1; 
+  cl_w loss: 0.999, accu: 49.4, f1: 46.0; 
+
+epoch: 3, 101/428 23.6%, 0.011 s per iter, lr: 0.0007
+  cl_xw loss: 0.257, accu: 90.0, f1: 89.2; 
+  cl_w loss: 0.993, accu: 50.0, f1: 46.9; 
+
+epoch: 3, 201/428 47.0%, 0.011 s per iter, lr: 0.0007
+  cl_xw loss: 0.237, accu: 90.9, f1: 90.1; 
+  cl_w loss: 0.988, accu: 50.5, f1: 47.6; 
+
+epoch: 3, 301/428 70.3%, 0.012 s per iter, lr: 0.0007
+  cl_xw loss: 0.219, accu: 91.6, f1: 90.9; 
+  cl_w loss: 0.983, accu: 51.0, f1: 48.3; 
+
+epoch: 3, 401/428 93.7%, 0.011 s per iter, lr: 0.0006
+  cl_xw loss: 0.203, accu: 92.2, f1: 91.5; 
+  cl_w loss: 0.979, accu: 51.4, f1: 48.9; 
+
+epoch: 4, 1/428 0.2%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.199, accu: 92.3, f1: 91.7; 
+  cl_w loss: 0.978, accu: 51.5, f1: 49.0; 
+
+epoch: 4, 101/428 23.6%, 0.012 s per iter, lr: 0.0006
+  cl_xw loss: 0.186, accu: 92.8, f1: 92.3; 
+  cl_w loss: 0.972, accu: 51.9, f1: 49.5; 
+
+epoch: 4, 201/428 47.0%, 0.012 s per iter, lr: 0.0006
+  cl_xw loss: 0.175, accu: 93.3, f1: 92.7; 
+  cl_w loss: 0.967, accu: 52.3, f1: 50.0; 
+
+epoch: 4, 301/428 70.3%, 0.011 s per iter, lr: 0.0005
+  cl_xw loss: 0.165, accu: 93.7, f1: 93.2; 
+  cl_w loss: 0.963, accu: 52.6, f1: 50.4; 
+
+epoch: 4, 401/428 93.7%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.156, accu: 94.0, f1: 93.5; 
+  cl_w loss: 0.960, accu: 53.0, f1: 50.9; 
+
+epoch: 5, 1/428 0.2%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.154, accu: 94.1, f1: 93.6; 
+  cl_w loss: 0.958, accu: 53.1, f1: 51.0; 
+
+epoch: 5, 101/428 23.6%, 0.014 s per iter, lr: 0.0005
+  cl_xw loss: 0.146, accu: 94.4, f1: 94.0; 
+  cl_w loss: 0.954, accu: 53.4, f1: 51.4; 
+
+epoch: 5, 201/428 47.0%, 0.014 s per iter, lr: 0.0005
+  cl_xw loss: 0.139, accu: 94.7, f1: 94.3; 
+  cl_w loss: 0.950, accu: 53.7, f1: 51.8; 
+
+epoch: 5, 301/428 70.3%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.133, accu: 94.9, f1: 94.5; 
+  cl_w loss: 0.947, accu: 54.0, f1: 52.1; 
+
+epoch: 5, 401/428 93.7%, 0.011 s per iter, lr: 0.0005
+  cl_xw loss: 0.127, accu: 95.2, f1: 94.8; 
+  cl_w loss: 0.943, accu: 54.2, f1: 52.4; 
+
+epoch: 6, 1/428 0.2%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.125, accu: 95.2, f1: 94.8; 
+  cl_w loss: 0.942, accu: 54.3, f1: 52.5; 
+
+epoch: 6, 101/428 23.6%, 0.011 s per iter, lr: 0.0005
+  cl_xw loss: 0.120, accu: 95.4, f1: 95.1; 
+  cl_w loss: 0.939, accu: 54.6, f1: 52.8; 
+
+epoch: 6, 201/428 47.0%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.115, accu: 95.6, f1: 95.3; 
+  cl_w loss: 0.935, accu: 54.8, f1: 53.1; 
+
+epoch: 6, 301/428 70.3%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.111, accu: 95.8, f1: 95.4; 
+  cl_w loss: 0.932, accu: 55.1, f1: 53.4; 
+
+epoch: 6, 401/428 93.7%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.107, accu: 95.9, f1: 95.6; 
+  cl_w loss: 0.929, accu: 55.2, f1: 53.6; 
+
+epoch: 7, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.106, accu: 96.0, f1: 95.7; 
+  cl_w loss: 0.928, accu: 55.3, f1: 53.7; 
+
+epoch: 7, 101/428 23.6%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.102, accu: 96.1, f1: 95.8; 
+  cl_w loss: 0.925, accu: 55.6, f1: 54.0; 
+
+epoch: 7, 201/428 47.0%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.098, accu: 96.2, f1: 96.0; 
+  cl_w loss: 0.922, accu: 55.8, f1: 54.2; 
+
+epoch: 7, 301/428 70.3%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.095, accu: 96.4, f1: 96.1; 
+  cl_w loss: 0.919, accu: 56.0, f1: 54.4; 
+
+epoch: 7, 401/428 93.7%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.092, accu: 96.5, f1: 96.2; 
+  cl_w loss: 0.916, accu: 56.2, f1: 54.7; 
+
+epoch: 8, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.091, accu: 96.5, f1: 96.2; 
+  cl_w loss: 0.916, accu: 56.2, f1: 54.7; 
+
+epoch: 8, 101/428 23.6%, 0.016 s per iter, lr: 0.0004
+  cl_xw loss: 0.089, accu: 96.6, f1: 96.4; 
+  cl_w loss: 0.912, accu: 56.5, f1: 55.0; 
+
+epoch: 8, 201/428 47.0%, 0.014 s per iter, lr: 0.0004
+  cl_xw loss: 0.086, accu: 96.7, f1: 96.5; 
+  cl_w loss: 0.910, accu: 56.6, f1: 55.2; 
+
+epoch: 8, 301/428 70.3%, 0.014 s per iter, lr: 0.0004
+  cl_xw loss: 0.083, accu: 96.8, f1: 96.6; 
+  cl_w loss: 0.907, accu: 56.8, f1: 55.4; 
+
+epoch: 8, 401/428 93.7%, 0.014 s per iter, lr: 0.0004
+  cl_xw loss: 0.081, accu: 96.9, f1: 96.7; 
+  cl_w loss: 0.905, accu: 57.0, f1: 55.6; 
+
+epoch: 9, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.081, accu: 96.9, f1: 96.7; 
+  cl_w loss: 0.904, accu: 57.0, f1: 55.6; 
+
+epoch: 9, 101/428 23.6%, 0.014 s per iter, lr: 0.0004
+  cl_xw loss: 0.078, accu: 97.0, f1: 96.8; 
+  cl_w loss: 0.901, accu: 57.2, f1: 55.8; 
+
+epoch: 9, 201/428 47.0%, 0.013 s per iter, lr: 0.0003
+  cl_xw loss: 0.077, accu: 97.1, f1: 96.9; 
+  cl_w loss: 0.899, accu: 57.3, f1: 56.0; 
+
+epoch: 9, 301/428 70.3%, 0.016 s per iter, lr: 0.0003
+  cl_xw loss: 0.075, accu: 97.2, f1: 96.9; 
+  cl_w loss: 0.897, accu: 57.5, f1: 56.1; 
+
+epoch: 9, 401/428 93.7%, 0.015 s per iter, lr: 0.0003
+  cl_xw loss: 0.073, accu: 97.2, f1: 97.0; 
+  cl_w loss: 0.895, accu: 57.6, f1: 56.3; 
+
+epoch: 10, 1/428 0.2%, 0.000 s per iter, lr: 0.0003
+  cl_xw loss: 0.072, accu: 97.3, f1: 97.0; 
+  cl_w loss: 0.894, accu: 57.6, f1: 56.3; 
+
+epoch: 10, 101/428 23.6%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.071, accu: 97.3, f1: 97.1; 
+  cl_w loss: 0.892, accu: 57.8, f1: 56.5; 
+
+epoch: 10, 201/428 47.0%, 0.013 s per iter, lr: 0.0003
+  cl_xw loss: 0.069, accu: 97.4, f1: 97.2; 
+  cl_w loss: 0.889, accu: 57.9, f1: 56.6; 
+
+epoch: 10, 301/428 70.3%, 0.013 s per iter, lr: 0.0003
+  cl_xw loss: 0.067, accu: 97.4, f1: 97.2; 
+  cl_w loss: 0.887, accu: 58.0, f1: 56.8; 
+
+epoch: 10, 401/428 93.7%, 0.016 s per iter, lr: 0.0003
+  cl_xw loss: 0.066, accu: 97.5, f1: 97.3; 
+  cl_w loss: 0.885, accu: 58.2, f1: 56.9; 
+
+epoch: 1, 1/318 0.3%, 0.001 s per iter, lr: 0.0000
+  cl_xw loss: 0.697, accu: 45.3, f1: 42.1; 
+  cl_w loss: 0.683, accu: 56.2, f1: 39.0; 
+
+epoch: 1, 101/318 31.8%, 0.028 s per iter, lr: 0.0001
+  cl_xw loss: 0.677, accu: 56.3, f1: 48.1; 
+  cl_w loss: 0.688, accu: 55.1, f1: 36.4; 
+
+epoch: 1, 201/318 63.2%, 0.025 s per iter, lr: 0.0002
+  cl_xw loss: 0.620, accu: 63.8, f1: 59.4; 
+  cl_w loss: 0.688, accu: 54.7, f1: 41.1; 
+
+epoch: 1, 301/318 94.7%, 0.025 s per iter, lr: 0.0003
+  cl_xw loss: 0.548, accu: 69.9, f1: 66.9; 
+  cl_w loss: 0.688, accu: 54.2, f1: 43.3; 
+
+epoch: 2, 1/318 0.3%, 0.000 s per iter, lr: 0.0003
+  cl_xw loss: 0.534, accu: 70.9, f1: 68.0; 
+  cl_w loss: 0.688, accu: 54.2, f1: 43.8; 
+
+epoch: 2, 101/318 31.8%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.443, accu: 76.6, f1: 74.3; 
+  cl_w loss: 0.687, accu: 54.4, f1: 45.4; 
+
+epoch: 2, 201/318 63.2%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.374, accu: 80.6, f1: 78.8; 
+  cl_w loss: 0.686, accu: 54.5, f1: 46.4; 
+
+epoch: 2, 301/318 94.7%, 0.025 s per iter, lr: 0.0006
+  cl_xw loss: 0.324, accu: 83.4, f1: 81.8; 
+  cl_w loss: 0.685, accu: 54.8, f1: 47.5; 
+
+epoch: 3, 1/318 0.3%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.316, accu: 83.8, f1: 82.3; 
+  cl_w loss: 0.685, accu: 54.9, f1: 47.7; 
+
+epoch: 3, 101/318 31.8%, 0.025 s per iter, lr: 0.0007
+  cl_xw loss: 0.281, accu: 85.7, f1: 84.4; 
+  cl_w loss: 0.684, accu: 55.2, f1: 48.6; 
+
+epoch: 3, 201/318 63.2%, 0.025 s per iter, lr: 0.0008
+  cl_xw loss: 0.253, accu: 87.2, f1: 86.1; 
+  cl_w loss: 0.683, accu: 55.4, f1: 49.3; 
+
+epoch: 3, 301/318 94.7%, 0.025 s per iter, lr: 0.0007
+  cl_xw loss: 0.231, accu: 88.4, f1: 87.4; 
+  cl_w loss: 0.682, accu: 55.6, f1: 50.0; 
+
+epoch: 4, 1/318 0.3%, 0.000 s per iter, lr: 0.0007
+  cl_xw loss: 0.227, accu: 88.6, f1: 87.6; 
+  cl_w loss: 0.682, accu: 55.7, f1: 50.0; 
+
+epoch: 4, 101/318 31.8%, 0.025 s per iter, lr: 0.0007
+  cl_xw loss: 0.208, accu: 89.6, f1: 88.7; 
+  cl_w loss: 0.681, accu: 56.0, f1: 50.6; 
+
+epoch: 4, 201/318 63.2%, 0.025 s per iter, lr: 0.0007
+  cl_xw loss: 0.193, accu: 90.4, f1: 89.6; 
+  cl_w loss: 0.680, accu: 56.3, f1: 51.3; 
+
+epoch: 4, 301/318 94.7%, 0.025 s per iter, lr: 0.0006
+  cl_xw loss: 0.179, accu: 91.1, f1: 90.3; 
+  cl_w loss: 0.679, accu: 56.5, f1: 51.7; 
+
+epoch: 5, 1/318 0.3%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.177, accu: 91.2, f1: 90.5; 
+  cl_w loss: 0.679, accu: 56.6, f1: 51.8; 
+
+epoch: 5, 101/318 31.8%, 0.026 s per iter, lr: 0.0006
+  cl_xw loss: 0.165, accu: 91.8, f1: 91.1; 
+  cl_w loss: 0.677, accu: 56.9, f1: 52.4; 
+
+epoch: 5, 201/318 63.2%, 0.024 s per iter, lr: 0.0006
+  cl_xw loss: 0.155, accu: 92.3, f1: 91.7; 
+  cl_w loss: 0.676, accu: 57.2, f1: 52.9; 
+
+epoch: 5, 301/318 94.7%, 0.025 s per iter, lr: 0.0006
+  cl_xw loss: 0.146, accu: 92.8, f1: 92.2; 
+  cl_w loss: 0.674, accu: 57.4, f1: 53.1; 
+
+epoch: 6, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.145, accu: 92.9, f1: 92.3; 
+  cl_w loss: 0.674, accu: 57.4, f1: 53.2; 
+
+epoch: 6, 101/318 31.8%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.137, accu: 93.3, f1: 92.7; 
+  cl_w loss: 0.672, accu: 57.7, f1: 53.7; 
+
+epoch: 6, 201/318 63.2%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.130, accu: 93.6, f1: 93.1; 
+  cl_w loss: 0.671, accu: 58.0, f1: 54.1; 
+
+epoch: 6, 301/318 94.7%, 0.024 s per iter, lr: 0.0005
+  cl_xw loss: 0.124, accu: 93.9, f1: 93.4; 
+  cl_w loss: 0.670, accu: 58.2, f1: 54.5; 
+
+epoch: 7, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.123, accu: 94.0, f1: 93.5; 
+  cl_w loss: 0.669, accu: 58.3, f1: 54.5; 
+
+epoch: 7, 101/318 31.8%, 0.026 s per iter, lr: 0.0005
+  cl_xw loss: 0.117, accu: 94.3, f1: 93.8; 
+  cl_w loss: 0.667, accu: 58.6, f1: 54.9; 
+
+epoch: 7, 201/318 63.2%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.112, accu: 94.5, f1: 94.1; 
+  cl_w loss: 0.666, accu: 58.8, f1: 55.3; 
+
+epoch: 7, 301/318 94.7%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.107, accu: 94.8, f1: 94.3; 
+  cl_w loss: 0.665, accu: 58.9, f1: 55.5; 
+
+epoch: 8, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.107, accu: 94.8, f1: 94.4; 
+  cl_w loss: 0.664, accu: 59.0, f1: 55.6; 
+
+epoch: 8, 101/318 31.8%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.102, accu: 95.0, f1: 94.6; 
+  cl_w loss: 0.663, accu: 59.2, f1: 55.9; 
+
+epoch: 8, 201/318 63.2%, 0.026 s per iter, lr: 0.0004
+  cl_xw loss: 0.098, accu: 95.2, f1: 94.8; 
+  cl_w loss: 0.661, accu: 59.5, f1: 56.3; 
+
+epoch: 8, 301/318 94.7%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.095, accu: 95.4, f1: 95.0; 
+  cl_w loss: 0.659, accu: 59.7, f1: 56.5; 
+
+epoch: 9, 1/318 0.3%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.094, accu: 95.4, f1: 95.0; 
+  cl_w loss: 0.659, accu: 59.7, f1: 56.6; 
+
+epoch: 9, 101/318 31.8%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.091, accu: 95.6, f1: 95.2; 
+  cl_w loss: 0.657, accu: 60.0, f1: 56.9; 
+
+epoch: 9, 201/318 63.2%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.088, accu: 95.7, f1: 95.4; 
+  cl_w loss: 0.656, accu: 60.2, f1: 57.2; 
+
+epoch: 9, 301/318 94.7%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.085, accu: 95.9, f1: 95.5; 
+  cl_w loss: 0.654, accu: 60.4, f1: 57.5; 
+
+epoch: 10, 1/318 0.3%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.084, accu: 95.9, f1: 95.6; 
+  cl_w loss: 0.654, accu: 60.4, f1: 57.5; 
+
+epoch: 10, 101/318 31.8%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.082, accu: 96.0, f1: 95.7; 
+  cl_w loss: 0.652, accu: 60.6, f1: 57.8; 
+
+epoch: 10, 201/318 63.2%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.079, accu: 96.2, f1: 95.8; 
+  cl_w loss: 0.651, accu: 60.8, f1: 58.1; 
+
+epoch: 10, 301/318 94.7%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.077, accu: 96.3, f1: 96.0; 
+  cl_w loss: 0.649, accu: 61.0, f1: 58.3; 
+
+epoch: 1, 1/428 0.2%, 0.001 s per iter, lr: 0.0000
+  cl_xw loss: 1.106, accu: 29.7, f1: 21.1; 
+  cl_w loss: 1.106, accu: 31.2, f1: 15.9; 
+
+epoch: 1, 101/428 23.6%, 0.012 s per iter, lr: 0.0001
+  cl_xw loss: 1.032, accu: 50.8, f1: 44.1; 
+  cl_w loss: 1.097, accu: 35.9, f1: 19.1; 
+
+epoch: 1, 201/428 47.0%, 0.011 s per iter, lr: 0.0002
+  cl_xw loss: 0.761, accu: 66.4, f1: 62.7; 
+  cl_w loss: 1.072, accu: 40.6, f1: 27.5; 
+
+epoch: 1, 301/428 70.3%, 0.013 s per iter, lr: 0.0003
+  cl_xw loss: 0.613, accu: 73.7, f1: 71.2; 
+  cl_w loss: 1.046, accu: 44.0, f1: 34.7; 
+
+epoch: 1, 401/428 93.7%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.515, accu: 78.5, f1: 76.6; 
+  cl_w loss: 1.032, accu: 45.6, f1: 38.5; 
+
+epoch: 2, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.491, accu: 79.6, f1: 77.8; 
+  cl_w loss: 1.027, accu: 46.1, f1: 39.4; 
+
+epoch: 2, 101/428 23.6%, 0.011 s per iter, lr: 0.0005
+  cl_xw loss: 0.416, accu: 82.9, f1: 81.4; 
+  cl_w loss: 1.014, accu: 47.5, f1: 41.9; 
+
+epoch: 2, 201/428 47.0%, 0.013 s per iter, lr: 0.0006
+  cl_xw loss: 0.363, accu: 85.2, f1: 83.9; 
+  cl_w loss: 1.006, accu: 48.5, f1: 43.7; 
+
+epoch: 2, 301/428 70.3%, 0.014 s per iter, lr: 0.0007
+  cl_xw loss: 0.323, accu: 86.9, f1: 85.8; 
+  cl_w loss: 1.000, accu: 49.2, f1: 44.9; 
+
+epoch: 2, 401/428 93.7%, 0.012 s per iter, lr: 0.0008
+  cl_xw loss: 0.293, accu: 88.1, f1: 87.2; 
+  cl_w loss: 0.995, accu: 49.6, f1: 45.7; 
+
+epoch: 3, 1/428 0.2%, 0.000 s per iter, lr: 0.0008
+  cl_xw loss: 0.285, accu: 88.4, f1: 87.5; 
+  cl_w loss: 0.994, accu: 49.8, f1: 45.9; 
+
+epoch: 3, 101/428 23.6%, 0.012 s per iter, lr: 0.0007
+  cl_xw loss: 0.260, accu: 89.5, f1: 88.6; 
+  cl_w loss: 0.987, accu: 50.3, f1: 46.8; 
+
+epoch: 3, 201/428 47.0%, 0.011 s per iter, lr: 0.0007
+  cl_xw loss: 0.238, accu: 90.4, f1: 89.6; 
+  cl_w loss: 0.983, accu: 50.8, f1: 47.6; 
+
+epoch: 3, 301/428 70.3%, 0.011 s per iter, lr: 0.0007
+  cl_xw loss: 0.220, accu: 91.1, f1: 90.4; 
+  cl_w loss: 0.978, accu: 51.2, f1: 48.2; 
+
+epoch: 3, 401/428 93.7%, 0.012 s per iter, lr: 0.0006
+  cl_xw loss: 0.205, accu: 91.7, f1: 91.1; 
+  cl_w loss: 0.973, accu: 51.7, f1: 48.8; 
+
+epoch: 4, 1/428 0.2%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.201, accu: 91.9, f1: 91.3; 
+  cl_w loss: 0.972, accu: 51.7, f1: 48.9; 
+
+epoch: 4, 101/428 23.6%, 0.012 s per iter, lr: 0.0006
+  cl_xw loss: 0.188, accu: 92.5, f1: 91.9; 
+  cl_w loss: 0.965, accu: 52.3, f1: 49.6; 
+
+epoch: 4, 201/428 47.0%, 0.012 s per iter, lr: 0.0006
+  cl_xw loss: 0.176, accu: 92.9, f1: 92.4; 
+  cl_w loss: 0.961, accu: 52.6, f1: 50.1; 
+
+epoch: 4, 301/428 70.3%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.166, accu: 93.3, f1: 92.8; 
+  cl_w loss: 0.958, accu: 52.9, f1: 50.6; 
+
+epoch: 4, 401/428 93.7%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.157, accu: 93.7, f1: 93.2; 
+  cl_w loss: 0.953, accu: 53.3, f1: 51.0; 
+
+epoch: 5, 1/428 0.2%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.155, accu: 93.8, f1: 93.3; 
+  cl_w loss: 0.952, accu: 53.4, f1: 51.1; 
+
+epoch: 5, 101/428 23.6%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.147, accu: 94.1, f1: 93.7; 
+  cl_w loss: 0.948, accu: 53.7, f1: 51.5; 
+
+epoch: 5, 201/428 47.0%, 0.011 s per iter, lr: 0.0005
+  cl_xw loss: 0.140, accu: 94.4, f1: 94.0; 
+  cl_w loss: 0.943, accu: 54.1, f1: 51.9; 
+
+epoch: 5, 301/428 70.3%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.133, accu: 94.7, f1: 94.3; 
+  cl_w loss: 0.940, accu: 54.3, f1: 52.2; 
+
+epoch: 5, 401/428 93.7%, 0.011 s per iter, lr: 0.0005
+  cl_xw loss: 0.127, accu: 94.9, f1: 94.5; 
+  cl_w loss: 0.937, accu: 54.5, f1: 52.6; 
+
+epoch: 6, 1/428 0.2%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.126, accu: 95.0, f1: 94.6; 
+  cl_w loss: 0.936, accu: 54.6, f1: 52.7; 
+
+epoch: 6, 101/428 23.6%, 0.011 s per iter, lr: 0.0005
+  cl_xw loss: 0.121, accu: 95.2, f1: 94.8; 
+  cl_w loss: 0.932, accu: 55.0, f1: 53.0; 
+
+epoch: 6, 201/428 47.0%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.116, accu: 95.4, f1: 95.0; 
+  cl_w loss: 0.928, accu: 55.2, f1: 53.3; 
+
+epoch: 6, 301/428 70.3%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.111, accu: 95.6, f1: 95.2; 
+  cl_w loss: 0.925, accu: 55.4, f1: 53.6; 
+
+epoch: 6, 401/428 93.7%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.107, accu: 95.7, f1: 95.4; 
+  cl_w loss: 0.922, accu: 55.6, f1: 53.8; 
+
+epoch: 7, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.106, accu: 95.8, f1: 95.5; 
+  cl_w loss: 0.921, accu: 55.7, f1: 53.9; 
+
+epoch: 7, 101/428 23.6%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.102, accu: 95.9, f1: 95.6; 
+  cl_w loss: 0.918, accu: 55.9, f1: 54.2; 
+
+epoch: 7, 201/428 47.0%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.099, accu: 96.1, f1: 95.8; 
+  cl_w loss: 0.914, accu: 56.1, f1: 54.4; 
+
+epoch: 7, 301/428 70.3%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.096, accu: 96.2, f1: 95.9; 
+  cl_w loss: 0.912, accu: 56.2, f1: 54.6; 
+
+epoch: 7, 401/428 93.7%, 0.013 s per iter, lr: 0.0004
+  cl_xw loss: 0.093, accu: 96.3, f1: 96.0; 
+  cl_w loss: 0.909, accu: 56.4, f1: 54.8; 
+
+epoch: 8, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.092, accu: 96.3, f1: 96.1; 
+  cl_w loss: 0.909, accu: 56.5, f1: 54.9; 
+
+epoch: 8, 101/428 23.6%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.089, accu: 96.5, f1: 96.2; 
+  cl_w loss: 0.906, accu: 56.7, f1: 55.1; 
+
+epoch: 8, 201/428 47.0%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.086, accu: 96.6, f1: 96.3; 
+  cl_w loss: 0.903, accu: 56.9, f1: 55.4; 
+
+epoch: 8, 301/428 70.3%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.084, accu: 96.7, f1: 96.4; 
+  cl_w loss: 0.900, accu: 57.0, f1: 55.5; 
+
+epoch: 8, 401/428 93.7%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.082, accu: 96.8, f1: 96.5; 
+  cl_w loss: 0.898, accu: 57.2, f1: 55.7; 
+
+epoch: 9, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.081, accu: 96.8, f1: 96.5; 
+  cl_w loss: 0.898, accu: 57.2, f1: 55.8; 
+
+epoch: 9, 101/428 23.6%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.079, accu: 96.9, f1: 96.6; 
+  cl_w loss: 0.895, accu: 57.4, f1: 56.0; 
+
+epoch: 9, 201/428 47.0%, 0.011 s per iter, lr: 0.0003
+  cl_xw loss: 0.077, accu: 97.0, f1: 96.7; 
+  cl_w loss: 0.892, accu: 57.5, f1: 56.1; 
+
+epoch: 9, 301/428 70.3%, 0.011 s per iter, lr: 0.0003
+  cl_xw loss: 0.075, accu: 97.0, f1: 96.8; 
+  cl_w loss: 0.890, accu: 57.7, f1: 56.3; 
+
+epoch: 9, 401/428 93.7%, 0.011 s per iter, lr: 0.0003
+  cl_xw loss: 0.073, accu: 97.1, f1: 96.9; 
+  cl_w loss: 0.888, accu: 57.8, f1: 56.5; 
+
+epoch: 10, 1/428 0.2%, 0.000 s per iter, lr: 0.0003
+  cl_xw loss: 0.073, accu: 97.1, f1: 96.9; 
+  cl_w loss: 0.888, accu: 57.9, f1: 56.5; 
+
+epoch: 10, 101/428 23.6%, 0.011 s per iter, lr: 0.0003
+  cl_xw loss: 0.071, accu: 97.2, f1: 97.0; 
+  cl_w loss: 0.885, accu: 58.0, f1: 56.7; 
+
+epoch: 10, 201/428 47.0%, 0.011 s per iter, lr: 0.0003
+  cl_xw loss: 0.069, accu: 97.3, f1: 97.1; 
+  cl_w loss: 0.883, accu: 58.2, f1: 56.8; 
+
+epoch: 10, 301/428 70.3%, 0.011 s per iter, lr: 0.0003
+  cl_xw loss: 0.068, accu: 97.3, f1: 97.1; 
+  cl_w loss: 0.880, accu: 58.3, f1: 57.0; 
+
+epoch: 10, 401/428 93.7%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.066, accu: 97.4, f1: 97.2; 
+  cl_w loss: 0.878, accu: 58.4, f1: 57.2; 
+
+epoch: 1, 1/318 0.3%, 0.001 s per iter, lr: 0.0000
+  cl_xw loss: 0.697, accu: 48.4, f1: 47.8; 
+  cl_w loss: 0.689, accu: 57.8, f1: 52.7; 
+
+epoch: 1, 101/318 31.8%, 0.013 s per iter, lr: 0.0001
+  cl_xw loss: 0.677, accu: 56.2, f1: 47.4; 
+  cl_w loss: 0.688, accu: 55.3, f1: 41.5; 
+
+epoch: 1, 201/318 63.2%, 0.011 s per iter, lr: 0.0002
+  cl_xw loss: 0.623, accu: 63.5, f1: 58.9; 
+  cl_w loss: 0.688, accu: 54.4, f1: 44.2; 
+
+epoch: 1, 301/318 94.7%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.553, accu: 69.6, f1: 66.4; 
+  cl_w loss: 0.688, accu: 54.4, f1: 46.1; 
+
+epoch: 2, 1/318 0.3%, 0.000 s per iter, lr: 0.0003
+  cl_xw loss: 0.539, accu: 70.6, f1: 67.6; 
+  cl_w loss: 0.688, accu: 54.4, f1: 46.4; 
+
+epoch: 2, 101/318 31.8%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.446, accu: 76.3, f1: 73.9; 
+  cl_w loss: 0.687, accu: 54.6, f1: 47.7; 
+
+epoch: 2, 201/318 63.2%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.377, accu: 80.3, f1: 78.4; 
+  cl_w loss: 0.685, accu: 55.1, f1: 48.9; 
+
+epoch: 2, 301/318 94.7%, 0.012 s per iter, lr: 0.0006
+  cl_xw loss: 0.327, accu: 83.1, f1: 81.5; 
+  cl_w loss: 0.685, accu: 55.2, f1: 49.4; 
+
+epoch: 3, 1/318 0.3%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.318, accu: 83.5, f1: 82.0; 
+  cl_w loss: 0.685, accu: 55.2, f1: 49.5; 
+
+epoch: 3, 101/318 31.8%, 0.012 s per iter, lr: 0.0007
+  cl_xw loss: 0.281, accu: 85.6, f1: 84.2; 
+  cl_w loss: 0.683, accu: 55.6, f1: 50.5; 
+
+epoch: 3, 201/318 63.2%, 0.012 s per iter, lr: 0.0008
+  cl_xw loss: 0.253, accu: 87.1, f1: 85.9; 
+  cl_w loss: 0.683, accu: 55.8, f1: 50.8; 
+
+epoch: 3, 301/318 94.7%, 0.014 s per iter, lr: 0.0007
+  cl_xw loss: 0.231, accu: 88.2, f1: 87.2; 
+  cl_w loss: 0.681, accu: 56.1, f1: 51.4; 
+
+epoch: 4, 1/318 0.3%, 0.000 s per iter, lr: 0.0007
+  cl_xw loss: 0.228, accu: 88.4, f1: 87.4; 
+  cl_w loss: 0.682, accu: 56.1, f1: 51.4; 
+
+epoch: 4, 101/318 31.8%, 0.012 s per iter, lr: 0.0007
+  cl_xw loss: 0.209, accu: 89.4, f1: 88.5; 
+  cl_w loss: 0.680, accu: 56.4, f1: 52.1; 
+
+epoch: 4, 201/318 63.2%, 0.011 s per iter, lr: 0.0007
+  cl_xw loss: 0.194, accu: 90.3, f1: 89.4; 
+  cl_w loss: 0.678, accu: 56.7, f1: 52.5; 
+
+epoch: 4, 301/318 94.7%, 0.011 s per iter, lr: 0.0006
+  cl_xw loss: 0.180, accu: 91.0, f1: 90.2; 
+  cl_w loss: 0.678, accu: 56.8, f1: 52.8; 
+
+epoch: 5, 1/318 0.3%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.177, accu: 91.1, f1: 90.3; 
+  cl_w loss: 0.678, accu: 56.9, f1: 52.9; 
+
+epoch: 5, 101/318 31.8%, 0.011 s per iter, lr: 0.0006
+  cl_xw loss: 0.166, accu: 91.7, f1: 91.0; 
+  cl_w loss: 0.676, accu: 57.1, f1: 53.3; 
+
+epoch: 5, 201/318 63.2%, 0.011 s per iter, lr: 0.0006
+  cl_xw loss: 0.156, accu: 92.2, f1: 91.5; 
+  cl_w loss: 0.674, accu: 57.4, f1: 53.8; 
+
+epoch: 5, 301/318 94.7%, 0.011 s per iter, lr: 0.0006
+  cl_xw loss: 0.147, accu: 92.7, f1: 92.1; 
+  cl_w loss: 0.673, accu: 57.6, f1: 54.1; 
+
+epoch: 6, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.145, accu: 92.8, f1: 92.1; 
+  cl_w loss: 0.673, accu: 57.7, f1: 54.2; 
+
+epoch: 6, 101/318 31.8%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.137, accu: 93.2, f1: 92.6; 
+  cl_w loss: 0.672, accu: 57.9, f1: 54.5; 
+
+epoch: 6, 201/318 63.2%, 0.011 s per iter, lr: 0.0005
+  cl_xw loss: 0.130, accu: 93.5, f1: 93.0; 
+  cl_w loss: 0.670, accu: 58.2, f1: 54.9; 
+
+epoch: 6, 301/318 94.7%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.124, accu: 93.9, f1: 93.3; 
+  cl_w loss: 0.669, accu: 58.4, f1: 55.2; 
+
+epoch: 7, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.123, accu: 93.9, f1: 93.4; 
+  cl_w loss: 0.668, accu: 58.4, f1: 55.3; 
+
+epoch: 7, 101/318 31.8%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.117, accu: 94.2, f1: 93.7; 
+  cl_w loss: 0.666, accu: 58.7, f1: 55.6; 
+
+epoch: 7, 201/318 63.2%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.112, accu: 94.5, f1: 94.0; 
+  cl_w loss: 0.665, accu: 58.9, f1: 56.0; 
+
+epoch: 7, 301/318 94.7%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.107, accu: 94.7, f1: 94.2; 
+  cl_w loss: 0.664, accu: 59.1, f1: 56.2; 
+
+epoch: 8, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.107, accu: 94.7, f1: 94.3; 
+  cl_w loss: 0.664, accu: 59.1, f1: 56.3; 
+
+epoch: 8, 101/318 31.8%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.102, accu: 95.0, f1: 94.5; 
+  cl_w loss: 0.662, accu: 59.4, f1: 56.6; 
+
+epoch: 8, 201/318 63.2%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.098, accu: 95.2, f1: 94.7; 
+  cl_w loss: 0.660, accu: 59.6, f1: 56.9; 
+
+epoch: 8, 301/318 94.7%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.095, accu: 95.3, f1: 94.9; 
+  cl_w loss: 0.659, accu: 59.8, f1: 57.1; 
+
+epoch: 9, 1/318 0.3%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.094, accu: 95.4, f1: 95.0; 
+  cl_w loss: 0.659, accu: 59.8, f1: 57.2; 
+
+epoch: 9, 101/318 31.8%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.091, accu: 95.5, f1: 95.2; 
+  cl_w loss: 0.657, accu: 60.1, f1: 57.5; 
+
+epoch: 9, 201/318 63.2%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.088, accu: 95.7, f1: 95.3; 
+  cl_w loss: 0.655, accu: 60.3, f1: 57.8; 
+
+epoch: 9, 301/318 94.7%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.085, accu: 95.8, f1: 95.5; 
+  cl_w loss: 0.654, accu: 60.5, f1: 58.0; 
+
+epoch: 10, 1/318 0.3%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.084, accu: 95.9, f1: 95.5; 
+  cl_w loss: 0.654, accu: 60.5, f1: 58.0; 
+
+epoch: 10, 101/318 31.8%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.082, accu: 96.0, f1: 95.7; 
+  cl_w loss: 0.652, accu: 60.7, f1: 58.3; 
+
+epoch: 10, 201/318 63.2%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.079, accu: 96.1, f1: 95.8; 
+  cl_w loss: 0.650, accu: 60.9, f1: 58.6; 
+
+epoch: 10, 301/318 94.7%, 0.011 s per iter, lr: 0.0004
+  cl_xw loss: 0.077, accu: 96.2, f1: 95.9; 
+  cl_w loss: 0.649, accu: 61.1, f1: 58.8; 
+
+epoch: 1, 1/428 0.2%, 0.001 s per iter, lr: 0.0000
+  cl_xw loss: 1.097, accu: 31.2, f1: 22.2; 
+  cl_w loss: 1.104, accu: 31.2, f1: 15.9; 
+
+epoch: 1, 101/428 23.6%, 0.026 s per iter, lr: 0.0001
+  cl_xw loss: 1.036, accu: 51.7, f1: 40.5; 
+  cl_w loss: 1.102, accu: 32.8, f1: 19.6; 
+
+epoch: 1, 201/428 47.0%, 0.021 s per iter, lr: 0.0002
+  cl_xw loss: 0.763, accu: 66.8, f1: 60.8; 
+  cl_w loss: 1.075, accu: 39.1, f1: 27.6; 
+
+epoch: 1, 301/428 70.3%, 0.023 s per iter, lr: 0.0003
+  cl_xw loss: 0.613, accu: 74.1, f1: 70.0; 
+  cl_w loss: 1.051, accu: 43.0, f1: 34.7; 
+
+epoch: 1, 401/428 93.7%, 0.023 s per iter, lr: 0.0004
+  cl_xw loss: 0.513, accu: 78.8, f1: 75.6; 
+  cl_w loss: 1.036, accu: 45.0, f1: 38.6; 
+
+epoch: 2, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.489, accu: 79.8, f1: 76.9; 
+  cl_w loss: 1.032, accu: 45.5, f1: 39.5; 
+
+epoch: 2, 101/428 23.6%, 0.024 s per iter, lr: 0.0005
+  cl_xw loss: 0.414, accu: 83.1, f1: 80.7; 
+  cl_w loss: 1.019, accu: 46.9, f1: 41.8; 
+
+epoch: 2, 201/428 47.0%, 0.023 s per iter, lr: 0.0006
+  cl_xw loss: 0.361, accu: 85.3, f1: 83.3; 
+  cl_w loss: 1.011, accu: 48.0, f1: 43.6; 
+
+epoch: 2, 301/428 70.3%, 0.023 s per iter, lr: 0.0007
+  cl_xw loss: 0.322, accu: 87.0, f1: 85.3; 
+  cl_w loss: 1.005, accu: 48.8, f1: 44.8; 
+
+epoch: 2, 401/428 93.7%, 0.024 s per iter, lr: 0.0008
+  cl_xw loss: 0.289, accu: 88.3, f1: 86.8; 
+  cl_w loss: 1.000, accu: 49.3, f1: 45.7; 
+
+epoch: 3, 1/428 0.2%, 0.000 s per iter, lr: 0.0008
+  cl_xw loss: 0.282, accu: 88.7, f1: 87.2; 
+  cl_w loss: 0.999, accu: 49.4, f1: 46.0; 
+
+epoch: 3, 101/428 23.6%, 0.024 s per iter, lr: 0.0007
+  cl_xw loss: 0.258, accu: 89.6, f1: 88.3; 
+  cl_w loss: 0.992, accu: 50.2, f1: 47.0; 
+
+epoch: 3, 201/428 47.0%, 0.023 s per iter, lr: 0.0007
+  cl_xw loss: 0.238, accu: 90.5, f1: 89.3; 
+  cl_w loss: 0.987, accu: 50.7, f1: 47.8; 
+
+epoch: 3, 301/428 70.3%, 0.023 s per iter, lr: 0.0007
+  cl_xw loss: 0.220, accu: 91.2, f1: 90.1; 
+  cl_w loss: 0.981, accu: 51.3, f1: 48.5; 
+
+epoch: 3, 401/428 93.7%, 0.023 s per iter, lr: 0.0006
+  cl_xw loss: 0.204, accu: 91.8, f1: 90.8; 
+  cl_w loss: 0.978, accu: 51.6, f1: 49.0; 
+
+epoch: 4, 1/428 0.2%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.200, accu: 92.0, f1: 91.0; 
+  cl_w loss: 0.977, accu: 51.7, f1: 49.1; 
+
+epoch: 4, 101/428 23.6%, 0.024 s per iter, lr: 0.0006
+  cl_xw loss: 0.187, accu: 92.5, f1: 91.6; 
+  cl_w loss: 0.973, accu: 52.1, f1: 49.7; 
+
+epoch: 4, 201/428 47.0%, 0.023 s per iter, lr: 0.0006
+  cl_xw loss: 0.176, accu: 93.0, f1: 92.1; 
+  cl_w loss: 0.968, accu: 52.4, f1: 50.2; 
+
+epoch: 4, 301/428 70.3%, 0.023 s per iter, lr: 0.0005
+  cl_xw loss: 0.166, accu: 93.4, f1: 92.6; 
+  cl_w loss: 0.964, accu: 52.8, f1: 50.6; 
+
+epoch: 4, 401/428 93.7%, 0.024 s per iter, lr: 0.0005
+  cl_xw loss: 0.156, accu: 93.8, f1: 93.0; 
+  cl_w loss: 0.960, accu: 53.1, f1: 51.0; 
+
+epoch: 5, 1/428 0.2%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.154, accu: 93.9, f1: 93.1; 
+  cl_w loss: 0.959, accu: 53.2, f1: 51.1; 
+
+epoch: 5, 101/428 23.6%, 0.024 s per iter, lr: 0.0005
+  cl_xw loss: 0.146, accu: 94.2, f1: 93.5; 
+  cl_w loss: 0.954, accu: 53.5, f1: 51.5; 
+
+epoch: 5, 201/428 47.0%, 0.023 s per iter, lr: 0.0005
+  cl_xw loss: 0.140, accu: 94.5, f1: 93.8; 
+  cl_w loss: 0.950, accu: 53.8, f1: 51.9; 
+
+epoch: 5, 301/428 70.3%, 0.023 s per iter, lr: 0.0005
+  cl_xw loss: 0.133, accu: 94.7, f1: 94.1; 
+  cl_w loss: 0.947, accu: 54.1, f1: 52.2; 
+
+epoch: 5, 401/428 93.7%, 0.024 s per iter, lr: 0.0005
+  cl_xw loss: 0.127, accu: 95.0, f1: 94.3; 
+  cl_w loss: 0.944, accu: 54.3, f1: 52.5; 
+
+epoch: 6, 1/428 0.2%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.126, accu: 95.0, f1: 94.4; 
+  cl_w loss: 0.943, accu: 54.3, f1: 52.6; 
+
+epoch: 6, 101/428 23.6%, 0.024 s per iter, lr: 0.0005
+  cl_xw loss: 0.121, accu: 95.2, f1: 94.7; 
+  cl_w loss: 0.939, accu: 54.6, f1: 52.9; 
+
+epoch: 6, 201/428 47.0%, 0.023 s per iter, lr: 0.0004
+  cl_xw loss: 0.116, accu: 95.4, f1: 94.9; 
+  cl_w loss: 0.936, accu: 54.9, f1: 53.2; 
+
+epoch: 6, 301/428 70.3%, 0.023 s per iter, lr: 0.0004
+  cl_xw loss: 0.111, accu: 95.6, f1: 95.1; 
+  cl_w loss: 0.933, accu: 55.1, f1: 53.4; 
+
+epoch: 6, 401/428 93.7%, 0.023 s per iter, lr: 0.0004
+  cl_xw loss: 0.107, accu: 95.8, f1: 95.3; 
+  cl_w loss: 0.930, accu: 55.3, f1: 53.7; 
+
+epoch: 7, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.106, accu: 95.8, f1: 95.3; 
+  cl_w loss: 0.929, accu: 55.4, f1: 53.8; 
+
+epoch: 7, 101/428 23.6%, 0.023 s per iter, lr: 0.0004
+  cl_xw loss: 0.102, accu: 96.0, f1: 95.5; 
+  cl_w loss: 0.926, accu: 55.6, f1: 54.1; 
+
+epoch: 7, 201/428 47.0%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.099, accu: 96.1, f1: 95.6; 
+  cl_w loss: 0.923, accu: 55.8, f1: 54.3; 
+
+epoch: 7, 301/428 70.3%, 0.022 s per iter, lr: 0.0004
+  cl_xw loss: 0.096, accu: 96.2, f1: 95.8; 
+  cl_w loss: 0.920, accu: 56.0, f1: 54.6; 
+
+epoch: 7, 401/428 93.7%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.093, accu: 96.3, f1: 95.9; 
+  cl_w loss: 0.917, accu: 56.2, f1: 54.8; 
+
+epoch: 8, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.092, accu: 96.4, f1: 95.9; 
+  cl_w loss: 0.917, accu: 56.3, f1: 54.8; 
+
+epoch: 8, 101/428 23.6%, 0.023 s per iter, lr: 0.0004
+  cl_xw loss: 0.089, accu: 96.5, f1: 96.1; 
+  cl_w loss: 0.913, accu: 56.5, f1: 55.1; 
+
+epoch: 8, 201/428 47.0%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.087, accu: 96.6, f1: 96.2; 
+  cl_w loss: 0.911, accu: 56.7, f1: 55.3; 
+
+epoch: 8, 301/428 70.3%, 0.022 s per iter, lr: 0.0004
+  cl_xw loss: 0.084, accu: 96.7, f1: 96.3; 
+  cl_w loss: 0.908, accu: 56.8, f1: 55.5; 
+
+epoch: 8, 401/428 93.7%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.082, accu: 96.8, f1: 96.4; 
+  cl_w loss: 0.906, accu: 57.0, f1: 55.7; 
+
+epoch: 9, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.081, accu: 96.8, f1: 96.4; 
+  cl_w loss: 0.905, accu: 57.0, f1: 55.7; 
+
+epoch: 9, 101/428 23.6%, 0.023 s per iter, lr: 0.0004
+  cl_xw loss: 0.079, accu: 96.9, f1: 96.5; 
+  cl_w loss: 0.903, accu: 57.2, f1: 55.9; 
+
+epoch: 9, 201/428 47.0%, 0.025 s per iter, lr: 0.0003
+  cl_xw loss: 0.077, accu: 97.0, f1: 96.6; 
+  cl_w loss: 0.901, accu: 57.4, f1: 56.1; 
+
+epoch: 9, 301/428 70.3%, 0.022 s per iter, lr: 0.0003
+  cl_xw loss: 0.075, accu: 97.0, f1: 96.7; 
+  cl_w loss: 0.898, accu: 57.5, f1: 56.3; 
+
+epoch: 9, 401/428 93.7%, 0.021 s per iter, lr: 0.0003
+  cl_xw loss: 0.073, accu: 97.1, f1: 96.8; 
+  cl_w loss: 0.896, accu: 57.7, f1: 56.4; 
+
+epoch: 10, 1/428 0.2%, 0.000 s per iter, lr: 0.0003
+  cl_xw loss: 0.073, accu: 97.1, f1: 96.8; 
+  cl_w loss: 0.895, accu: 57.7, f1: 56.5; 
+
+epoch: 10, 101/428 23.6%, 0.022 s per iter, lr: 0.0003
+  cl_xw loss: 0.071, accu: 97.2, f1: 96.9; 
+  cl_w loss: 0.893, accu: 57.8, f1: 56.6; 
+
+epoch: 10, 201/428 47.0%, 0.020 s per iter, lr: 0.0003
+  cl_xw loss: 0.069, accu: 97.3, f1: 97.0; 
+  cl_w loss: 0.890, accu: 58.0, f1: 56.8; 
+
+epoch: 10, 301/428 70.3%, 0.023 s per iter, lr: 0.0003
+  cl_xw loss: 0.068, accu: 97.3, f1: 97.0; 
+  cl_w loss: 0.888, accu: 58.1, f1: 57.0; 
+
+epoch: 10, 401/428 93.7%, 0.024 s per iter, lr: 0.0003
+  cl_xw loss: 0.066, accu: 97.4, f1: 97.1; 
+  cl_w loss: 0.886, accu: 58.3, f1: 57.1; 
+
+epoch: 1, 1/318 0.3%, 0.001 s per iter, lr: 0.0000
+  cl_xw loss: 0.695, accu: 53.1, f1: 42.0; 
+  cl_w loss: 0.704, accu: 42.2, f1: 41.5; 
+
+epoch: 1, 101/318 31.8%, 0.025 s per iter, lr: 0.0001
+  cl_xw loss: 0.678, accu: 56.6, f1: 42.6; 
+  cl_w loss: 0.691, accu: 52.6, f1: 43.3; 
+
+epoch: 1, 201/318 63.2%, 0.023 s per iter, lr: 0.0002
+  cl_xw loss: 0.620, accu: 64.2, f1: 56.9; 
+  cl_w loss: 0.689, accu: 53.3, f1: 45.7; 
+
+epoch: 1, 301/318 94.7%, 0.025 s per iter, lr: 0.0003
+  cl_xw loss: 0.545, accu: 70.4, f1: 65.4; 
+  cl_w loss: 0.688, accu: 53.6, f1: 47.4; 
+
+epoch: 2, 1/318 0.3%, 0.000 s per iter, lr: 0.0003
+  cl_xw loss: 0.532, accu: 71.4, f1: 66.7; 
+  cl_w loss: 0.688, accu: 53.7, f1: 47.7; 
+
+epoch: 2, 101/318 31.8%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.440, accu: 76.9, f1: 73.3; 
+  cl_w loss: 0.687, accu: 54.2, f1: 48.6; 
+
+epoch: 2, 201/318 63.2%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.371, accu: 80.9, f1: 77.9; 
+  cl_w loss: 0.686, accu: 54.6, f1: 49.6; 
+
+epoch: 2, 301/318 94.7%, 0.023 s per iter, lr: 0.0006
+  cl_xw loss: 0.319, accu: 83.7, f1: 81.2; 
+  cl_w loss: 0.685, accu: 54.9, f1: 50.2; 
+
+epoch: 3, 1/318 0.3%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.312, accu: 84.0, f1: 81.7; 
+  cl_w loss: 0.685, accu: 54.9, f1: 50.3; 
+
+epoch: 3, 101/318 31.8%, 0.024 s per iter, lr: 0.0007
+  cl_xw loss: 0.275, accu: 86.0, f1: 83.9; 
+  cl_w loss: 0.683, accu: 55.3, f1: 51.0; 
+
+epoch: 3, 201/318 63.2%, 0.024 s per iter, lr: 0.0008
+  cl_xw loss: 0.249, accu: 87.4, f1: 85.6; 
+  cl_w loss: 0.682, accu: 55.6, f1: 51.5; 
+
+epoch: 3, 301/318 94.7%, 0.025 s per iter, lr: 0.0007
+  cl_xw loss: 0.227, accu: 88.6, f1: 87.0; 
+  cl_w loss: 0.682, accu: 55.7, f1: 51.7; 
+
+epoch: 4, 1/318 0.3%, 0.000 s per iter, lr: 0.0007
+  cl_xw loss: 0.223, accu: 88.8, f1: 87.2; 
+  cl_w loss: 0.682, accu: 55.7, f1: 51.8; 
+
+epoch: 4, 101/318 31.8%, 0.023 s per iter, lr: 0.0007
+  cl_xw loss: 0.205, accu: 89.8, f1: 88.3; 
+  cl_w loss: 0.680, accu: 56.1, f1: 52.4; 
+
+epoch: 4, 201/318 63.2%, 0.025 s per iter, lr: 0.0007
+  cl_xw loss: 0.190, accu: 90.6, f1: 89.2; 
+  cl_w loss: 0.679, accu: 56.3, f1: 52.7; 
+
+epoch: 4, 301/318 94.7%, 0.025 s per iter, lr: 0.0006
+  cl_xw loss: 0.176, accu: 91.3, f1: 90.0; 
+  cl_w loss: 0.678, accu: 56.5, f1: 53.0; 
+
+epoch: 5, 1/318 0.3%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.174, accu: 91.4, f1: 90.2; 
+  cl_w loss: 0.678, accu: 56.5, f1: 53.1; 
+
+epoch: 5, 101/318 31.8%, 0.025 s per iter, lr: 0.0006
+  cl_xw loss: 0.162, accu: 92.0, f1: 90.9; 
+  cl_w loss: 0.676, accu: 56.8, f1: 53.6; 
+
+epoch: 5, 201/318 63.2%, 0.024 s per iter, lr: 0.0006
+  cl_xw loss: 0.153, accu: 92.5, f1: 91.4; 
+  cl_w loss: 0.675, accu: 57.1, f1: 54.0; 
+
+epoch: 5, 301/318 94.7%, 0.025 s per iter, lr: 0.0006
+  cl_xw loss: 0.144, accu: 92.9, f1: 91.9; 
+  cl_w loss: 0.674, accu: 57.2, f1: 54.2; 
+
+epoch: 6, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.142, accu: 93.0, f1: 92.0; 
+  cl_w loss: 0.674, accu: 57.3, f1: 54.2; 
+
+epoch: 6, 101/318 31.8%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.135, accu: 93.4, f1: 92.5; 
+  cl_w loss: 0.672, accu: 57.5, f1: 54.6; 
+
+epoch: 6, 201/318 63.2%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.128, accu: 93.7, f1: 92.9; 
+  cl_w loss: 0.671, accu: 57.8, f1: 54.9; 
+
+epoch: 6, 301/318 94.7%, 0.023 s per iter, lr: 0.0005
+  cl_xw loss: 0.122, accu: 94.0, f1: 93.2; 
+  cl_w loss: 0.669, accu: 58.0, f1: 55.2; 
+
+epoch: 7, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.121, accu: 94.1, f1: 93.3; 
+  cl_w loss: 0.669, accu: 58.0, f1: 55.3; 
+
+epoch: 7, 101/318 31.8%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.115, accu: 94.4, f1: 93.6; 
+  cl_w loss: 0.667, accu: 58.3, f1: 55.6; 
+
+epoch: 7, 201/318 63.2%, 0.025 s per iter, lr: 0.0005
+  cl_xw loss: 0.110, accu: 94.6, f1: 93.9; 
+  cl_w loss: 0.666, accu: 58.5, f1: 55.9; 
+
+epoch: 7, 301/318 94.7%, 0.024 s per iter, lr: 0.0005
+  cl_xw loss: 0.106, accu: 94.9, f1: 94.2; 
+  cl_w loss: 0.665, accu: 58.7, f1: 56.2; 
+
+epoch: 8, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.105, accu: 94.9, f1: 94.2; 
+  cl_w loss: 0.665, accu: 58.8, f1: 56.2; 
+
+epoch: 8, 101/318 31.8%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.101, accu: 95.1, f1: 94.4; 
+  cl_w loss: 0.663, accu: 59.0, f1: 56.6; 
+
+epoch: 8, 201/318 63.2%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.097, accu: 95.3, f1: 94.7; 
+  cl_w loss: 0.661, accu: 59.2, f1: 56.8; 
+
+epoch: 8, 301/318 94.7%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.093, accu: 95.5, f1: 94.9; 
+  cl_w loss: 0.660, accu: 59.4, f1: 57.1; 
+
+epoch: 9, 1/318 0.3%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.093, accu: 95.5, f1: 94.9; 
+  cl_w loss: 0.660, accu: 59.5, f1: 57.1; 
+
+epoch: 9, 101/318 31.8%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.089, accu: 95.7, f1: 95.1; 
+  cl_w loss: 0.658, accu: 59.7, f1: 57.4; 
+
+epoch: 9, 201/318 63.2%, 0.021 s per iter, lr: 0.0004
+  cl_xw loss: 0.086, accu: 95.8, f1: 95.3; 
+  cl_w loss: 0.656, accu: 59.9, f1: 57.7; 
+
+epoch: 9, 301/318 94.7%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.083, accu: 96.0, f1: 95.4; 
+  cl_w loss: 0.655, accu: 60.1, f1: 57.9; 
+
+epoch: 10, 1/318 0.3%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.083, accu: 96.0, f1: 95.4; 
+  cl_w loss: 0.655, accu: 60.1, f1: 57.9; 
+
+epoch: 10, 101/318 31.8%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.080, accu: 96.1, f1: 95.6; 
+  cl_w loss: 0.653, accu: 60.4, f1: 58.2; 
+
+epoch: 10, 201/318 63.2%, 0.025 s per iter, lr: 0.0004
+  cl_xw loss: 0.078, accu: 96.2, f1: 95.7; 
+  cl_w loss: 0.652, accu: 60.6, f1: 58.4; 
+
+epoch: 10, 301/318 94.7%, 0.024 s per iter, lr: 0.0004
+  cl_xw loss: 0.076, accu: 96.3, f1: 95.9; 
+  cl_w loss: 0.650, accu: 60.7, f1: 58.6; 
+
+epoch: 1, 1/428 0.2%, 0.001 s per iter, lr: 0.0000
+  cl_xw loss: 1.104, accu: 31.2, f1: 15.9; 
+  cl_w loss: 1.099, accu: 34.4, f1: 27.2; 
+
+epoch: 1, 101/428 23.6%, 0.021 s per iter, lr: 0.0001
+  cl_xw loss: 1.037, accu: 48.6, f1: 36.0; 
+  cl_w loss: 1.102, accu: 34.9, f1: 22.2; 
+
+epoch: 1, 201/428 47.0%, 0.019 s per iter, lr: 0.0002
+  cl_xw loss: 0.762, accu: 65.2, f1: 58.5; 
+  cl_w loss: 1.081, accu: 39.1, f1: 27.3; 
+
+epoch: 1, 301/428 70.3%, 0.020 s per iter, lr: 0.0003
+  cl_xw loss: 0.614, accu: 73.0, f1: 68.5; 
+  cl_w loss: 1.058, accu: 42.3, f1: 33.5; 
+
+epoch: 1, 401/428 93.7%, 0.023 s per iter, lr: 0.0004
+  cl_xw loss: 0.512, accu: 78.1, f1: 74.6; 
+  cl_w loss: 1.041, accu: 44.5, f1: 37.6; 
+
+epoch: 2, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.489, accu: 79.1, f1: 75.9; 
+  cl_w loss: 1.038, accu: 44.9, f1: 38.4; 
+
+epoch: 2, 101/428 23.6%, 0.028 s per iter, lr: 0.0005
+  cl_xw loss: 0.414, accu: 82.5, f1: 79.9; 
+  cl_w loss: 1.023, accu: 46.6, f1: 41.1; 
+
+epoch: 2, 201/428 47.0%, 0.027 s per iter, lr: 0.0006
+  cl_xw loss: 0.359, accu: 84.9, f1: 82.7; 
+  cl_w loss: 1.014, accu: 47.6, f1: 42.9; 
+
+epoch: 2, 301/428 70.3%, 0.023 s per iter, lr: 0.0007
+  cl_xw loss: 0.321, accu: 86.6, f1: 84.7; 
+  cl_w loss: 1.007, accu: 48.3, f1: 44.2; 
+
+epoch: 2, 401/428 93.7%, 0.021 s per iter, lr: 0.0008
+  cl_xw loss: 0.290, accu: 88.0, f1: 86.3; 
+  cl_w loss: 1.001, accu: 49.1, f1: 45.3; 
+
+epoch: 3, 1/428 0.2%, 0.000 s per iter, lr: 0.0008
+  cl_xw loss: 0.283, accu: 88.3, f1: 86.6; 
+  cl_w loss: 1.000, accu: 49.2, f1: 45.6; 
+
+epoch: 3, 101/428 23.6%, 0.019 s per iter, lr: 0.0007
+  cl_xw loss: 0.258, accu: 89.3, f1: 87.8; 
+  cl_w loss: 0.993, accu: 49.9, f1: 46.5; 
+
+epoch: 3, 201/428 47.0%, 0.017 s per iter, lr: 0.0007
+  cl_xw loss: 0.237, accu: 90.2, f1: 88.9; 
+  cl_w loss: 0.989, accu: 50.4, f1: 47.3; 
+
+epoch: 3, 301/428 70.3%, 0.017 s per iter, lr: 0.0007
+  cl_xw loss: 0.219, accu: 91.0, f1: 89.8; 
+  cl_w loss: 0.984, accu: 50.8, f1: 48.0; 
+
+epoch: 3, 401/428 93.7%, 0.016 s per iter, lr: 0.0006
+  cl_xw loss: 0.204, accu: 91.6, f1: 90.5; 
+  cl_w loss: 0.979, accu: 51.3, f1: 48.6; 
+
+epoch: 4, 1/428 0.2%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.200, accu: 91.8, f1: 90.7; 
+  cl_w loss: 0.977, accu: 51.4, f1: 48.8; 
+
+epoch: 4, 101/428 23.6%, 0.015 s per iter, lr: 0.0006
+  cl_xw loss: 0.187, accu: 92.3, f1: 91.3; 
+  cl_w loss: 0.972, accu: 51.8, f1: 49.3; 
+
+epoch: 4, 201/428 47.0%, 0.016 s per iter, lr: 0.0006
+  cl_xw loss: 0.176, accu: 92.8, f1: 91.9; 
+  cl_w loss: 0.967, accu: 52.2, f1: 49.8; 
+
+epoch: 4, 301/428 70.3%, 0.015 s per iter, lr: 0.0005
+  cl_xw loss: 0.166, accu: 93.2, f1: 92.3; 
+  cl_w loss: 0.963, accu: 52.5, f1: 50.3; 
+
+epoch: 4, 401/428 93.7%, 0.014 s per iter, lr: 0.0005
+  cl_xw loss: 0.156, accu: 93.6, f1: 92.8; 
+  cl_w loss: 0.960, accu: 52.8, f1: 50.6; 
+
+epoch: 5, 1/428 0.2%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.154, accu: 93.7, f1: 92.9; 
+  cl_w loss: 0.958, accu: 52.9, f1: 50.8; 
+
+epoch: 5, 101/428 23.6%, 0.014 s per iter, lr: 0.0005
+  cl_xw loss: 0.146, accu: 94.0, f1: 93.3; 
+  cl_w loss: 0.953, accu: 53.3, f1: 51.2; 
+
+epoch: 5, 201/428 47.0%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.139, accu: 94.3, f1: 93.6; 
+  cl_w loss: 0.949, accu: 53.6, f1: 51.6; 
+
+epoch: 5, 301/428 70.3%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.133, accu: 94.6, f1: 93.9; 
+  cl_w loss: 0.945, accu: 53.9, f1: 51.9; 
+
+epoch: 5, 401/428 93.7%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.127, accu: 94.8, f1: 94.2; 
+  cl_w loss: 0.942, accu: 54.1, f1: 52.2; 
+
+epoch: 6, 1/428 0.2%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.125, accu: 94.9, f1: 94.2; 
+  cl_w loss: 0.941, accu: 54.2, f1: 52.3; 
+
+epoch: 6, 101/428 23.6%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.120, accu: 95.1, f1: 94.5; 
+  cl_w loss: 0.938, accu: 54.4, f1: 52.6; 
+
+epoch: 6, 201/428 47.0%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.116, accu: 95.3, f1: 94.7; 
+  cl_w loss: 0.934, accu: 54.7, f1: 52.9; 
+
+epoch: 6, 301/428 70.3%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.111, accu: 95.5, f1: 94.9; 
+  cl_w loss: 0.931, accu: 54.9, f1: 53.2; 
+
+epoch: 6, 401/428 93.7%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.107, accu: 95.7, f1: 95.1; 
+  cl_w loss: 0.928, accu: 55.1, f1: 53.4; 
+
+epoch: 7, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.106, accu: 95.7, f1: 95.1; 
+  cl_w loss: 0.927, accu: 55.2, f1: 53.5; 
+
+epoch: 7, 101/428 23.6%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.102, accu: 95.9, f1: 95.3; 
+  cl_w loss: 0.924, accu: 55.4, f1: 53.8; 
+
+epoch: 7, 201/428 47.0%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.099, accu: 96.0, f1: 95.5; 
+  cl_w loss: 0.921, accu: 55.7, f1: 54.1; 
+
+epoch: 7, 301/428 70.3%, 0.013 s per iter, lr: 0.0004
+  cl_xw loss: 0.095, accu: 96.1, f1: 95.6; 
+  cl_w loss: 0.918, accu: 55.8, f1: 54.3; 
+
+epoch: 7, 401/428 93.7%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.093, accu: 96.3, f1: 95.8; 
+  cl_w loss: 0.915, accu: 56.0, f1: 54.5; 
+
+epoch: 8, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.092, accu: 96.3, f1: 95.8; 
+  cl_w loss: 0.915, accu: 56.1, f1: 54.6; 
+
+epoch: 8, 101/428 23.6%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.089, accu: 96.4, f1: 95.9; 
+  cl_w loss: 0.911, accu: 56.3, f1: 54.8; 
+
+epoch: 8, 201/428 47.0%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.086, accu: 96.5, f1: 96.1; 
+  cl_w loss: 0.908, accu: 56.5, f1: 55.0; 
+
+epoch: 8, 301/428 70.3%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.084, accu: 96.6, f1: 96.2; 
+  cl_w loss: 0.906, accu: 56.6, f1: 55.2; 
+
+epoch: 8, 401/428 93.7%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.081, accu: 96.7, f1: 96.3; 
+  cl_w loss: 0.904, accu: 56.8, f1: 55.4; 
+
+epoch: 9, 1/428 0.2%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.081, accu: 96.7, f1: 96.3; 
+  cl_w loss: 0.903, accu: 56.9, f1: 55.5; 
+
+epoch: 9, 101/428 23.6%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.079, accu: 96.8, f1: 96.4; 
+  cl_w loss: 0.900, accu: 57.0, f1: 55.6; 
+
+epoch: 9, 201/428 47.0%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.077, accu: 96.9, f1: 96.5; 
+  cl_w loss: 0.898, accu: 57.2, f1: 55.9; 
+
+epoch: 9, 301/428 70.3%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.075, accu: 97.0, f1: 96.6; 
+  cl_w loss: 0.896, accu: 57.3, f1: 56.0; 
+
+epoch: 9, 401/428 93.7%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.073, accu: 97.1, f1: 96.7; 
+  cl_w loss: 0.894, accu: 57.5, f1: 56.2; 
+
+epoch: 10, 1/428 0.2%, 0.000 s per iter, lr: 0.0003
+  cl_xw loss: 0.072, accu: 97.1, f1: 96.7; 
+  cl_w loss: 0.893, accu: 57.5, f1: 56.2; 
+
+epoch: 10, 101/428 23.6%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.071, accu: 97.2, f1: 96.8; 
+  cl_w loss: 0.890, accu: 57.7, f1: 56.4; 
+
+epoch: 10, 201/428 47.0%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.069, accu: 97.2, f1: 96.9; 
+  cl_w loss: 0.888, accu: 57.8, f1: 56.6; 
+
+epoch: 10, 301/428 70.3%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.067, accu: 97.3, f1: 96.9; 
+  cl_w loss: 0.886, accu: 58.0, f1: 56.7; 
+
+epoch: 10, 401/428 93.7%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.066, accu: 97.3, f1: 97.0; 
+  cl_w loss: 0.884, accu: 58.1, f1: 56.9; 
+
+epoch: 1, 1/318 0.3%, 0.001 s per iter, lr: 0.0000
+  cl_xw loss: 0.688, accu: 54.7, f1: 40.8; 
+  cl_w loss: 0.695, accu: 54.7, f1: 49.2; 
+
+epoch: 1, 101/318 31.8%, 0.014 s per iter, lr: 0.0001
+  cl_xw loss: 0.676, accu: 57.7, f1: 44.2; 
+  cl_w loss: 0.692, accu: 52.3, f1: 44.4; 
+
+epoch: 1, 201/318 63.2%, 0.012 s per iter, lr: 0.0002
+  cl_xw loss: 0.619, accu: 64.5, f1: 57.5; 
+  cl_w loss: 0.690, accu: 53.3, f1: 45.9; 
+
+epoch: 1, 301/318 94.7%, 0.012 s per iter, lr: 0.0003
+  cl_xw loss: 0.543, accu: 70.7, f1: 65.9; 
+  cl_w loss: 0.690, accu: 53.4, f1: 47.0; 
+
+epoch: 2, 1/318 0.3%, 0.000 s per iter, lr: 0.0003
+  cl_xw loss: 0.530, accu: 71.7, f1: 67.2; 
+  cl_w loss: 0.690, accu: 53.5, f1: 47.3; 
+
+epoch: 2, 101/318 31.8%, 0.012 s per iter, lr: 0.0004
+  cl_xw loss: 0.434, accu: 77.4, f1: 73.9; 
+  cl_w loss: 0.688, accu: 54.1, f1: 48.1; 
+
+epoch: 2, 201/318 63.2%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.366, accu: 81.3, f1: 78.4; 
+  cl_w loss: 0.687, accu: 54.6, f1: 49.1; 
+
+epoch: 2, 301/318 94.7%, 0.013 s per iter, lr: 0.0006
+  cl_xw loss: 0.316, accu: 84.0, f1: 81.6; 
+  cl_w loss: 0.687, accu: 54.7, f1: 49.9; 
+
+epoch: 3, 1/318 0.3%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.308, accu: 84.4, f1: 82.1; 
+  cl_w loss: 0.686, accu: 54.7, f1: 50.0; 
+
+epoch: 3, 101/318 31.8%, 0.012 s per iter, lr: 0.0007
+  cl_xw loss: 0.273, accu: 86.3, f1: 84.3; 
+  cl_w loss: 0.685, accu: 55.1, f1: 50.9; 
+
+epoch: 3, 201/318 63.2%, 0.012 s per iter, lr: 0.0008
+  cl_xw loss: 0.246, accu: 87.7, f1: 85.9; 
+  cl_w loss: 0.684, accu: 55.3, f1: 51.3; 
+
+epoch: 3, 301/318 94.7%, 0.012 s per iter, lr: 0.0007
+  cl_xw loss: 0.224, accu: 88.9, f1: 87.3; 
+  cl_w loss: 0.683, accu: 55.5, f1: 51.7; 
+
+epoch: 4, 1/318 0.3%, 0.000 s per iter, lr: 0.0007
+  cl_xw loss: 0.220, accu: 89.1, f1: 87.5; 
+  cl_w loss: 0.683, accu: 55.5, f1: 51.7; 
+
+epoch: 4, 101/318 31.8%, 0.012 s per iter, lr: 0.0007
+  cl_xw loss: 0.203, accu: 90.0, f1: 88.6; 
+  cl_w loss: 0.682, accu: 55.8, f1: 52.3; 
+
+epoch: 4, 201/318 63.2%, 0.013 s per iter, lr: 0.0007
+  cl_xw loss: 0.187, accu: 90.8, f1: 89.5; 
+  cl_w loss: 0.681, accu: 56.1, f1: 52.7; 
+
+epoch: 4, 301/318 94.7%, 0.013 s per iter, lr: 0.0006
+  cl_xw loss: 0.174, accu: 91.5, f1: 90.3; 
+  cl_w loss: 0.680, accu: 56.3, f1: 53.1; 
+
+epoch: 5, 1/318 0.3%, 0.000 s per iter, lr: 0.0006
+  cl_xw loss: 0.172, accu: 91.6, f1: 90.4; 
+  cl_w loss: 0.680, accu: 56.4, f1: 53.2; 
+
+epoch: 5, 101/318 31.8%, 0.012 s per iter, lr: 0.0006
+  cl_xw loss: 0.161, accu: 92.1, f1: 91.1; 
+  cl_w loss: 0.678, accu: 56.7, f1: 53.7; 
+
+epoch: 5, 201/318 63.2%, 0.013 s per iter, lr: 0.0006
+  cl_xw loss: 0.151, accu: 92.6, f1: 91.6; 
+  cl_w loss: 0.677, accu: 56.9, f1: 54.0; 
+
+epoch: 5, 301/318 94.7%, 0.013 s per iter, lr: 0.0006
+  cl_xw loss: 0.143, accu: 93.1, f1: 92.1; 
+  cl_w loss: 0.676, accu: 57.2, f1: 54.4; 
+
+epoch: 6, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.141, accu: 93.1, f1: 92.2; 
+  cl_w loss: 0.675, accu: 57.2, f1: 54.4; 
+
+epoch: 6, 101/318 31.8%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.133, accu: 93.5, f1: 92.7; 
+  cl_w loss: 0.674, accu: 57.5, f1: 54.8; 
+
+epoch: 6, 201/318 63.2%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.126, accu: 93.9, f1: 93.0; 
+  cl_w loss: 0.673, accu: 57.7, f1: 55.1; 
+
+epoch: 6, 301/318 94.7%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.121, accu: 94.2, f1: 93.4; 
+  cl_w loss: 0.671, accu: 57.9, f1: 55.4; 
+
+epoch: 7, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.120, accu: 94.2, f1: 93.4; 
+  cl_w loss: 0.671, accu: 58.0, f1: 55.4; 
+
+epoch: 7, 101/318 31.8%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.114, accu: 94.5, f1: 93.8; 
+  cl_w loss: 0.669, accu: 58.3, f1: 55.8; 
+
+epoch: 7, 201/318 63.2%, 0.013 s per iter, lr: 0.0005
+  cl_xw loss: 0.109, accu: 94.7, f1: 94.0; 
+  cl_w loss: 0.668, accu: 58.5, f1: 56.1; 
+
+epoch: 7, 301/318 94.7%, 0.012 s per iter, lr: 0.0005
+  cl_xw loss: 0.105, accu: 95.0, f1: 94.3; 
+  cl_w loss: 0.666, accu: 58.7, f1: 56.3; 
+
+epoch: 8, 1/318 0.3%, 0.000 s per iter, lr: 0.0005
+  cl_xw loss: 0.104, accu: 95.0, f1: 94.3; 
+  cl_w loss: 0.666, accu: 58.7, f1: 56.4; 
+
+epoch: 8, 101/318 31.8%, 0.013 s per iter, lr: 0.0004
+  cl_xw loss: 0.100, accu: 95.2, f1: 94.6; 
+  cl_w loss: 0.664, accu: 58.9, f1: 56.7; 
+
+epoch: 8, 201/318 63.2%, 0.013 s per iter, lr: 0.0004
+  cl_xw loss: 0.096, accu: 95.4, f1: 94.8; 
+  cl_w loss: 0.663, accu: 59.2, f1: 57.0; 
+
+epoch: 8, 301/318 94.7%, 0.013 s per iter, lr: 0.0004
+  cl_xw loss: 0.093, accu: 95.6, f1: 95.0; 
+  cl_w loss: 0.662, accu: 59.4, f1: 57.2; 
+
+epoch: 9, 1/318 0.3%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.092, accu: 95.6, f1: 95.0; 
+  cl_w loss: 0.661, accu: 59.4, f1: 57.3; 
+
+epoch: 9, 101/318 31.8%, 0.013 s per iter, lr: 0.0004
+  cl_xw loss: 0.089, accu: 95.7, f1: 95.2; 
+  cl_w loss: 0.659, accu: 59.7, f1: 57.6; 
+
+epoch: 9, 201/318 63.2%, 0.018 s per iter, lr: 0.0004
+  cl_xw loss: 0.086, accu: 95.9, f1: 95.4; 
+  cl_w loss: 0.658, accu: 59.9, f1: 57.9; 
+
+epoch: 9, 301/318 94.7%, 0.016 s per iter, lr: 0.0004
+  cl_xw loss: 0.083, accu: 96.0, f1: 95.5; 
+  cl_w loss: 0.657, accu: 60.1, f1: 58.1; 
+
+epoch: 10, 1/318 0.3%, 0.000 s per iter, lr: 0.0004
+  cl_xw loss: 0.082, accu: 96.1, f1: 95.5; 
+  cl_w loss: 0.656, accu: 60.1, f1: 58.1; 
+
+epoch: 10, 101/318 31.8%, 0.018 s per iter, lr: 0.0004
+  cl_xw loss: 0.080, accu: 96.2, f1: 95.7; 
+  cl_w loss: 0.654, accu: 60.4, f1: 58.4; 
+
+epoch: 10, 201/318 63.2%, 0.017 s per iter, lr: 0.0004
+  cl_xw loss: 0.077, accu: 96.3, f1: 95.8; 
+  cl_w loss: 0.653, accu: 60.6, f1: 58.6; 
+
+epoch: 10, 301/318 94.7%, 0.016 s per iter, lr: 0.0004
+  cl_xw loss: 0.075, accu: 96.4, f1: 95.9; 
+  cl_w loss: 0.652, accu: 60.7, f1: 58.8; 
+

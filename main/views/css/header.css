@@ -1,0 +1,241 @@
+body {
+    height: 2000px;
+    overflow-x: hidden;
+    /* background-color:rgb(255, 254, 234); */
+    background-image: url(../img/b.jpg);
+}
+
+.header_shell {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    transition: clip-path 0.5s ease;
+    position: relative;
+    margin-top: 65px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../img/header.png);
+    background-size: cover;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.main h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.main span {
+    padding: 0 100px;
+    font-size: 30px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:700,900');
+
+@font-face {
+    font-family: Arno Pro;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ArnoPro-Regular.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Arno Pro;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ArnoPro-Italic.otf);
+    font-style: italic;
+}
+
+p {
+    font-family: 'youshebiaotihei', serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+p.credits {
+    font-style: italic;
+    text-indent: 0 !important;
+    margin: 1rem 0;
+}
+
+p a {
+    font-weight: bolder;
+    color: #000;
+    text-decoration: none;
+}
+
+@supports (font-variant-caps: small-caps) {
+    .multicol:first-of-type p:first-of-type {
+        font-variant-caps: small-caps;
+    }
+}
+
+p:not(:first-of-type) {
+    text-indent: 1.4rem;
+}
+
+.multicol {
+    column-count: 4;
+    column-gap: 2rem;
+}
+
+.multicol+img {
+    margin: 2rem 0;
+}
+
+article {
+    width: 80%;
+    margin: 0 auto 4rem;
+}
+
+article img {
+    width: 100%;
+}
+
+article header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+article h1 {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+article h2 {
+    break-after: column;
+    font-size: 1.5rem;
+}
+
+h1,
+h2 {
+    font-family: Lato, sans-serif;
+}
+
+.navbar {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 将容器分为12等份 */  
+    align-items: center;  
+    background-color: #727272;  
+    padding: 10px 20px;  
+    color: white;  
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
+    z-index: 2000;  
+}  
+
+.logo {  
+    grid-column: 2 / 3; /* logo占据第2列 */  
+    justify-self: center; /* 在列中居中 */  
+}  
+
+.logo img {  
+    height: 40px; /* 根据需要调整logo的高度 */  
+}  
+
+.nav-right {  
+    grid-column: 6 / 8; /* 右边的标签占据第3列（可以调整为更右的列，根据需要） */  
+    display: flex;  
+    justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+    gap: 15px; /* 标签之间的间距 */  
+    font-size: 25px;
+}  
+
+.nav-right a {  
+    color: white;  
+    text-decoration: none;  
+    padding: 10px 22px;  
+    transition: transform 0.3s ease, background-color 0.3s ease;  
+    font-family: 'youshebiaotihei';
+}  
+
+.nav-right a:hover {  
+    transform: scale(1.1);  
+    background-color: rgba(255, 255, 255, 0.1); /* 半透明背景色 */  
+}  
+
+.user {  
+    grid-column: 11 / 12; /* logo占据第2列 */  
+    justify-self: left; /* 在列中居中 */  
+}  
+
+.user img {  
+    height: 40px; /* 根据需要调整logo的高度 */  
+}
+
+/* 如果需要让右边的标签更靠近中间，可以调整.nav-right的grid-column值，例如设置为2 / span 2，这将占据第2列和第3列 */  
+
+.content {  
+    margin-top: 60px; /* 根据导航栏的高度调整 */  
+}  
+
+@media all and (max-width: 1600px) {
+    .multicol {
+        column-count: 3;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .multicol {
+        column-count: 2;
+    }
+}
+
+@media all and (max-width:800px) {
+    article h2 {
+        break-after: avoid;
+    }
+
+    .multicol {
+        column-count: 1;
+    }
+}
+
+@media all and (max-width:600px) {
+    body {
+        margin: 0;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    .multicol {
+        padding: 0 1rem;
+    }
+
+    article header {
+        margin-bottom: 2.5rem;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+}

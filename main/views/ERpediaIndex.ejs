@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>意象分类索引 - 亿韵数据平台</title>
+    <style>
+        body {
+            background-image: url('./img/back.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .sidebar {
+            width: 100px; /* 侧边栏初始宽度 */
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑动画效果 */
+            z-index: 1000; /* 确保侧边栏在主内容区域之上 */
+        }
+        .sidebar a {
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            text-align: center;
+            transition: color 0.3s ease-in-out; /* 平滑文字颜色变化（可选） */
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+            color: #f0f0f0; /* 鼠标悬停在链接上时改变文字颜色（可选） */
+        }
+        
+
+        .sidebar:hover {
+            width: 150px; /* 鼠标悬停时侧边栏宽度增加到170像素 */
+            background-color: #444; /* 鼠标悬停时改变背景色（可选） */
+        }
+
+        .intro-bar {
+            background-image: url('top-background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 20px 20px;
+            text-align: center;
+            color: white;
+            border-bottom: none;
+        }
+
+        .intro-bar h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .intro-bar p {
+            font-size: 18px;
+            color: #666;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        .filter-section {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .filter-button {
+            padding: 8px 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .filter-button:hover {
+            background-color: #0056b3;
+        }
+
+        .filter-button.active {
+            background-color: #0056b3;
+            font-weight: bold;
+        }
+
+        .search-bar {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .search-bar input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .content-section {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .entry-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: white;
+            transition: transform 0.2s;
+        }
+
+        .entry-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .entry-card h3 {
+            margin: 0;
+            color: #007BFF;
+            font-size: 18px;
+        }
+
+        .entry-card p {
+            margin: 10px 0 0;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .entry-tags {
+            margin-top: 10px;
+        }
+
+        .entry-tag {
+            display: inline-block;
+            padding: 4px 8px;
+            background-color: #e9ecef;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-right: 5px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="/home"><img src="./img/logo.png "style="border-radius: 15px;width: 40px;height: 40px;" alt="产品logo"></a>
+        <a href="/write">创作</a>
+        <a href="/cowork">论坛</a>
+        <a href="/collection">收藏夹</a>
+        <a href="/pediaHome">百科</a>
+        <a href="http://localhost:8080">数据台</a>
+        <% if(user && user.username){ %>
+            <a href="/user/info"><img src="<%= user.avatar ? user.avatar : '../img/用户.jpg' %>" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+        <% }else{ %>
+            <a href="/user/login"><img src="../img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+        <% } %>
+    </div>
+    <div class="intro-bar">
+        <h1>意象分类索引</h1>
+        <p>在这里，您可以浏览和筛选各种意象条目，了解它们的含义和用法。</p>
+    </div>
+
+    <div class="filter-section">
+        <h2>意象类型筛选</h2>
+        <div class="filter-buttons">
+            <button class="filter-button active" data-category="全部">全部</button>
+            <button class="filter-button" data-category="自然意象">自然意象</button>
+            <button class="filter-button" data-category="植物意象">植物意象</button>
+            <button class="filter-button" data-category="动物意象">动物意象</button>
+            <button class="filter-button" data-category="地理意象">地理意象</button>
+            <button class="filter-button" data-category="天文意象">天文意象</button>
+            <button class="filter-button" data-category="器物意象">器物意象</button>
+            <button class="filter-button" data-category="建筑意象">建筑意象</button>
+        </div>
+    </div>
+
+    <div class="search-bar">
+        <form action="/pediaIndex" method="get" style="display:inline;">
+            <input type="text" name="wd" placeholder="搜索意象名称或含义..." value="<%= typeof wd !== 'undefined' ? wd : '' %>">
+            <input type="hidden" name="categories" id="selected-categories" value="<%= typeof categories !== 'undefined' ? categories : '' %>">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+
+    <div class="content-section">
+        <% if ((!wd && (!categories || categories === "")) || (typeof data === 'undefined')) { %>
+            <!-- 默认三条 -->
+            <div class="entry-card">
+                <h3>梧桐</h3>
+                <p>凄苦之音。白居易《长恨歌》："春风桃李花开日，秋雨梧桐叶落时。"李煜《相见欢》："寂寞梧桐，深院锁清秋。"</p>
+                <div class="entry-tags">
+                    <span class="entry-tag">植物意象</span>
+                    <span class="entry-tag">悲愁</span>
+                </div>
+            </div>
+            <div class="entry-card">
+                <h3>南浦</h3>
+                <p>水边的送别之所。屈原《九歌•河伯》："与子交手兮东行，送美人兮南浦。"江淹《别赋》："春草碧色，春水渌波，送君南浦，伤如之何！"</p>
+                <div class="entry-tags">
+                    <span class="entry-tag">地理意象</span>
+                    <span class="entry-tag">离别</span>
+                </div>
+            </div>
+            <div class="entry-card">
+                <h3>长亭</h3>
+                <p>陆上的送别之所。李白《菩萨蛮》："何处是归程？长亭更短亭。"柳永《雨霖铃》："寒蝉凄切，对长亭晚。"</p>
+                <div class="entry-tags">
+                    <span class="entry-tag">建筑意象</span>
+                    <span class="entry-tag">离别</span>
+                </div>
+            </div>
+        <% } else if (data && data.length > 0) { %>
+            <% data.forEach(function(item) { %>
+                <div class="entry-card">
+                    <h3><%= item.name %></h3>
+                    <p><%= item.meaning %></p>
+                    <div class="entry-tags">
+                        <span class="entry-tag"><%= item.category %></span>
+                    </div>
+                    <p style="color:#888;font-size:14px;"><%= item.example %></p>
+                </div>
+            <% }) %>
+        <% } else { %>
+            <div class="no-content">    没有找到相关内容</div>
+        <% } %>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            var selected = document.getElementById('selected-categories').value.split(',');
+            // 先全部移除
+            document.querySelectorAll('.filter-button').forEach(btn => btn.classList.remove('active'));
+            if (!selected || selected.length === 0 || (selected.length === 1 && selected[0] === "")) {
+                // 没有筛选，选中“全部”
+                document.querySelector('.filter-button[data-category="全部"]').classList.add('active');
+            } else {
+                selected.forEach(cat => {
+                    var btn = document.querySelector('.filter-button[data-category="' + cat + '"]');
+                    if (btn) btn.classList.add('active');
+                });
+            }
+        });
+        // 筛选按钮点击事件
+        document.querySelectorAll('.filter-button').forEach(button => {
+            button.addEventListener('click', function() {
+                if (this.dataset.category === '全部') {
+                    // 选中“全部”时取消其他
+                    document.querySelectorAll('.filter-button').forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                } else {
+                    // 取消“全部”
+                    document.querySelector('.filter-button[data-category="全部"]').classList.remove('active');
+                    this.classList.toggle('active');
+                    if (this.dataset.category === '自然意象' && this.classList.contains('active')) {
+                        document.querySelector('.filter-button[data-category="植物意象"]').classList.add('active');
+                    }
+                    // 如果取消“自然意象”，也取消“植物意象”
+                    if (this.dataset.category === '自然意象' && !this.classList.contains('active')) {
+                        document.querySelector('.filter-button[data-category="植物意象"]').classList.remove('active');
+                    }
+                }
+                // 如果没有任何选中，自动选中“全部”
+                if (!document.querySelector('.filter-button.active')) {
+                    document.querySelector('.filter-button[data-category="全部"]').classList.add('active');
+                }
+                // 更新隐藏域
+                updateSelectedCategories();
+                // 自动提交表单（可选，或让用户点搜索）
+                // document.getElementById('pedia-search-form').submit();
+            });
+        });
+
+        function updateSelectedCategories() {
+            let selected = Array.from(document.querySelectorAll('.filter-button.active'))
+                .map(btn => btn.dataset.category)
+                .filter(cat => cat !== '全部');
+            document.getElementById('selected-categories').value = selected.join(',');
+        }
+        // 初始化
+        updateSelectedCategories();
+
+        // 搜索功能
+        document.querySelector('.search-bar button').addEventListener('click', function() {
+            const searchTerm = document.querySelector('.search-bar input').value;
+            // 这里可以添加实际的搜索逻辑
+        });
+
+    </script>
+</body>
+</html> 

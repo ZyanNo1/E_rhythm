@@ -1,0 +1,2924 @@
+epoch: 1, 1/200 0.5%, 0.064 s per iter, lr: 0.0000, tr: 1.00, tau: 0.999, noise: 1.000
+  ppl:7006.7, rec loss: 8.855, entropy loss: -0.712, cl loss w: 1.825, cl loss xw: 1.779
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 21/200 10.5%, 1.354 s per iter, lr: 0.0000, tr: 1.00, tau: 0.984, noise: 1.000
+  ppl:6991.5, rec loss: 8.852, entropy loss: -0.712, cl loss w: 1.799, cl loss xw: 1.661
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 41/200 20.5%, 1.339 s per iter, lr: 0.0000, tr: 1.00, tau: 0.969, noise: 1.000
+  ppl:6978.1, rec loss: 8.851, entropy loss: -0.712, cl loss w: 1.796, cl loss xw: 1.648
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1/200 0.5%, 0.064 s per iter, lr: 0.0000, tr: 1.00, tau: 0.999, noise: 1.000
+  ppl:7017.0, rec loss: 8.856, entropy loss: -0.711, cl loss w: 1.776, cl loss xw: 1.821
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 21/200 10.5%, 1.386 s per iter, lr: 0.0000, tr: 1.00, tau: 0.984, noise: 1.000
+  ppl:7011.0, rec loss: 8.855, entropy loss: -0.711, cl loss w: 1.788, cl loss xw: 1.648
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 41/200 20.5%, 1.490 s per iter, lr: 0.0000, tr: 1.00, tau: 0.969, noise: 1.000
+  ppl:7002.7, rec loss: 8.854, entropy loss: -0.711, cl loss w: 1.785, cl loss xw: 1.634
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 61/200 30.5%, 1.592 s per iter, lr: 0.0000, tr: 1.00, tau: 0.954, noise: 0.300
+  ppl:6984.4, rec loss: 8.851, entropy loss: -0.711, cl loss w: 1.789, cl loss xw: 1.649
+  dis loss: 0.681, adv loss: 0.707, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 81/200 40.5%, 1.983 s per iter, lr: 0.0000, tr: 1.00, tau: 0.940, noise: 0.299
+  ppl:6955.7, rec loss: 8.847, entropy loss: -0.711, cl loss w: 1.789, cl loss xw: 1.653
+  dis loss: 0.673, adv loss: 0.713, latent dist: 3.428, factors dist: 22.797
+
+epoch: 1, 101/200 50.5%, 2.100 s per iter, lr: 0.0000, tr: 1.00, tau: 0.925, noise: 0.298
+  ppl:6908.8, rec loss: 8.841, entropy loss: -0.711, cl loss w: 1.789, cl loss xw: 1.667
+  dis loss: 0.655, adv loss: 0.737, latent dist: 3.428, factors dist: 22.797
+
+epoch: 1, 121/200 60.5%, 1.984 s per iter, lr: 0.0000, tr: 1.00, tau: 0.911, noise: 0.297
+  ppl:6799.5, rec loss: 8.825, entropy loss: -0.711, cl loss w: 1.789, cl loss xw: 1.668
+  dis loss: 0.625, adv loss: 0.774, latent dist: 5.069, factors dist: 22.795
+
+epoch: 1, 1/3767 0.0%, 0.003 s per iter, lr: 0.0000, tr: 1.00, tau: 0.999, noise: 1.000
+  ppl:11046968.7, rec loss: 16.218, entropy loss: -0.064, cl loss w: 1.821, cl loss xw: 0.371
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1/3767 0.0%, 0.002 s per iter, lr: 0.0000, tr: 1.00, tau: 0.999, noise: 1.000
+  ppl:16764741.4, rec loss: 16.635, entropy loss: -0.058, cl loss w: 1.896, cl loss xw: 0.000
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 201/3767 5.3%, 0.057 s per iter, lr: 0.0000, tr: 1.00, tau: 0.857, noise: 1.000
+  ppl:74093.1, rec loss: 11.213, entropy loss: -0.071, cl loss w: 1.835, cl loss xw: 0.205
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 401/3767 10.6%, 0.059 s per iter, lr: 0.0001, tr: 1.00, tau: 0.735, noise: 1.000
+  ppl:4775.3, rec loss: 8.471, entropy loss: -0.143, cl loss w: 1.773, cl loss xw: 0.174
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 601/3767 16.0%, 0.059 s per iter, lr: 0.0001, tr: 1.00, tau: 0.630, noise: 1.000
+  ppl:1446.7, rec loss: 7.277, entropy loss: -0.236, cl loss w: 1.758, cl loss xw: 0.159
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 801/3767 21.3%, 0.058 s per iter, lr: 0.0001, tr: 1.00, tau: 0.541, noise: 1.000
+  ppl:722.9, rec loss: 6.583, entropy loss: -0.298, cl loss w: 1.753, cl loss xw: 0.158
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1001/3767 26.6%, 0.059 s per iter, lr: 0.0001, tr: 1.00, tau: 0.464, noise: 1.000
+  ppl:448.6, rec loss: 6.106, entropy loss: -0.337, cl loss w: 1.750, cl loss xw: 0.154
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1201/3767 31.9%, 0.059 s per iter, lr: 0.0002, tr: 1.00, tau: 0.398, noise: 1.000
+  ppl:312.6, rec loss: 5.745, entropy loss: -0.368, cl loss w: 1.749, cl loss xw: 0.151
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1401/3767 37.2%, 0.059 s per iter, lr: 0.0002, tr: 1.00, tau: 0.341, noise: 1.000
+  ppl:233.0, rec loss: 5.451, entropy loss: -0.390, cl loss w: 1.748, cl loss xw: 0.148
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1601/3767 42.5%, 0.096 s per iter, lr: 0.0002, tr: 1.00, tau: 0.293, noise: 0.296
+  ppl:181.9, rec loss: 5.203, entropy loss: -0.408, cl loss w: 1.748, cl loss xw: 0.144
+  dis loss: 0.559, adv loss: 0.895, latent dist: 21.766, factors dist: 22.786
+
+epoch: 1, 1801/3767 47.8%, 0.129 s per iter, lr: 0.0002, tr: 1.00, tau: 0.251, noise: 0.289
+  ppl:146.5, rec loss: 4.987, entropy loss: -0.423, cl loss w: 1.748, cl loss xw: 0.140
+  dis loss: 0.281, adv loss: 1.907, latent dist: 23.016, factors dist: 22.792
+
+epoch: 1, 2001/3767 53.1%, 0.135 s per iter, lr: 0.0003, tr: 1.00, tau: 0.215, noise: 0.282
+  ppl:120.6, rec loss: 4.793, entropy loss: -0.435, cl loss w: 1.748, cl loss xw: 0.136
+  dis loss: 0.182, adv loss: 2.809, latent dist: 24.935, factors dist: 22.780
+
+epoch: 1, 2201/3767 58.4%, 0.134 s per iter, lr: 0.0003, tr: 1.00, tau: 0.185, noise: 0.275
+  ppl:101.6, rec loss: 4.621, entropy loss: -0.446, cl loss w: 1.749, cl loss xw: 0.133
+  dis loss: 0.145, adv loss: 3.195, latent dist: 25.414, factors dist: 22.785
+
+epoch: 1, 2401/3767 63.7%, 0.144 s per iter, lr: 0.0003, tr: 1.00, tau: 0.158, noise: 0.268
+  ppl:87.4, rec loss: 4.470, entropy loss: -0.455, cl loss w: 1.749, cl loss xw: 0.131
+  dis loss: 0.122, adv loss: 3.484, latent dist: 26.300, factors dist: 22.791
+
+epoch: 1, 2601/3767 69.0%, 0.157 s per iter, lr: 0.0003, tr: 1.00, tau: 0.136, noise: 0.261
+  ppl:77.0, rec loss: 4.344, entropy loss: -0.461, cl loss w: 1.750, cl loss xw: 0.132
+  dis loss: 0.102, adv loss: 3.866, latent dist: 27.258, factors dist: 22.800
+
+epoch: 1, 2801/3767 74.4%, 0.157 s per iter, lr: 0.0004, tr: 1.00, tau: 0.117, noise: 0.254
+  ppl:68.8, rec loss: 4.231, entropy loss: -0.467, cl loss w: 1.750, cl loss xw: 0.133
+  dis loss: 0.091, adv loss: 4.092, latent dist: 30.090, factors dist: 22.822
+
+epoch: 1, 3001/3767 79.7%, 0.152 s per iter, lr: 0.0004, tr: 1.00, tau: 0.100, noise: 0.247
+  ppl:62.6, rec loss: 4.136, entropy loss: -0.472, cl loss w: 1.750, cl loss xw: 0.136
+  dis loss: 0.085, adv loss: 4.139, latent dist: 31.753, factors dist: 22.841
+
+epoch: 1, 3201/3767 85.0%, 0.148 s per iter, lr: 0.0004, tr: 1.00, tau: 0.086, noise: 0.240
+  ppl:57.8, rec loss: 4.058, entropy loss: -0.476, cl loss w: 1.751, cl loss xw: 0.142
+  dis loss: 0.081, adv loss: 4.147, latent dist: 33.180, factors dist: 22.865
+
+epoch: 1, 3401/3767 90.3%, 0.143 s per iter, lr: 0.0005, tr: 1.00, tau: 0.074, noise: 0.233
+  ppl:54.2, rec loss: 3.993, entropy loss: -0.480, cl loss w: 1.751, cl loss xw: 0.147
+  dis loss: 0.080, adv loss: 4.099, latent dist: 36.409, factors dist: 22.894
+
+epoch: 1, 3601/3767 95.6%, 0.154 s per iter, lr: 0.0005, tr: 1.00, tau: 0.063, noise: 0.226
+  ppl:51.3, rec loss: 3.938, entropy loss: -0.483, cl loss w: 1.751, cl loss xw: 0.152
+  dis loss: 0.082, adv loss: 4.018, latent dist: 39.783, factors dist: 22.929
+
+epoch: 2, 1/3767 0.0%, 0.002 s per iter, lr: 0.0005, tr: 1.00, tau: 0.055, noise: 0.220
+  ppl:49.5, rec loss: 3.902, entropy loss: -0.485, cl loss w: 1.752, cl loss xw: 0.158
+  dis loss: 0.085, adv loss: 3.942, latent dist: 43.694, factors dist: 22.951
+
+epoch: 2, 201/3767 5.3%, 0.155 s per iter, lr: 0.0005, tr: 1.00, tau: 0.048, noise: 0.213
+  ppl:47.0, rec loss: 3.850, entropy loss: -0.488, cl loss w: 1.752, cl loss xw: 0.161
+  dis loss: 0.093, adv loss: 3.834, latent dist: 48.511, factors dist: 22.984
+
+epoch: 2, 401/3767 10.6%, 0.149 s per iter, lr: 0.0006, tr: 1.00, tau: 0.041, noise: 0.206
+  ppl:45.1, rec loss: 3.809, entropy loss: -0.491, cl loss w: 1.752, cl loss xw: 0.164
+  dis loss: 0.105, adv loss: 3.710, latent dist: 53.341, factors dist: 23.014
+
+epoch: 2, 601/3767 16.0%, 0.171 s per iter, lr: 0.0006, tr: 1.00, tau: 0.035, noise: 0.199
+  ppl:43.6, rec loss: 3.774, entropy loss: -0.493, cl loss w: 1.753, cl loss xw: 0.167
+  dis loss: 0.121, adv loss: 3.589, latent dist: 61.492, factors dist: 23.045
+
+epoch: 2, 801/3767 21.3%, 0.146 s per iter, lr: 0.0006, tr: 1.00, tau: 0.030, noise: 0.192
+  ppl:42.3, rec loss: 3.745, entropy loss: -0.496, cl loss w: 1.753, cl loss xw: 0.169
+  dis loss: 0.139, adv loss: 3.471, latent dist: 79.317, factors dist: 23.099
+
+epoch: 2, 1001/3767 26.6%, 0.151 s per iter, lr: 0.0006, tr: 1.00, tau: 0.026, noise: 0.185
+  ppl:41.4, rec loss: 3.722, entropy loss: -0.498, cl loss w: 1.754, cl loss xw: 0.173
+  dis loss: 0.154, adv loss: 3.366, latent dist: 106.129, factors dist: 23.184
+
+epoch: 2, 1201/3767 31.9%, 0.149 s per iter, lr: 0.0007, tr: 1.00, tau: 0.022, noise: 0.178
+  ppl:40.6, rec loss: 3.703, entropy loss: -0.499, cl loss w: 1.755, cl loss xw: 0.176
+  dis loss: 0.166, adv loss: 3.289, latent dist: 128.937, factors dist: 23.262
+
+epoch: 2, 1401/3767 37.2%, 0.148 s per iter, lr: 0.0007, tr: 1.00, tau: 0.019, noise: 0.171
+  ppl:39.8, rec loss: 3.685, entropy loss: -0.502, cl loss w: 1.756, cl loss xw: 0.179
+  dis loss: 0.175, adv loss: 3.226, latent dist: 169.681, factors dist: 23.327
+
+epoch: 2, 1601/3767 42.5%, 0.141 s per iter, lr: 0.0007, tr: 1.00, tau: 0.016, noise: 0.163
+  ppl:39.3, rec loss: 3.671, entropy loss: -0.504, cl loss w: 1.757, cl loss xw: 0.183
+  dis loss: 0.183, adv loss: 3.173, latent dist: 198.786, factors dist: 23.383
+
+epoch: 2, 1801/3767 47.8%, 0.131 s per iter, lr: 0.0007, tr: 1.00, tau: 0.014, noise: 0.156
+  ppl:39.0, rec loss: 3.663, entropy loss: -0.505, cl loss w: 1.757, cl loss xw: 0.188
+  dis loss: 0.194, adv loss: 3.112, latent dist: 236.447, factors dist: 23.435
+
+epoch: 2, 2001/3767 53.1%, 0.130 s per iter, lr: 0.0008, tr: 1.00, tau: 0.012, noise: 0.149
+  ppl:38.8, rec loss: 3.658, entropy loss: -0.507, cl loss w: 1.758, cl loss xw: 0.195
+  dis loss: 0.201, adv loss: 3.067, latent dist: 289.977, factors dist: 23.477
+
+epoch: 2, 2201/3767 58.4%, 0.132 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.142
+  ppl:38.8, rec loss: 3.657, entropy loss: -0.508, cl loss w: 1.759, cl loss xw: 0.203
+  dis loss: 0.208, adv loss: 3.025, latent dist: 332.470, factors dist: 23.519
+
+epoch: 2, 2401/3767 63.7%, 0.134 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.135
+  ppl:38.8, rec loss: 3.659, entropy loss: -0.509, cl loss w: 1.760, cl loss xw: 0.211
+  dis loss: 0.216, adv loss: 2.980, latent dist: 342.733, factors dist: 23.553
+
+epoch: 2, 2601/3767 69.0%, 0.138 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.128
+  ppl:39.0, rec loss: 3.662, entropy loss: -0.510, cl loss w: 1.761, cl loss xw: 0.219
+  dis loss: 0.226, adv loss: 2.933, latent dist: 362.869, factors dist: 23.592
+
+epoch: 2, 2801/3767 74.4%, 0.143 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.121
+  ppl:39.2, rec loss: 3.668, entropy loss: -0.511, cl loss w: 1.762, cl loss xw: 0.226
+  dis loss: 0.234, adv loss: 2.896, latent dist: 384.536, factors dist: 23.633
+
+epoch: 2, 3001/3767 79.7%, 0.161 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.114
+  ppl:39.6, rec loss: 3.678, entropy loss: -0.512, cl loss w: 1.763, cl loss xw: 0.235
+  dis loss: 0.248, adv loss: 2.838, latent dist: 397.912, factors dist: 23.667
+
+epoch: 2, 3201/3767 85.0%, 0.157 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.107
+  ppl:40.0, rec loss: 3.689, entropy loss: -0.513, cl loss w: 1.763, cl loss xw: 0.245
+  dis loss: 0.255, adv loss: 2.806, latent dist: 401.812, factors dist: 23.687
+
+epoch: 2, 3401/3767 90.3%, 0.200 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.100
+  ppl:40.4, rec loss: 3.700, entropy loss: -0.513, cl loss w: 1.764, cl loss xw: 0.253
+  dis loss: 0.269, adv loss: 2.751, latent dist: 408.087, factors dist: 23.715
+
+epoch: 2, 3601/3767 95.6%, 0.167 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.093
+  ppl:40.9, rec loss: 3.711, entropy loss: -0.513, cl loss w: 1.764, cl loss xw: 0.260
+  dis loss: 0.281, adv loss: 2.702, latent dist: 417.492, factors dist: 23.762
+
+epoch: 3, 1/3767 0.0%, 0.004 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.087
+  ppl:41.3, rec loss: 3.721, entropy loss: -0.514, cl loss w: 1.765, cl loss xw: 0.267
+  dis loss: 0.284, adv loss: 2.685, latent dist: 428.299, factors dist: 23.784
+
+epoch: 3, 201/3767 5.3%, 0.332 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.080
+  ppl:41.7, rec loss: 3.732, entropy loss: -0.514, cl loss w: 1.765, cl loss xw: 0.275
+  dis loss: 0.295, adv loss: 2.645, latent dist: 436.058, factors dist: 23.840
+
+epoch: 3, 401/3767 10.6%, 0.337 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.073
+  ppl:42.2, rec loss: 3.742, entropy loss: -0.515, cl loss w: 1.766, cl loss xw: 0.282
+  dis loss: 0.305, adv loss: 2.606, latent dist: 437.354, factors dist: 23.871
+
+epoch: 3, 601/3767 16.0%, 0.309 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.066
+  ppl:42.6, rec loss: 3.752, entropy loss: -0.515, cl loss w: 1.766, cl loss xw: 0.288
+  dis loss: 0.313, adv loss: 2.574, latent dist: 442.578, factors dist: 23.943
+
+epoch: 3, 801/3767 21.3%, 0.309 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.059
+  ppl:43.0, rec loss: 3.761, entropy loss: -0.515, cl loss w: 1.767, cl loss xw: 0.295
+  dis loss: 0.319, adv loss: 2.551, latent dist: 441.763, factors dist: 23.981
+
+epoch: 3, 1001/3767 26.6%, 0.292 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.052
+  ppl:43.4, rec loss: 3.769, entropy loss: -0.515, cl loss w: 1.767, cl loss xw: 0.301
+  dis loss: 0.330, adv loss: 2.513, latent dist: 439.600, factors dist: 24.002
+
+epoch: 3, 1201/3767 31.9%, 0.279 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.045
+  ppl:43.7, rec loss: 3.777, entropy loss: -0.516, cl loss w: 1.767, cl loss xw: 0.307
+  dis loss: 0.335, adv loss: 2.489, latent dist: 436.844, factors dist: 24.049
+
+epoch: 3, 1401/3767 37.2%, 0.142 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.038
+  ppl:44.0, rec loss: 3.784, entropy loss: -0.516, cl loss w: 1.768, cl loss xw: 0.312
+  dis loss: 0.340, adv loss: 2.469, latent dist: 435.644, factors dist: 24.100
+
+epoch: 3, 1601/3767 42.5%, 0.140 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.031
+  ppl:44.3, rec loss: 3.791, entropy loss: -0.516, cl loss w: 1.768, cl loss xw: 0.318
+  dis loss: 0.344, adv loss: 2.455, latent dist: 437.227, factors dist: 24.133
+
+epoch: 3, 1801/3767 47.8%, 0.139 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.023
+  ppl:44.6, rec loss: 3.798, entropy loss: -0.516, cl loss w: 1.768, cl loss xw: 0.323
+  dis loss: 0.350, adv loss: 2.433, latent dist: 435.834, factors dist: 24.165
+
+epoch: 3, 2001/3767 53.1%, 0.143 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.016
+  ppl:44.9, rec loss: 3.804, entropy loss: -0.516, cl loss w: 1.769, cl loss xw: 0.328
+  dis loss: 0.353, adv loss: 2.416, latent dist: 433.840, factors dist: 24.193
+
+epoch: 3, 2201/3767 58.4%, 0.157 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.009
+  ppl:45.1, rec loss: 3.809, entropy loss: -0.517, cl loss w: 1.769, cl loss xw: 0.333
+  dis loss: 0.356, adv loss: 2.410, latent dist: 429.217, factors dist: 24.221
+
+epoch: 3, 2401/3767 63.7%, 0.164 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.002
+  ppl:45.4, rec loss: 3.815, entropy loss: -0.517, cl loss w: 1.769, cl loss xw: 0.337
+  dis loss: 0.361, adv loss: 2.397, latent dist: 425.745, factors dist: 24.272
+
+epoch: 3, 2601/3767 69.0%, 0.164 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.6, rec loss: 3.820, entropy loss: -0.517, cl loss w: 1.769, cl loss xw: 0.341
+  dis loss: 0.363, adv loss: 2.392, latent dist: 423.477, factors dist: 24.300
+
+epoch: 3, 2801/3767 74.4%, 0.167 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.8, rec loss: 3.825, entropy loss: -0.517, cl loss w: 1.770, cl loss xw: 0.344
+  dis loss: 0.367, adv loss: 2.384, latent dist: 422.426, factors dist: 24.334
+
+epoch: 3, 3001/3767 79.7%, 0.166 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.0, rec loss: 3.829, entropy loss: -0.517, cl loss w: 1.770, cl loss xw: 0.349
+  dis loss: 0.368, adv loss: 2.381, latent dist: 419.010, factors dist: 24.352
+
+epoch: 3, 3201/3767 85.0%, 0.182 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.2, rec loss: 3.834, entropy loss: -0.517, cl loss w: 1.770, cl loss xw: 0.354
+  dis loss: 0.371, adv loss: 2.374, latent dist: 415.819, factors dist: 24.368
+
+epoch: 3, 3401/3767 90.3%, 0.165 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.4, rec loss: 3.838, entropy loss: -0.517, cl loss w: 1.770, cl loss xw: 0.356
+  dis loss: 0.375, adv loss: 2.367, latent dist: 411.977, factors dist: 24.375
+
+epoch: 3, 3601/3767 95.6%, 0.166 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.6, rec loss: 3.842, entropy loss: -0.517, cl loss w: 1.770, cl loss xw: 0.359
+  dis loss: 0.377, adv loss: 2.358, latent dist: 411.331, factors dist: 24.409
+
+epoch: 4, 1/3767 0.0%, 0.002 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.8, rec loss: 3.845, entropy loss: -0.517, cl loss w: 1.771, cl loss xw: 0.362
+  dis loss: 0.381, adv loss: 2.344, latent dist: 407.882, factors dist: 24.414
+
+epoch: 4, 201/3767 5.3%, 0.167 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.9, rec loss: 3.848, entropy loss: -0.517, cl loss w: 1.771, cl loss xw: 0.363
+  dis loss: 0.381, adv loss: 2.344, latent dist: 405.181, factors dist: 24.410
+
+epoch: 4, 401/3767 10.6%, 0.165 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.0, rec loss: 3.850, entropy loss: -0.517, cl loss w: 1.771, cl loss xw: 0.365
+  dis loss: 0.381, adv loss: 2.341, latent dist: 402.503, factors dist: 24.429
+
+epoch: 4, 601/3767 16.0%, 0.166 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.1, rec loss: 3.853, entropy loss: -0.517, cl loss w: 1.771, cl loss xw: 0.367
+  dis loss: 0.383, adv loss: 2.333, latent dist: 400.580, factors dist: 24.440
+
+epoch: 4, 801/3767 21.3%, 0.168 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.2, rec loss: 3.855, entropy loss: -0.517, cl loss w: 1.771, cl loss xw: 0.369
+  dis loss: 0.384, adv loss: 2.332, latent dist: 398.725, factors dist: 24.464
+
+epoch: 4, 1001/3767 26.6%, 0.167 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.3, rec loss: 3.857, entropy loss: -0.517, cl loss w: 1.772, cl loss xw: 0.371
+  dis loss: 0.385, adv loss: 2.328, latent dist: 396.519, factors dist: 24.487
+
+epoch: 4, 1201/3767 31.9%, 0.166 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.4, rec loss: 3.860, entropy loss: -0.517, cl loss w: 1.772, cl loss xw: 0.372
+  dis loss: 0.386, adv loss: 2.326, latent dist: 394.200, factors dist: 24.497
+
+epoch: 4, 1401/3767 37.2%, 0.166 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.5, rec loss: 3.862, entropy loss: -0.517, cl loss w: 1.772, cl loss xw: 0.374
+  dis loss: 0.388, adv loss: 2.319, latent dist: 390.218, factors dist: 24.534
+
+epoch: 4, 1601/3767 42.5%, 0.166 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.6, rec loss: 3.864, entropy loss: -0.517, cl loss w: 1.772, cl loss xw: 0.375
+  dis loss: 0.388, adv loss: 2.316, latent dist: 388.049, factors dist: 24.555
+
+epoch: 4, 1801/3767 47.8%, 0.166 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.7, rec loss: 3.866, entropy loss: -0.518, cl loss w: 1.772, cl loss xw: 0.377
+  dis loss: 0.387, adv loss: 2.318, latent dist: 385.698, factors dist: 24.561
+
+epoch: 4, 2001/3767 53.1%, 0.167 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.8, rec loss: 3.867, entropy loss: -0.518, cl loss w: 1.772, cl loss xw: 0.378
+  dis loss: 0.387, adv loss: 2.322, latent dist: 383.789, factors dist: 24.581
+
+epoch: 4, 2201/3767 58.4%, 0.167 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.9, rec loss: 3.869, entropy loss: -0.518, cl loss w: 1.773, cl loss xw: 0.380
+  dis loss: 0.388, adv loss: 2.320, latent dist: 380.576, factors dist: 24.600
+
+epoch: 4, 2401/3767 63.7%, 0.137 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:48.0, rec loss: 3.871, entropy loss: -0.518, cl loss w: 1.773, cl loss xw: 0.381
+  dis loss: 0.389, adv loss: 2.317, latent dist: 377.091, factors dist: 24.601
+
+epoch: 4, 2601/3767 69.0%, 0.134 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:48.0, rec loss: 3.872, entropy loss: -0.518, cl loss w: 1.773, cl loss xw: 0.382
+  dis loss: 0.390, adv loss: 2.314, latent dist: 374.702, factors dist: 24.628
+
+epoch: 4, 2801/3767 74.4%, 0.135 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:48.1, rec loss: 3.874, entropy loss: -0.518, cl loss w: 1.773, cl loss xw: 0.385
+  dis loss: 0.389, adv loss: 2.318, latent dist: 372.240, factors dist: 24.634
+
+epoch: 4, 3001/3767 79.7%, 0.132 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:48.2, rec loss: 3.875, entropy loss: -0.518, cl loss w: 1.773, cl loss xw: 0.386
+  dis loss: 0.390, adv loss: 2.319, latent dist: 370.740, factors dist: 24.635
+
+epoch: 4, 3201/3767 85.0%, 0.133 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:48.2, rec loss: 3.876, entropy loss: -0.518, cl loss w: 1.773, cl loss xw: 0.388
+  dis loss: 0.390, adv loss: 2.321, latent dist: 368.613, factors dist: 24.634
+
+epoch: 4, 3401/3767 90.3%, 0.139 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:48.3, rec loss: 3.877, entropy loss: -0.519, cl loss w: 1.774, cl loss xw: 0.389
+  dis loss: 0.390, adv loss: 2.324, latent dist: 366.109, factors dist: 24.645
+
+epoch: 4, 3601/3767 95.6%, 0.139 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:48.3, rec loss: 3.878, entropy loss: -0.519, cl loss w: 1.774, cl loss xw: 0.391
+  dis loss: 0.392, adv loss: 2.322, latent dist: 362.840, factors dist: 24.646
+
+epoch: 5, 1/3767 0.0%, 0.002 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.4, rec loss: 3.879, entropy loss: -0.519, cl loss w: 1.774, cl loss xw: 0.392
+  dis loss: 0.392, adv loss: 2.321, latent dist: 360.350, factors dist: 24.652
+
+epoch: 5, 201/3767 5.3%, 0.138 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.6, rec loss: 3.883, entropy loss: -0.518, cl loss w: 1.774, cl loss xw: 0.393
+  dis loss: 0.390, adv loss: 2.328, latent dist: 358.607, factors dist: 24.668
+
+epoch: 5, 401/3767 10.6%, 0.138 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.8, rec loss: 3.887, entropy loss: -0.519, cl loss w: 1.774, cl loss xw: 0.394
+  dis loss: 0.390, adv loss: 2.327, latent dist: 355.904, factors dist: 24.667
+
+epoch: 5, 601/3767 16.0%, 0.146 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.9, rec loss: 3.891, entropy loss: -0.518, cl loss w: 1.774, cl loss xw: 0.394
+  dis loss: 0.390, adv loss: 2.331, latent dist: 354.046, factors dist: 24.667
+
+epoch: 5, 801/3767 21.3%, 0.157 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.1, rec loss: 3.894, entropy loss: -0.519, cl loss w: 1.774, cl loss xw: 0.394
+  dis loss: 0.390, adv loss: 2.334, latent dist: 351.942, factors dist: 24.674
+
+epoch: 5, 1001/3767 26.6%, 0.147 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.3, rec loss: 3.898, entropy loss: -0.519, cl loss w: 1.774, cl loss xw: 0.395
+  dis loss: 0.390, adv loss: 2.334, latent dist: 349.900, factors dist: 24.678
+
+epoch: 5, 1201/3767 31.9%, 0.145 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.5, rec loss: 3.901, entropy loss: -0.519, cl loss w: 1.774, cl loss xw: 0.395
+  dis loss: 0.388, adv loss: 2.341, latent dist: 348.680, factors dist: 24.673
+
+epoch: 5, 1401/3767 37.2%, 0.145 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.6, rec loss: 3.904, entropy loss: -0.519, cl loss w: 1.774, cl loss xw: 0.398
+  dis loss: 0.389, adv loss: 2.341, latent dist: 346.466, factors dist: 24.682
+
+epoch: 5, 1601/3767 42.5%, 0.165 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.8, rec loss: 3.907, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.398
+  dis loss: 0.389, adv loss: 2.343, latent dist: 344.557, factors dist: 24.690
+
+epoch: 5, 1801/3767 47.8%, 0.297 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.9, rec loss: 3.910, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.398
+  dis loss: 0.388, adv loss: 2.344, latent dist: 342.626, factors dist: 24.693
+
+epoch: 5, 2001/3767 53.1%, 0.296 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.1, rec loss: 3.913, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.399
+  dis loss: 0.388, adv loss: 2.348, latent dist: 340.560, factors dist: 24.694
+
+epoch: 5, 2201/3767 58.4%, 0.297 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.2, rec loss: 3.916, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.399
+  dis loss: 0.387, adv loss: 2.350, latent dist: 339.252, factors dist: 24.698
+
+epoch: 5, 2401/3767 63.7%, 0.290 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.4, rec loss: 3.919, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.400
+  dis loss: 0.387, adv loss: 2.350, latent dist: 337.595, factors dist: 24.711
+
+epoch: 5, 2601/3767 69.0%, 0.291 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.5, rec loss: 3.922, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.400
+  dis loss: 0.386, adv loss: 2.351, latent dist: 335.696, factors dist: 24.720
+
+epoch: 5, 2801/3767 74.4%, 0.288 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.6, rec loss: 3.924, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.401
+  dis loss: 0.386, adv loss: 2.350, latent dist: 334.011, factors dist: 24.738
+
+epoch: 5, 3001/3767 79.7%, 0.293 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.8, rec loss: 3.927, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.401
+  dis loss: 0.385, adv loss: 2.349, latent dist: 332.049, factors dist: 24.752
+
+epoch: 5, 3201/3767 85.0%, 0.291 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.9, rec loss: 3.929, entropy loss: -0.519, cl loss w: 1.775, cl loss xw: 0.401
+  dis loss: 0.386, adv loss: 2.348, latent dist: 329.850, factors dist: 24.761
+
+epoch: 5, 3401/3767 90.3%, 0.291 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:51.0, rec loss: 3.932, entropy loss: -0.519, cl loss w: 1.776, cl loss xw: 0.402
+  dis loss: 0.386, adv loss: 2.345, latent dist: 328.353, factors dist: 24.769
+
+epoch: 5, 3601/3767 95.6%, 0.290 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:51.1, rec loss: 3.934, entropy loss: -0.519, cl loss w: 1.776, cl loss xw: 0.404
+  dis loss: 0.385, adv loss: 2.345, latent dist: 326.523, factors dist: 24.783
+
+epoch: 6, 1/3767 0.0%, 0.004 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.2, rec loss: 3.936, entropy loss: -0.519, cl loss w: 1.776, cl loss xw: 0.405
+  dis loss: 0.384, adv loss: 2.346, latent dist: 324.519, factors dist: 24.789
+
+epoch: 6, 201/3767 5.3%, 0.291 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.3, rec loss: 3.938, entropy loss: -0.520, cl loss w: 1.776, cl loss xw: 0.404
+  dis loss: 0.383, adv loss: 2.352, latent dist: 323.036, factors dist: 24.791
+
+epoch: 6, 401/3767 10.6%, 0.296 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.5, rec loss: 3.941, entropy loss: -0.520, cl loss w: 1.776, cl loss xw: 0.403
+  dis loss: 0.382, adv loss: 2.354, latent dist: 321.623, factors dist: 24.795
+
+epoch: 6, 601/3767 16.0%, 0.297 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.6, rec loss: 3.943, entropy loss: -0.520, cl loss w: 1.776, cl loss xw: 0.403
+  dis loss: 0.382, adv loss: 2.354, latent dist: 319.638, factors dist: 24.800
+
+epoch: 6, 801/3767 21.3%, 0.298 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.7, rec loss: 3.945, entropy loss: -0.520, cl loss w: 1.776, cl loss xw: 0.403
+  dis loss: 0.381, adv loss: 2.353, latent dist: 317.701, factors dist: 24.808
+
+epoch: 6, 1001/3767 26.6%, 0.302 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.8, rec loss: 3.948, entropy loss: -0.520, cl loss w: 1.776, cl loss xw: 0.404
+  dis loss: 0.380, adv loss: 2.354, latent dist: 316.323, factors dist: 24.812
+
+epoch: 6, 1201/3767 31.9%, 0.304 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.9, rec loss: 3.950, entropy loss: -0.520, cl loss w: 1.776, cl loss xw: 0.404
+  dis loss: 0.379, adv loss: 2.356, latent dist: 315.436, factors dist: 24.822
+
+epoch: 6, 1401/3767 37.2%, 0.271 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.1, rec loss: 3.953, entropy loss: -0.520, cl loss w: 1.776, cl loss xw: 0.404
+  dis loss: 0.378, adv loss: 2.359, latent dist: 314.184, factors dist: 24.834
+
+epoch: 6, 1601/3767 42.5%, 0.269 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.2, rec loss: 3.955, entropy loss: -0.521, cl loss w: 1.776, cl loss xw: 0.404
+  dis loss: 0.377, adv loss: 2.361, latent dist: 312.447, factors dist: 24.835
+
+epoch: 6, 1801/3767 47.8%, 0.302 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.3, rec loss: 3.957, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 0.403
+  dis loss: 0.376, adv loss: 2.364, latent dist: 310.922, factors dist: 24.841
+
+epoch: 6, 2001/3767 53.1%, 0.170 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.4, rec loss: 3.959, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 0.403
+  dis loss: 0.375, adv loss: 2.366, latent dist: 309.733, factors dist: 24.853
+
+epoch: 6, 2201/3767 58.4%, 0.150 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.5, rec loss: 3.961, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 0.404
+  dis loss: 0.374, adv loss: 2.368, latent dist: 308.092, factors dist: 24.852
+
+epoch: 6, 2401/3767 63.7%, 0.151 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.6, rec loss: 3.963, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 0.404
+  dis loss: 0.373, adv loss: 2.371, latent dist: 306.831, factors dist: 24.866
+
+epoch: 6, 2601/3767 69.0%, 0.151 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.7, rec loss: 3.965, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 0.404
+  dis loss: 0.372, adv loss: 2.374, latent dist: 305.808, factors dist: 24.870
+
+epoch: 6, 2801/3767 74.4%, 0.149 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.8, rec loss: 3.967, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 0.403
+  dis loss: 0.371, adv loss: 2.375, latent dist: 304.257, factors dist: 24.879
+
+epoch: 6, 3001/3767 79.7%, 0.154 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.9, rec loss: 3.969, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 0.403
+  dis loss: 0.370, adv loss: 2.377, latent dist: 302.774, factors dist: 24.886
+
+epoch: 6, 3201/3767 85.0%, 0.149 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:53.0, rec loss: 3.970, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 0.403
+  dis loss: 0.370, adv loss: 2.378, latent dist: 301.197, factors dist: 24.899
+
+epoch: 6, 3401/3767 90.3%, 0.147 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:53.1, rec loss: 3.972, entropy loss: -0.522, cl loss w: 1.777, cl loss xw: 0.403
+  dis loss: 0.369, adv loss: 2.381, latent dist: 299.870, factors dist: 24.900
+
+epoch: 6, 3601/3767 95.6%, 0.147 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:53.2, rec loss: 3.974, entropy loss: -0.522, cl loss w: 1.777, cl loss xw: 0.403
+  dis loss: 0.368, adv loss: 2.384, latent dist: 298.842, factors dist: 24.910
+
+epoch: 7, 1/3767 0.0%, 0.002 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.3, rec loss: 3.975, entropy loss: -0.522, cl loss w: 1.777, cl loss xw: 0.402
+  dis loss: 0.367, adv loss: 2.386, latent dist: 297.605, factors dist: 24.918
+
+epoch: 7, 201/3767 5.3%, 0.149 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.4, rec loss: 3.977, entropy loss: -0.522, cl loss w: 1.777, cl loss xw: 0.401
+  dis loss: 0.367, adv loss: 2.387, latent dist: 296.221, factors dist: 24.919
+
+epoch: 7, 401/3767 10.6%, 0.149 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.5, rec loss: 3.979, entropy loss: -0.522, cl loss w: 1.778, cl loss xw: 0.401
+  dis loss: 0.365, adv loss: 2.390, latent dist: 294.883, factors dist: 24.916
+
+epoch: 7, 601/3767 16.0%, 0.148 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.5, rec loss: 3.981, entropy loss: -0.522, cl loss w: 1.778, cl loss xw: 0.399
+  dis loss: 0.365, adv loss: 2.392, latent dist: 293.522, factors dist: 24.924
+
+epoch: 7, 801/3767 21.3%, 0.149 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.6, rec loss: 3.982, entropy loss: -0.523, cl loss w: 1.778, cl loss xw: 0.399
+  dis loss: 0.364, adv loss: 2.393, latent dist: 292.164, factors dist: 24.923
+
+epoch: 7, 1001/3767 26.6%, 0.151 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.7, rec loss: 3.984, entropy loss: -0.523, cl loss w: 1.778, cl loss xw: 0.398
+  dis loss: 0.364, adv loss: 2.392, latent dist: 291.050, factors dist: 24.924
+
+epoch: 7, 1201/3767 31.9%, 0.150 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.8, rec loss: 3.986, entropy loss: -0.523, cl loss w: 1.778, cl loss xw: 0.397
+  dis loss: 0.363, adv loss: 2.394, latent dist: 290.109, factors dist: 24.936
+
+epoch: 7, 1401/3767 37.2%, 0.146 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.9, rec loss: 3.988, entropy loss: -0.523, cl loss w: 1.778, cl loss xw: 0.396
+  dis loss: 0.363, adv loss: 2.396, latent dist: 289.035, factors dist: 24.940
+
+epoch: 7, 1601/3767 42.5%, 0.147 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.0, rec loss: 3.989, entropy loss: -0.523, cl loss w: 1.778, cl loss xw: 0.396
+  dis loss: 0.362, adv loss: 2.396, latent dist: 287.607, factors dist: 24.943
+
+epoch: 7, 1801/3767 47.8%, 0.148 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.1, rec loss: 3.991, entropy loss: -0.524, cl loss w: 1.778, cl loss xw: 0.396
+  dis loss: 0.361, adv loss: 2.399, latent dist: 286.535, factors dist: 24.958
+
+epoch: 7, 2001/3767 53.1%, 0.146 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.2, rec loss: 3.993, entropy loss: -0.524, cl loss w: 1.778, cl loss xw: 0.395
+  dis loss: 0.360, adv loss: 2.402, latent dist: 285.451, factors dist: 24.962
+
+epoch: 7, 2201/3767 58.4%, 0.147 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.3, rec loss: 3.994, entropy loss: -0.524, cl loss w: 1.778, cl loss xw: 0.395
+  dis loss: 0.359, adv loss: 2.406, latent dist: 284.394, factors dist: 24.973
+
+epoch: 7, 2401/3767 63.7%, 0.150 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.4, rec loss: 3.996, entropy loss: -0.524, cl loss w: 1.778, cl loss xw: 0.394
+  dis loss: 0.358, adv loss: 2.410, latent dist: 283.081, factors dist: 24.984
+
+epoch: 7, 2601/3767 69.0%, 0.145 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.4, rec loss: 3.997, entropy loss: -0.524, cl loss w: 1.778, cl loss xw: 0.394
+  dis loss: 0.357, adv loss: 2.412, latent dist: 281.947, factors dist: 24.992
+
+epoch: 7, 2801/3767 74.4%, 0.149 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.5, rec loss: 3.999, entropy loss: -0.525, cl loss w: 1.778, cl loss xw: 0.393
+  dis loss: 0.357, adv loss: 2.414, latent dist: 280.790, factors dist: 25.003
+
+epoch: 7, 3001/3767 79.7%, 0.152 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.6, rec loss: 4.000, entropy loss: -0.525, cl loss w: 1.779, cl loss xw: 0.392
+  dis loss: 0.356, adv loss: 2.414, latent dist: 279.501, factors dist: 25.006
+
+epoch: 7, 3201/3767 85.0%, 0.152 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.7, rec loss: 4.001, entropy loss: -0.525, cl loss w: 1.779, cl loss xw: 0.392
+  dis loss: 0.356, adv loss: 2.417, latent dist: 278.831, factors dist: 25.019
+
+epoch: 7, 3401/3767 90.3%, 0.154 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.8, rec loss: 4.003, entropy loss: -0.525, cl loss w: 1.779, cl loss xw: 0.392
+  dis loss: 0.355, adv loss: 2.418, latent dist: 277.777, factors dist: 25.021
+
+epoch: 7, 3601/3767 95.6%, 0.148 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.8, rec loss: 4.004, entropy loss: -0.525, cl loss w: 1.779, cl loss xw: 0.391
+  dis loss: 0.355, adv loss: 2.417, latent dist: 276.626, factors dist: 25.022
+
+epoch: 8, 1/3767 0.0%, 0.002 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.9, rec loss: 4.005, entropy loss: -0.525, cl loss w: 1.779, cl loss xw: 0.391
+  dis loss: 0.355, adv loss: 2.418, latent dist: 275.524, factors dist: 25.024
+
+epoch: 8, 201/3767 5.3%, 0.148 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.9, rec loss: 4.006, entropy loss: -0.526, cl loss w: 1.779, cl loss xw: 0.390
+  dis loss: 0.354, adv loss: 2.420, latent dist: 274.455, factors dist: 25.025
+
+epoch: 8, 401/3767 10.6%, 0.145 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.0, rec loss: 4.007, entropy loss: -0.526, cl loss w: 1.779, cl loss xw: 0.389
+  dis loss: 0.354, adv loss: 2.421, latent dist: 273.271, factors dist: 25.035
+
+epoch: 8, 601/3767 16.0%, 0.148 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.1, rec loss: 4.008, entropy loss: -0.526, cl loss w: 1.779, cl loss xw: 0.388
+  dis loss: 0.353, adv loss: 2.422, latent dist: 272.395, factors dist: 25.040
+
+epoch: 8, 801/3767 21.3%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.1, rec loss: 4.010, entropy loss: -0.526, cl loss w: 1.779, cl loss xw: 0.387
+  dis loss: 0.352, adv loss: 2.424, latent dist: 271.136, factors dist: 25.045
+
+epoch: 8, 1001/3767 26.6%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.2, rec loss: 4.010, entropy loss: -0.526, cl loss w: 1.779, cl loss xw: 0.386
+  dis loss: 0.351, adv loss: 2.428, latent dist: 270.149, factors dist: 25.049
+
+epoch: 8, 1201/3767 31.9%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.2, rec loss: 4.011, entropy loss: -0.527, cl loss w: 1.779, cl loss xw: 0.387
+  dis loss: 0.351, adv loss: 2.429, latent dist: 269.340, factors dist: 25.052
+
+epoch: 8, 1401/3767 37.2%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.3, rec loss: 4.012, entropy loss: -0.527, cl loss w: 1.779, cl loss xw: 0.386
+  dis loss: 0.350, adv loss: 2.432, latent dist: 268.279, factors dist: 25.053
+
+epoch: 8, 1601/3767 42.5%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.3, rec loss: 4.013, entropy loss: -0.527, cl loss w: 1.779, cl loss xw: 0.386
+  dis loss: 0.350, adv loss: 2.434, latent dist: 267.528, factors dist: 25.058
+
+epoch: 8, 1801/3767 47.8%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.4, rec loss: 4.014, entropy loss: -0.527, cl loss w: 1.779, cl loss xw: 0.385
+  dis loss: 0.349, adv loss: 2.438, latent dist: 267.053, factors dist: 25.065
+
+epoch: 8, 2001/3767 53.1%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.4, rec loss: 4.015, entropy loss: -0.527, cl loss w: 1.779, cl loss xw: 0.385
+  dis loss: 0.348, adv loss: 2.439, latent dist: 265.949, factors dist: 25.073
+
+epoch: 8, 2201/3767 58.4%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.5, rec loss: 4.016, entropy loss: -0.528, cl loss w: 1.779, cl loss xw: 0.384
+  dis loss: 0.348, adv loss: 2.441, latent dist: 264.955, factors dist: 25.073
+
+epoch: 8, 2401/3767 63.7%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.6, rec loss: 4.017, entropy loss: -0.528, cl loss w: 1.779, cl loss xw: 0.384
+  dis loss: 0.347, adv loss: 2.446, latent dist: 264.068, factors dist: 25.073
+
+epoch: 8, 2601/3767 69.0%, 0.151 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.6, rec loss: 4.018, entropy loss: -0.528, cl loss w: 1.779, cl loss xw: 0.383
+  dis loss: 0.346, adv loss: 2.449, latent dist: 263.131, factors dist: 25.078
+
+epoch: 8, 2801/3767 74.4%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.019, entropy loss: -0.528, cl loss w: 1.780, cl loss xw: 0.382
+  dis loss: 0.345, adv loss: 2.452, latent dist: 262.468, factors dist: 25.081
+
+epoch: 8, 3001/3767 79.7%, 0.145 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.020, entropy loss: -0.528, cl loss w: 1.780, cl loss xw: 0.381
+  dis loss: 0.345, adv loss: 2.453, latent dist: 261.394, factors dist: 25.089
+
+epoch: 8, 3201/3767 85.0%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.8, rec loss: 4.021, entropy loss: -0.529, cl loss w: 1.780, cl loss xw: 0.381
+  dis loss: 0.345, adv loss: 2.453, latent dist: 260.223, factors dist: 25.098
+
+epoch: 8, 3401/3767 90.3%, 0.145 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.8, rec loss: 4.022, entropy loss: -0.529, cl loss w: 1.780, cl loss xw: 0.380
+  dis loss: 0.344, adv loss: 2.456, latent dist: 259.444, factors dist: 25.103
+
+epoch: 8, 3601/3767 95.6%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.023, entropy loss: -0.529, cl loss w: 1.780, cl loss xw: 0.380
+  dis loss: 0.344, adv loss: 2.457, latent dist: 258.921, factors dist: 25.103
+
+epoch: 9, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.024, entropy loss: -0.529, cl loss w: 1.780, cl loss xw: 0.379
+  dis loss: 0.343, adv loss: 2.459, latent dist: 258.201, factors dist: 25.106
+
+epoch: 9, 201/3767 5.3%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.024, entropy loss: -0.529, cl loss w: 1.780, cl loss xw: 0.378
+  dis loss: 0.343, adv loss: 2.462, latent dist: 257.354, factors dist: 25.115
+
+epoch: 9, 401/3767 10.6%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.025, entropy loss: -0.530, cl loss w: 1.780, cl loss xw: 0.377
+  dis loss: 0.342, adv loss: 2.464, latent dist: 256.476, factors dist: 25.121
+
+epoch: 9, 601/3767 16.0%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.026, entropy loss: -0.530, cl loss w: 1.780, cl loss xw: 0.377
+  dis loss: 0.341, adv loss: 2.467, latent dist: 255.711, factors dist: 25.122
+
+epoch: 9, 801/3767 21.3%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.026, entropy loss: -0.530, cl loss w: 1.780, cl loss xw: 0.376
+  dis loss: 0.341, adv loss: 2.468, latent dist: 255.139, factors dist: 25.130
+
+epoch: 9, 1001/3767 26.6%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.027, entropy loss: -0.530, cl loss w: 1.780, cl loss xw: 0.375
+  dis loss: 0.340, adv loss: 2.472, latent dist: 254.370, factors dist: 25.132
+
+epoch: 9, 1201/3767 31.9%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.028, entropy loss: -0.531, cl loss w: 1.780, cl loss xw: 0.374
+  dis loss: 0.340, adv loss: 2.474, latent dist: 253.708, factors dist: 25.141
+
+epoch: 9, 1401/3767 37.2%, 0.144 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.028, entropy loss: -0.531, cl loss w: 1.780, cl loss xw: 0.374
+  dis loss: 0.340, adv loss: 2.472, latent dist: 252.890, factors dist: 25.156
+
+epoch: 9, 1601/3767 42.5%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.029, entropy loss: -0.531, cl loss w: 1.780, cl loss xw: 0.373
+  dis loss: 0.339, adv loss: 2.476, latent dist: 252.113, factors dist: 25.157
+
+epoch: 9, 1801/3767 47.8%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.030, entropy loss: -0.531, cl loss w: 1.780, cl loss xw: 0.372
+  dis loss: 0.338, adv loss: 2.479, latent dist: 251.496, factors dist: 25.159
+
+epoch: 9, 2001/3767 53.1%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.030, entropy loss: -0.531, cl loss w: 1.780, cl loss xw: 0.372
+  dis loss: 0.338, adv loss: 2.481, latent dist: 250.735, factors dist: 25.170
+
+epoch: 9, 2201/3767 58.4%, 0.152 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.532, cl loss w: 1.780, cl loss xw: 0.371
+  dis loss: 0.337, adv loss: 2.483, latent dist: 249.884, factors dist: 25.169
+
+epoch: 9, 2401/3767 63.7%, 0.145 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.532, cl loss w: 1.780, cl loss xw: 0.370
+  dis loss: 0.336, adv loss: 2.485, latent dist: 249.212, factors dist: 25.167
+
+epoch: 9, 2601/3767 69.0%, 0.145 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.532, cl loss w: 1.780, cl loss xw: 0.370
+  dis loss: 0.336, adv loss: 2.487, latent dist: 248.627, factors dist: 25.170
+
+epoch: 9, 2801/3767 74.4%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.532, cl loss w: 1.781, cl loss xw: 0.369
+  dis loss: 0.335, adv loss: 2.490, latent dist: 247.764, factors dist: 25.172
+
+epoch: 9, 3001/3767 79.7%, 0.151 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.532, cl loss w: 1.781, cl loss xw: 0.369
+  dis loss: 0.335, adv loss: 2.491, latent dist: 247.344, factors dist: 25.184
+
+epoch: 9, 3201/3767 85.0%, 0.143 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.533, cl loss w: 1.781, cl loss xw: 0.369
+  dis loss: 0.335, adv loss: 2.492, latent dist: 246.702, factors dist: 25.195
+
+epoch: 9, 3401/3767 90.3%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.533, cl loss w: 1.781, cl loss xw: 0.368
+  dis loss: 0.334, adv loss: 2.495, latent dist: 245.922, factors dist: 25.199
+
+epoch: 9, 3601/3767 95.6%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.035, entropy loss: -0.533, cl loss w: 1.781, cl loss xw: 0.368
+  dis loss: 0.333, adv loss: 2.495, latent dist: 245.048, factors dist: 25.208
+
+epoch: 10, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.533, cl loss w: 1.781, cl loss xw: 0.367
+  dis loss: 0.333, adv loss: 2.496, latent dist: 244.362, factors dist: 25.215
+
+epoch: 10, 201/3767 5.3%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.534, cl loss w: 1.781, cl loss xw: 0.366
+  dis loss: 0.333, adv loss: 2.497, latent dist: 243.767, factors dist: 25.218
+
+epoch: 10, 401/3767 10.6%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.037, entropy loss: -0.534, cl loss w: 1.781, cl loss xw: 0.365
+  dis loss: 0.332, adv loss: 2.498, latent dist: 242.844, factors dist: 25.219
+
+epoch: 10, 601/3767 16.0%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.037, entropy loss: -0.534, cl loss w: 1.781, cl loss xw: 0.365
+  dis loss: 0.332, adv loss: 2.500, latent dist: 242.486, factors dist: 25.224
+
+epoch: 10, 801/3767 21.3%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.534, cl loss w: 1.781, cl loss xw: 0.364
+  dis loss: 0.331, adv loss: 2.503, latent dist: 241.831, factors dist: 25.231
+
+epoch: 10, 1001/3767 26.6%, 0.145 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.535, cl loss w: 1.781, cl loss xw: 0.363
+  dis loss: 0.331, adv loss: 2.506, latent dist: 241.121, factors dist: 25.234
+
+epoch: 10, 1201/3767 31.9%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.535, cl loss w: 1.781, cl loss xw: 0.363
+  dis loss: 0.330, adv loss: 2.508, latent dist: 240.655, factors dist: 25.242
+
+epoch: 10, 1401/3767 37.2%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.039, entropy loss: -0.535, cl loss w: 1.781, cl loss xw: 0.362
+  dis loss: 0.330, adv loss: 2.508, latent dist: 240.013, factors dist: 25.241
+
+epoch: 10, 1601/3767 42.5%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.535, cl loss w: 1.781, cl loss xw: 0.362
+  dis loss: 0.329, adv loss: 2.511, latent dist: 239.445, factors dist: 25.250
+
+epoch: 10, 1801/3767 47.8%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.535, cl loss w: 1.781, cl loss xw: 0.361
+  dis loss: 0.329, adv loss: 2.512, latent dist: 238.742, factors dist: 25.256
+
+epoch: 10, 2001/3767 53.1%, 0.145 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.536, cl loss w: 1.781, cl loss xw: 0.361
+  dis loss: 0.328, adv loss: 2.516, latent dist: 238.133, factors dist: 25.255
+
+epoch: 10, 2201/3767 58.4%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.536, cl loss w: 1.781, cl loss xw: 0.360
+  dis loss: 0.328, adv loss: 2.519, latent dist: 237.448, factors dist: 25.258
+
+epoch: 10, 2401/3767 63.7%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.536, cl loss w: 1.781, cl loss xw: 0.359
+  dis loss: 0.327, adv loss: 2.521, latent dist: 236.777, factors dist: 25.263
+
+epoch: 10, 2601/3767 69.0%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.041, entropy loss: -0.536, cl loss w: 1.781, cl loss xw: 0.359
+  dis loss: 0.327, adv loss: 2.524, latent dist: 236.220, factors dist: 25.267
+
+epoch: 10, 2801/3767 74.4%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.041, entropy loss: -0.536, cl loss w: 1.781, cl loss xw: 0.358
+  dis loss: 0.326, adv loss: 2.529, latent dist: 235.681, factors dist: 25.274
+
+epoch: 10, 3001/3767 79.7%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.042, entropy loss: -0.537, cl loss w: 1.781, cl loss xw: 0.358
+  dis loss: 0.326, adv loss: 2.530, latent dist: 234.966, factors dist: 25.271
+
+epoch: 10, 3201/3767 85.0%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.042, entropy loss: -0.537, cl loss w: 1.781, cl loss xw: 0.357
+  dis loss: 0.325, adv loss: 2.531, latent dist: 234.536, factors dist: 25.278
+
+epoch: 10, 3401/3767 90.3%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.0, rec loss: 4.042, entropy loss: -0.537, cl loss w: 1.782, cl loss xw: 0.357
+  dis loss: 0.325, adv loss: 2.532, latent dist: 233.874, factors dist: 25.284
+
+epoch: 10, 3601/3767 95.6%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.0, rec loss: 4.043, entropy loss: -0.537, cl loss w: 1.782, cl loss xw: 0.357
+  dis loss: 0.324, adv loss: 2.533, latent dist: 233.195, factors dist: 25.285
+
+epoch: 11, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.0, rec loss: 4.043, entropy loss: -0.537, cl loss w: 1.782, cl loss xw: 0.356
+  dis loss: 0.324, adv loss: 2.535, latent dist: 232.550, factors dist: 25.297
+
+epoch: 11, 201/3767 5.3%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.0, rec loss: 4.043, entropy loss: -0.538, cl loss w: 1.782, cl loss xw: 0.355
+  dis loss: 0.323, adv loss: 2.535, latent dist: 231.964, factors dist: 25.299
+
+epoch: 11, 401/3767 10.6%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.0, rec loss: 4.043, entropy loss: -0.538, cl loss w: 1.782, cl loss xw: 0.354
+  dis loss: 0.323, adv loss: 2.538, latent dist: 231.354, factors dist: 25.302
+
+epoch: 11, 601/3767 16.0%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.0, rec loss: 4.044, entropy loss: -0.538, cl loss w: 1.782, cl loss xw: 0.353
+  dis loss: 0.322, adv loss: 2.540, latent dist: 230.702, factors dist: 25.308
+
+epoch: 11, 801/3767 21.3%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.0, rec loss: 4.044, entropy loss: -0.538, cl loss w: 1.782, cl loss xw: 0.353
+  dis loss: 0.322, adv loss: 2.542, latent dist: 230.146, factors dist: 25.316
+
+epoch: 11, 1001/3767 26.6%, 0.144 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.044, entropy loss: -0.539, cl loss w: 1.782, cl loss xw: 0.352
+  dis loss: 0.322, adv loss: 2.544, latent dist: 229.632, factors dist: 25.324
+
+epoch: 11, 1201/3767 31.9%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.044, entropy loss: -0.539, cl loss w: 1.782, cl loss xw: 0.351
+  dis loss: 0.321, adv loss: 2.549, latent dist: 229.057, factors dist: 25.329
+
+epoch: 11, 1401/3767 37.2%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.045, entropy loss: -0.539, cl loss w: 1.782, cl loss xw: 0.350
+  dis loss: 0.320, adv loss: 2.553, latent dist: 228.569, factors dist: 25.340
+
+epoch: 11, 1601/3767 42.5%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.045, entropy loss: -0.539, cl loss w: 1.782, cl loss xw: 0.350
+  dis loss: 0.320, adv loss: 2.556, latent dist: 228.045, factors dist: 25.344
+
+epoch: 11, 1801/3767 47.8%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.045, entropy loss: -0.540, cl loss w: 1.782, cl loss xw: 0.349
+  dis loss: 0.319, adv loss: 2.562, latent dist: 227.496, factors dist: 25.353
+
+epoch: 11, 2001/3767 53.1%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.045, entropy loss: -0.540, cl loss w: 1.782, cl loss xw: 0.348
+  dis loss: 0.318, adv loss: 2.565, latent dist: 226.973, factors dist: 25.356
+
+epoch: 11, 2201/3767 58.4%, 0.151 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.045, entropy loss: -0.540, cl loss w: 1.782, cl loss xw: 0.348
+  dis loss: 0.317, adv loss: 2.570, latent dist: 226.526, factors dist: 25.373
+
+epoch: 11, 2401/3767 63.7%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.046, entropy loss: -0.540, cl loss w: 1.782, cl loss xw: 0.347
+  dis loss: 0.317, adv loss: 2.574, latent dist: 226.066, factors dist: 25.376
+
+epoch: 11, 2601/3767 69.0%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.046, entropy loss: -0.540, cl loss w: 1.782, cl loss xw: 0.347
+  dis loss: 0.316, adv loss: 2.580, latent dist: 225.577, factors dist: 25.389
+
+epoch: 11, 2801/3767 74.4%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.046, entropy loss: -0.541, cl loss w: 1.782, cl loss xw: 0.346
+  dis loss: 0.316, adv loss: 2.585, latent dist: 225.264, factors dist: 25.393
+
+epoch: 11, 3001/3767 79.7%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.046, entropy loss: -0.541, cl loss w: 1.782, cl loss xw: 0.346
+  dis loss: 0.315, adv loss: 2.591, latent dist: 225.051, factors dist: 25.403
+
+epoch: 11, 3201/3767 85.0%, 0.162 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.541, cl loss w: 1.782, cl loss xw: 0.345
+  dis loss: 0.314, adv loss: 2.596, latent dist: 224.471, factors dist: 25.409
+
+epoch: 11, 3401/3767 90.3%, 0.152 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.541, cl loss w: 1.782, cl loss xw: 0.345
+  dis loss: 0.313, adv loss: 2.599, latent dist: 223.960, factors dist: 25.417
+
+epoch: 11, 3601/3767 95.6%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.541, cl loss w: 1.782, cl loss xw: 0.344
+  dis loss: 0.313, adv loss: 2.604, latent dist: 223.627, factors dist: 25.423
+
+epoch: 12, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.542, cl loss w: 1.782, cl loss xw: 0.343
+  dis loss: 0.312, adv loss: 2.609, latent dist: 223.133, factors dist: 25.427
+
+epoch: 12, 201/3767 5.3%, 0.179 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.542, cl loss w: 1.782, cl loss xw: 0.343
+  dis loss: 0.311, adv loss: 2.612, latent dist: 222.836, factors dist: 25.431
+
+epoch: 12, 401/3767 10.6%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.542, cl loss w: 1.782, cl loss xw: 0.342
+  dis loss: 0.311, adv loss: 2.617, latent dist: 222.394, factors dist: 25.438
+
+epoch: 12, 601/3767 16.0%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.542, cl loss w: 1.782, cl loss xw: 0.341
+  dis loss: 0.310, adv loss: 2.622, latent dist: 221.819, factors dist: 25.444
+
+epoch: 12, 801/3767 21.3%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.543, cl loss w: 1.782, cl loss xw: 0.341
+  dis loss: 0.309, adv loss: 2.626, latent dist: 221.227, factors dist: 25.452
+
+epoch: 12, 1001/3767 26.6%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.543, cl loss w: 1.782, cl loss xw: 0.340
+  dis loss: 0.308, adv loss: 2.632, latent dist: 220.630, factors dist: 25.458
+
+epoch: 12, 1201/3767 31.9%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.543, cl loss w: 1.782, cl loss xw: 0.340
+  dis loss: 0.308, adv loss: 2.634, latent dist: 220.265, factors dist: 25.464
+
+epoch: 12, 1401/3767 37.2%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.543, cl loss w: 1.782, cl loss xw: 0.339
+  dis loss: 0.307, adv loss: 2.640, latent dist: 219.759, factors dist: 25.472
+
+epoch: 12, 1601/3767 42.5%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.543, cl loss w: 1.782, cl loss xw: 0.338
+  dis loss: 0.306, adv loss: 2.642, latent dist: 219.313, factors dist: 25.476
+
+epoch: 12, 1801/3767 47.8%, 0.149 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.544, cl loss w: 1.783, cl loss xw: 0.338
+  dis loss: 0.306, adv loss: 2.648, latent dist: 219.131, factors dist: 25.478
+
+epoch: 12, 2001/3767 53.1%, 0.146 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.544, cl loss w: 1.783, cl loss xw: 0.337
+  dis loss: 0.305, adv loss: 2.652, latent dist: 218.653, factors dist: 25.483
+
+epoch: 12, 2201/3767 58.4%, 0.148 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.544, cl loss w: 1.783, cl loss xw: 0.336
+  dis loss: 0.305, adv loss: 2.656, latent dist: 218.220, factors dist: 25.489
+
+epoch: 12, 2401/3767 63.7%, 0.151 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.544, cl loss w: 1.783, cl loss xw: 0.336
+  dis loss: 0.304, adv loss: 2.660, latent dist: 217.760, factors dist: 25.495
+
+epoch: 12, 2601/3767 69.0%, 0.143 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.545, cl loss w: 1.783, cl loss xw: 0.335
+  dis loss: 0.303, adv loss: 2.664, latent dist: 217.431, factors dist: 25.498
+
+epoch: 12, 2801/3767 74.4%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.545, cl loss w: 1.783, cl loss xw: 0.335
+  dis loss: 0.303, adv loss: 2.668, latent dist: 217.002, factors dist: 25.499
+
+epoch: 12, 3001/3767 79.7%, 0.143 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.545, cl loss w: 1.783, cl loss xw: 0.335
+  dis loss: 0.302, adv loss: 2.674, latent dist: 216.630, factors dist: 25.506
+
+epoch: 12, 3201/3767 85.0%, 0.303 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.048, entropy loss: -0.545, cl loss w: 1.783, cl loss xw: 0.334
+  dis loss: 0.301, adv loss: 2.679, latent dist: 216.326, factors dist: 25.512
+
+epoch: 12, 3401/3767 90.3%, 0.292 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.049, entropy loss: -0.545, cl loss w: 1.783, cl loss xw: 0.333
+  dis loss: 0.301, adv loss: 2.685, latent dist: 216.038, factors dist: 25.516
+
+epoch: 12, 3601/3767 95.6%, 0.303 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.049, entropy loss: -0.546, cl loss w: 1.783, cl loss xw: 0.333
+  dis loss: 0.299, adv loss: 2.694, latent dist: 215.881, factors dist: 25.522
+
+epoch: 13, 1/680 0.1%, 0.004 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.049, entropy loss: -0.546, cl loss w: 1.783, cl loss xw: 0.332
+  dis loss: 0.298, adv loss: 2.702, latent dist: 215.291, factors dist: 25.530
+
+epoch: 13, 201/680 29.6%, 0.177 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.049, entropy loss: -0.546, cl loss w: 1.783, cl loss xw: 0.331
+  dis loss: 0.298, adv loss: 2.707, latent dist: 215.010, factors dist: 25.536
+
+epoch: 13, 401/680 59.0%, 0.298 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.049, entropy loss: -0.546, cl loss w: 1.783, cl loss xw: 0.331
+  dis loss: 0.297, adv loss: 2.716, latent dist: 214.843, factors dist: 25.538
+
+epoch: 13, 601/680 88.4%, 0.299 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.049, entropy loss: -0.546, cl loss w: 1.782, cl loss xw: 0.330
+  dis loss: 0.296, adv loss: 2.721, latent dist: 214.457, factors dist: 25.542
+
+epoch: 14, 1/680 0.1%, 0.004 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.3, rec loss: 4.049, entropy loss: -0.546, cl loss w: 1.782, cl loss xw: 0.330
+  dis loss: 0.296, adv loss: 2.725, latent dist: 214.375, factors dist: 25.545
+
+epoch: 14, 201/680 29.6%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.047, entropy loss: -0.546, cl loss w: 1.782, cl loss xw: 0.329
+  dis loss: 0.295, adv loss: 2.732, latent dist: 213.987, factors dist: 25.554
+
+epoch: 14, 401/680 59.0%, 0.304 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.2, rec loss: 4.046, entropy loss: -0.546, cl loss w: 1.782, cl loss xw: 0.328
+  dis loss: 0.294, adv loss: 2.738, latent dist: 213.631, factors dist: 25.562
+
+epoch: 14, 601/680 88.4%, 0.306 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.045, entropy loss: -0.547, cl loss w: 1.782, cl loss xw: 0.327
+  dis loss: 0.293, adv loss: 2.746, latent dist: 213.118, factors dist: 25.571
+
+epoch: 15, 1/680 0.1%, 0.004 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.1, rec loss: 4.044, entropy loss: -0.547, cl loss w: 1.782, cl loss xw: 0.327
+  dis loss: 0.292, adv loss: 2.749, latent dist: 212.949, factors dist: 25.572
+
+epoch: 15, 201/680 29.6%, 0.176 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:57.0, rec loss: 4.042, entropy loss: -0.547, cl loss w: 1.782, cl loss xw: 0.326
+  dis loss: 0.292, adv loss: 2.758, latent dist: 212.626, factors dist: 25.575
+
+epoch: 15, 401/680 59.0%, 0.298 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.040, entropy loss: -0.547, cl loss w: 1.782, cl loss xw: 0.325
+  dis loss: 0.291, adv loss: 2.763, latent dist: 212.255, factors dist: 25.580
+
+epoch: 15, 601/680 88.4%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.039, entropy loss: -0.547, cl loss w: 1.782, cl loss xw: 0.324
+  dis loss: 0.290, adv loss: 2.773, latent dist: 212.048, factors dist: 25.592
+
+epoch: 1, 1/3767 0.0%, 0.002 s per iter, lr: 0.0000, tr: 1.00, tau: 0.999, noise: 1.000
+  ppl:42208016.6, rec loss: 17.558, entropy loss: -0.069, cl loss w: 1.749, cl loss xw: 0.011
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 201/3767 5.3%, 0.107 s per iter, lr: 0.0000, tr: 1.00, tau: 0.857, noise: 1.000
+  ppl:54105.1, rec loss: 10.899, entropy loss: -0.096, cl loss w: 1.835, cl loss xw: 0.316
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 401/3767 10.6%, 0.115 s per iter, lr: 0.0001, tr: 1.00, tau: 0.735, noise: 1.000
+  ppl:3853.9, rec loss: 8.257, entropy loss: -0.178, cl loss w: 1.779, cl loss xw: 0.240
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 601/3767 16.0%, 0.114 s per iter, lr: 0.0001, tr: 1.00, tau: 0.630, noise: 1.000
+  ppl:1230.8, rec loss: 7.115, entropy loss: -0.253, cl loss w: 1.758, cl loss xw: 0.214
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 801/3767 21.3%, 0.113 s per iter, lr: 0.0001, tr: 1.00, tau: 0.541, noise: 1.000
+  ppl:628.9, rec loss: 6.444, entropy loss: -0.310, cl loss w: 1.752, cl loss xw: 0.198
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1001/3767 26.6%, 0.113 s per iter, lr: 0.0001, tr: 1.00, tau: 0.464, noise: 1.000
+  ppl:395.9, rec loss: 5.981, entropy loss: -0.347, cl loss w: 1.747, cl loss xw: 0.188
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1201/3767 31.9%, 0.111 s per iter, lr: 0.0002, tr: 1.00, tau: 0.398, noise: 1.000
+  ppl:279.2, rec loss: 5.632, entropy loss: -0.374, cl loss w: 1.746, cl loss xw: 0.178
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1401/3767 37.2%, 0.112 s per iter, lr: 0.0002, tr: 1.00, tau: 0.341, noise: 1.000
+  ppl:210.6, rec loss: 5.350, entropy loss: -0.395, cl loss w: 1.744, cl loss xw: 0.171
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1601/3767 42.5%, 0.169 s per iter, lr: 0.0002, tr: 1.00, tau: 0.293, noise: 0.296
+  ppl:165.9, rec loss: 5.112, entropy loss: -0.412, cl loss w: 1.744, cl loss xw: 0.165
+  dis loss: 0.536, adv loss: 0.944, latent dist: 24.549, factors dist: 22.809
+
+epoch: 1, 1801/3767 47.8%, 0.133 s per iter, lr: 0.0002, tr: 1.00, tau: 0.251, noise: 0.289
+  ppl:135.0, rec loss: 4.905, entropy loss: -0.426, cl loss w: 1.744, cl loss xw: 0.160
+  dis loss: 0.258, adv loss: 2.054, latent dist: 23.339, factors dist: 22.803
+
+epoch: 1, 2001/3767 53.1%, 0.132 s per iter, lr: 0.0003, tr: 1.00, tau: 0.215, noise: 0.282
+  ppl:112.4, rec loss: 4.722, entropy loss: -0.438, cl loss w: 1.745, cl loss xw: 0.155
+  dis loss: 0.171, adv loss: 2.852, latent dist: 24.563, factors dist: 22.797
+
+epoch: 1, 2201/3767 58.4%, 0.130 s per iter, lr: 0.0003, tr: 1.00, tau: 0.185, noise: 0.275
+  ppl:95.7, rec loss: 4.561, entropy loss: -0.448, cl loss w: 1.746, cl loss xw: 0.151
+  dis loss: 0.141, adv loss: 3.140, latent dist: 25.839, factors dist: 22.805
+
+epoch: 1, 2401/3767 63.7%, 0.132 s per iter, lr: 0.0003, tr: 1.00, tau: 0.158, noise: 0.268
+  ppl:83.1, rec loss: 4.420, entropy loss: -0.456, cl loss w: 1.747, cl loss xw: 0.148
+  dis loss: 0.119, adv loss: 3.417, latent dist: 26.275, factors dist: 22.805
+
+epoch: 1, 2601/3767 69.0%, 0.132 s per iter, lr: 0.0003, tr: 1.00, tau: 0.136, noise: 0.261
+  ppl:73.7, rec loss: 4.301, entropy loss: -0.462, cl loss w: 1.748, cl loss xw: 0.148
+  dis loss: 0.100, adv loss: 3.825, latent dist: 27.305, factors dist: 22.814
+
+epoch: 1, 2801/3767 74.4%, 0.131 s per iter, lr: 0.0004, tr: 1.00, tau: 0.117, noise: 0.254
+  ppl:66.4, rec loss: 4.196, entropy loss: -0.468, cl loss w: 1.748, cl loss xw: 0.148
+  dis loss: 0.090, adv loss: 4.003, latent dist: 30.050, factors dist: 22.832
+
+epoch: 1, 3001/3767 79.7%, 0.132 s per iter, lr: 0.0004, tr: 1.00, tau: 0.100, noise: 0.247
+  ppl:60.7, rec loss: 4.106, entropy loss: -0.473, cl loss w: 1.748, cl loss xw: 0.149
+  dis loss: 0.085, adv loss: 4.047, latent dist: 32.719, factors dist: 22.851
+
+epoch: 1, 3201/3767 85.0%, 0.134 s per iter, lr: 0.0004, tr: 1.00, tau: 0.086, noise: 0.240
+  ppl:56.6, rec loss: 4.035, entropy loss: -0.477, cl loss w: 1.749, cl loss xw: 0.154
+  dis loss: 0.081, adv loss: 4.069, latent dist: 35.515, factors dist: 22.885
+
+epoch: 1, 3401/3767 90.3%, 0.223 s per iter, lr: 0.0005, tr: 1.00, tau: 0.074, noise: 0.233
+  ppl:53.3, rec loss: 3.976, entropy loss: -0.480, cl loss w: 1.749, cl loss xw: 0.161
+  dis loss: 0.080, adv loss: 4.024, latent dist: 38.196, factors dist: 22.907
+
+epoch: 1, 3601/3767 95.6%, 0.297 s per iter, lr: 0.0005, tr: 1.00, tau: 0.063, noise: 0.226
+  ppl:50.8, rec loss: 3.928, entropy loss: -0.483, cl loss w: 1.750, cl loss xw: 0.166
+  dis loss: 0.082, adv loss: 3.961, latent dist: 40.452, factors dist: 22.926
+
+epoch: 2, 1/3767 0.0%, 0.003 s per iter, lr: 0.0005, tr: 1.00, tau: 0.055, noise: 0.220
+  ppl:49.3, rec loss: 3.897, entropy loss: -0.486, cl loss w: 1.750, cl loss xw: 0.171
+  dis loss: 0.085, adv loss: 3.891, latent dist: 41.782, factors dist: 22.942
+
+epoch: 2, 201/3767 5.3%, 0.278 s per iter, lr: 0.0005, tr: 1.00, tau: 0.048, noise: 0.213
+  ppl:47.2, rec loss: 3.854, entropy loss: -0.488, cl loss w: 1.750, cl loss xw: 0.175
+  dis loss: 0.094, adv loss: 3.776, latent dist: 45.383, factors dist: 22.961
+
+epoch: 2, 401/3767 10.6%, 0.281 s per iter, lr: 0.0006, tr: 1.00, tau: 0.041, noise: 0.206
+  ppl:45.5, rec loss: 3.818, entropy loss: -0.491, cl loss w: 1.751, cl loss xw: 0.180
+  dis loss: 0.108, adv loss: 3.650, latent dist: 49.770, factors dist: 22.990
+
+epoch: 2, 601/3767 16.0%, 0.277 s per iter, lr: 0.0006, tr: 1.00, tau: 0.035, noise: 0.199
+  ppl:44.1, rec loss: 3.786, entropy loss: -0.493, cl loss w: 1.751, cl loss xw: 0.182
+  dis loss: 0.123, adv loss: 3.538, latent dist: 60.493, factors dist: 23.030
+
+epoch: 2, 801/3767 21.3%, 0.274 s per iter, lr: 0.0006, tr: 1.00, tau: 0.030, noise: 0.192
+  ppl:42.9, rec loss: 3.759, entropy loss: -0.495, cl loss w: 1.752, cl loss xw: 0.185
+  dis loss: 0.138, adv loss: 3.425, latent dist: 71.208, factors dist: 23.086
+
+epoch: 2, 1001/3767 26.6%, 0.274 s per iter, lr: 0.0006, tr: 1.00, tau: 0.026, noise: 0.185
+  ppl:41.9, rec loss: 3.736, entropy loss: -0.497, cl loss w: 1.752, cl loss xw: 0.189
+  dis loss: 0.151, adv loss: 3.334, latent dist: 88.750, factors dist: 23.154
+
+epoch: 2, 1201/3767 31.9%, 0.259 s per iter, lr: 0.0007, tr: 1.00, tau: 0.022, noise: 0.178
+  ppl:41.1, rec loss: 3.715, entropy loss: -0.499, cl loss w: 1.753, cl loss xw: 0.192
+  dis loss: 0.170, adv loss: 3.229, latent dist: 105.464, factors dist: 23.245
+
+epoch: 2, 1401/3767 37.2%, 0.133 s per iter, lr: 0.0007, tr: 1.00, tau: 0.019, noise: 0.171
+  ppl:40.5, rec loss: 3.701, entropy loss: -0.501, cl loss w: 1.754, cl loss xw: 0.197
+  dis loss: 0.180, adv loss: 3.163, latent dist: 131.305, factors dist: 23.327
+
+epoch: 2, 1601/3767 42.5%, 0.133 s per iter, lr: 0.0007, tr: 1.00, tau: 0.016, noise: 0.163
+  ppl:40.0, rec loss: 3.690, entropy loss: -0.502, cl loss w: 1.755, cl loss xw: 0.200
+  dis loss: 0.187, adv loss: 3.119, latent dist: 167.564, factors dist: 23.409
+
+epoch: 2, 1801/3767 47.8%, 0.133 s per iter, lr: 0.0007, tr: 1.00, tau: 0.014, noise: 0.156
+  ppl:39.7, rec loss: 3.680, entropy loss: -0.503, cl loss w: 1.756, cl loss xw: 0.203
+  dis loss: 0.192, adv loss: 3.082, latent dist: 195.062, factors dist: 23.459
+
+epoch: 2, 2001/3767 53.1%, 0.132 s per iter, lr: 0.0008, tr: 1.00, tau: 0.012, noise: 0.149
+  ppl:39.5, rec loss: 3.675, entropy loss: -0.505, cl loss w: 1.757, cl loss xw: 0.209
+  dis loss: 0.198, adv loss: 3.043, latent dist: 221.375, factors dist: 23.505
+
+epoch: 2, 2201/3767 58.4%, 0.134 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.142
+  ppl:39.3, rec loss: 3.672, entropy loss: -0.506, cl loss w: 1.758, cl loss xw: 0.215
+  dis loss: 0.204, adv loss: 3.003, latent dist: 243.472, factors dist: 23.541
+
+epoch: 2, 2401/3767 63.7%, 0.135 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.135
+  ppl:39.4, rec loss: 3.673, entropy loss: -0.507, cl loss w: 1.759, cl loss xw: 0.223
+  dis loss: 0.205, adv loss: 2.988, latent dist: 274.360, factors dist: 23.567
+
+epoch: 2, 2601/3767 69.0%, 0.136 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.128
+  ppl:39.6, rec loss: 3.678, entropy loss: -0.508, cl loss w: 1.760, cl loss xw: 0.232
+  dis loss: 0.216, adv loss: 2.947, latent dist: 297.096, factors dist: 23.608
+
+epoch: 2, 2801/3767 74.4%, 0.133 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.121
+  ppl:39.8, rec loss: 3.685, entropy loss: -0.509, cl loss w: 1.761, cl loss xw: 0.244
+  dis loss: 0.219, adv loss: 2.929, latent dist: 331.172, factors dist: 23.638
+
+epoch: 2, 3001/3767 79.7%, 0.138 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.114
+  ppl:40.2, rec loss: 3.694, entropy loss: -0.510, cl loss w: 1.761, cl loss xw: 0.255
+  dis loss: 0.228, adv loss: 2.891, latent dist: 338.573, factors dist: 23.681
+
+epoch: 2, 3201/3767 85.0%, 0.135 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.107
+  ppl:40.6, rec loss: 3.705, entropy loss: -0.510, cl loss w: 1.762, cl loss xw: 0.267
+  dis loss: 0.244, adv loss: 2.840, latent dist: 345.935, factors dist: 23.722
+
+epoch: 2, 3401/3767 90.3%, 0.139 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.100
+  ppl:41.1, rec loss: 3.715, entropy loss: -0.511, cl loss w: 1.763, cl loss xw: 0.277
+  dis loss: 0.258, adv loss: 2.788, latent dist: 357.406, factors dist: 23.766
+
+epoch: 2, 3601/3767 95.6%, 0.136 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.093
+  ppl:41.5, rec loss: 3.726, entropy loss: -0.511, cl loss w: 1.764, cl loss xw: 0.287
+  dis loss: 0.265, adv loss: 2.763, latent dist: 369.630, factors dist: 23.790
+
+epoch: 3, 1/3767 0.0%, 0.002 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.087
+  ppl:41.9, rec loss: 3.736, entropy loss: -0.511, cl loss w: 1.764, cl loss xw: 0.297
+  dis loss: 0.274, adv loss: 2.742, latent dist: 386.064, factors dist: 23.813
+
+epoch: 3, 201/3767 5.3%, 0.172 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.080
+  ppl:42.3, rec loss: 3.746, entropy loss: -0.512, cl loss w: 1.765, cl loss xw: 0.306
+  dis loss: 0.291, adv loss: 2.689, latent dist: 394.505, factors dist: 23.847
+
+epoch: 3, 401/3767 10.6%, 0.131 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.073
+  ppl:42.7, rec loss: 3.755, entropy loss: -0.512, cl loss w: 1.766, cl loss xw: 0.314
+  dis loss: 0.299, adv loss: 2.652, latent dist: 393.963, factors dist: 23.865
+
+epoch: 3, 601/3767 16.0%, 0.131 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.066
+  ppl:43.1, rec loss: 3.763, entropy loss: -0.512, cl loss w: 1.766, cl loss xw: 0.323
+  dis loss: 0.303, adv loss: 2.632, latent dist: 394.116, factors dist: 23.873
+
+epoch: 3, 801/3767 21.3%, 0.136 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.059
+  ppl:43.4, rec loss: 3.771, entropy loss: -0.512, cl loss w: 1.767, cl loss xw: 0.329
+  dis loss: 0.310, adv loss: 2.612, latent dist: 392.380, factors dist: 23.894
+
+epoch: 3, 1001/3767 26.6%, 0.180 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.052
+  ppl:43.8, rec loss: 3.779, entropy loss: -0.513, cl loss w: 1.768, cl loss xw: 0.336
+  dis loss: 0.320, adv loss: 2.585, latent dist: 390.979, factors dist: 23.920
+
+epoch: 3, 1201/3767 31.9%, 0.238 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.045
+  ppl:44.1, rec loss: 3.786, entropy loss: -0.513, cl loss w: 1.768, cl loss xw: 0.345
+  dis loss: 0.327, adv loss: 2.568, latent dist: 389.437, factors dist: 23.938
+
+epoch: 3, 1401/3767 37.2%, 0.250 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.038
+  ppl:44.3, rec loss: 3.792, entropy loss: -0.514, cl loss w: 1.769, cl loss xw: 0.351
+  dis loss: 0.333, adv loss: 2.558, latent dist: 392.252, factors dist: 23.985
+
+epoch: 3, 1601/3767 42.5%, 0.287 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.031
+  ppl:44.6, rec loss: 3.798, entropy loss: -0.514, cl loss w: 1.769, cl loss xw: 0.358
+  dis loss: 0.336, adv loss: 2.552, latent dist: 392.247, factors dist: 24.012
+
+epoch: 3, 1801/3767 47.8%, 0.278 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.023
+  ppl:44.8, rec loss: 3.803, entropy loss: -0.514, cl loss w: 1.769, cl loss xw: 0.363
+  dis loss: 0.338, adv loss: 2.551, latent dist: 391.064, factors dist: 24.042
+
+epoch: 3, 2001/3767 53.1%, 0.284 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.016
+  ppl:45.0, rec loss: 3.808, entropy loss: -0.514, cl loss w: 1.770, cl loss xw: 0.369
+  dis loss: 0.342, adv loss: 2.547, latent dist: 392.925, factors dist: 24.067
+
+epoch: 3, 2201/3767 58.4%, 0.293 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.009
+  ppl:45.2, rec loss: 3.812, entropy loss: -0.515, cl loss w: 1.770, cl loss xw: 0.374
+  dis loss: 0.346, adv loss: 2.541, latent dist: 392.078, factors dist: 24.091
+
+epoch: 3, 2401/3767 63.7%, 0.288 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.002
+  ppl:45.4, rec loss: 3.816, entropy loss: -0.515, cl loss w: 1.771, cl loss xw: 0.380
+  dis loss: 0.346, adv loss: 2.544, latent dist: 393.469, factors dist: 24.107
+
+epoch: 3, 2601/3767 69.0%, 0.291 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.6, rec loss: 3.820, entropy loss: -0.515, cl loss w: 1.771, cl loss xw: 0.384
+  dis loss: 0.348, adv loss: 2.547, latent dist: 392.997, factors dist: 24.138
+
+epoch: 3, 2801/3767 74.4%, 0.294 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.8, rec loss: 3.824, entropy loss: -0.515, cl loss w: 1.771, cl loss xw: 0.389
+  dis loss: 0.349, adv loss: 2.548, latent dist: 393.921, factors dist: 24.151
+
+epoch: 3, 3001/3767 79.7%, 0.177 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.9, rec loss: 3.828, entropy loss: -0.515, cl loss w: 1.771, cl loss xw: 0.393
+  dis loss: 0.353, adv loss: 2.546, latent dist: 391.916, factors dist: 24.173
+
+epoch: 3, 3201/3767 85.0%, 0.288 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.1, rec loss: 3.831, entropy loss: -0.515, cl loss w: 1.772, cl loss xw: 0.396
+  dis loss: 0.351, adv loss: 2.560, latent dist: 390.657, factors dist: 24.184
+
+epoch: 3, 3401/3767 90.3%, 0.287 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.3, rec loss: 3.834, entropy loss: -0.515, cl loss w: 1.772, cl loss xw: 0.399
+  dis loss: 0.352, adv loss: 2.566, latent dist: 389.744, factors dist: 24.201
+
+epoch: 3, 3601/3767 95.6%, 0.289 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.4, rec loss: 3.837, entropy loss: -0.515, cl loss w: 1.772, cl loss xw: 0.404
+  dis loss: 0.352, adv loss: 2.574, latent dist: 387.138, factors dist: 24.209
+
+epoch: 4, 1/3767 0.0%, 0.003 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.5, rec loss: 3.840, entropy loss: -0.515, cl loss w: 1.772, cl loss xw: 0.408
+  dis loss: 0.355, adv loss: 2.570, latent dist: 386.183, factors dist: 24.235
+
+epoch: 4, 201/3767 5.3%, 0.286 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.6, rec loss: 3.842, entropy loss: -0.515, cl loss w: 1.773, cl loss xw: 0.410
+  dis loss: 0.354, adv loss: 2.580, latent dist: 384.285, factors dist: 24.256
+
+epoch: 4, 401/3767 10.6%, 0.286 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.7, rec loss: 3.844, entropy loss: -0.515, cl loss w: 1.773, cl loss xw: 0.412
+  dis loss: 0.354, adv loss: 2.585, latent dist: 382.267, factors dist: 24.286
+
+epoch: 4, 601/3767 16.0%, 0.285 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.8, rec loss: 3.846, entropy loss: -0.515, cl loss w: 1.773, cl loss xw: 0.415
+  dis loss: 0.357, adv loss: 2.582, latent dist: 381.155, factors dist: 24.319
+
+epoch: 4, 801/3767 21.3%, 0.268 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.9, rec loss: 3.848, entropy loss: -0.515, cl loss w: 1.773, cl loss xw: 0.419
+  dis loss: 0.357, adv loss: 2.582, latent dist: 379.756, factors dist: 24.356
+
+epoch: 4, 1001/3767 26.6%, 0.285 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.0, rec loss: 3.850, entropy loss: -0.515, cl loss w: 1.774, cl loss xw: 0.421
+  dis loss: 0.357, adv loss: 2.581, latent dist: 378.278, factors dist: 24.376
+
+epoch: 4, 1201/3767 31.9%, 0.295 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.1, rec loss: 3.852, entropy loss: -0.515, cl loss w: 1.774, cl loss xw: 0.424
+  dis loss: 0.356, adv loss: 2.581, latent dist: 375.558, factors dist: 24.375
+
+epoch: 4, 1401/3767 37.2%, 0.276 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.2, rec loss: 3.855, entropy loss: -0.515, cl loss w: 1.774, cl loss xw: 0.427
+  dis loss: 0.355, adv loss: 2.588, latent dist: 375.217, factors dist: 24.418
+
+epoch: 4, 1601/3767 42.5%, 0.286 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.3, rec loss: 3.856, entropy loss: -0.514, cl loss w: 1.774, cl loss xw: 0.429
+  dis loss: 0.356, adv loss: 2.586, latent dist: 374.495, factors dist: 24.440
+
+epoch: 4, 1801/3767 47.8%, 0.288 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.4, rec loss: 3.858, entropy loss: -0.514, cl loss w: 1.774, cl loss xw: 0.432
+  dis loss: 0.353, adv loss: 2.598, latent dist: 372.165, factors dist: 24.455
+
+epoch: 4, 2001/3767 53.1%, 0.258 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.5, rec loss: 3.860, entropy loss: -0.514, cl loss w: 1.775, cl loss xw: 0.435
+  dis loss: 0.352, adv loss: 2.605, latent dist: 370.800, factors dist: 24.484
+
+epoch: 4, 2201/3767 58.4%, 0.281 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.5, rec loss: 3.862, entropy loss: -0.514, cl loss w: 1.775, cl loss xw: 0.438
+  dis loss: 0.351, adv loss: 2.609, latent dist: 370.143, factors dist: 24.504
+
+epoch: 4, 2401/3767 63.7%, 0.284 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.6, rec loss: 3.863, entropy loss: -0.514, cl loss w: 1.775, cl loss xw: 0.440
+  dis loss: 0.351, adv loss: 2.613, latent dist: 369.122, factors dist: 24.522
+
+epoch: 4, 2601/3767 69.0%, 0.284 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.7, rec loss: 3.865, entropy loss: -0.514, cl loss w: 1.775, cl loss xw: 0.443
+  dis loss: 0.351, adv loss: 2.617, latent dist: 368.155, factors dist: 24.534
+
+epoch: 4, 2801/3767 74.4%, 0.282 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.8, rec loss: 3.866, entropy loss: -0.514, cl loss w: 1.775, cl loss xw: 0.446
+  dis loss: 0.350, adv loss: 2.621, latent dist: 366.006, factors dist: 24.558
+
+epoch: 4, 3001/3767 79.7%, 0.285 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.8, rec loss: 3.868, entropy loss: -0.514, cl loss w: 1.775, cl loss xw: 0.448
+  dis loss: 0.350, adv loss: 2.620, latent dist: 364.376, factors dist: 24.572
+
+epoch: 4, 3201/3767 85.0%, 0.281 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.9, rec loss: 3.869, entropy loss: -0.514, cl loss w: 1.776, cl loss xw: 0.451
+  dis loss: 0.350, adv loss: 2.623, latent dist: 361.269, factors dist: 24.581
+
+epoch: 4, 3401/3767 90.3%, 0.284 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.9, rec loss: 3.870, entropy loss: -0.514, cl loss w: 1.776, cl loss xw: 0.452
+  dis loss: 0.348, adv loss: 2.631, latent dist: 360.444, factors dist: 24.600
+
+epoch: 4, 3601/3767 95.6%, 0.284 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:48.0, rec loss: 3.871, entropy loss: -0.514, cl loss w: 1.776, cl loss xw: 0.456
+  dis loss: 0.349, adv loss: 2.633, latent dist: 359.770, factors dist: 24.622
+
+epoch: 5, 1/3767 0.0%, 0.003 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.0, rec loss: 3.872, entropy loss: -0.514, cl loss w: 1.776, cl loss xw: 0.458
+  dis loss: 0.348, adv loss: 2.635, latent dist: 358.607, factors dist: 24.647
+
+epoch: 5, 201/3767 5.3%, 0.211 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.2, rec loss: 3.876, entropy loss: -0.514, cl loss w: 1.776, cl loss xw: 0.459
+  dis loss: 0.348, adv loss: 2.637, latent dist: 357.116, factors dist: 24.641
+
+epoch: 5, 401/3767 10.6%, 0.147 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.4, rec loss: 3.880, entropy loss: -0.513, cl loss w: 1.776, cl loss xw: 0.461
+  dis loss: 0.347, adv loss: 2.644, latent dist: 354.885, factors dist: 24.650
+
+epoch: 5, 601/3767 16.0%, 0.154 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.6, rec loss: 3.884, entropy loss: -0.513, cl loss w: 1.776, cl loss xw: 0.462
+  dis loss: 0.345, adv loss: 2.651, latent dist: 353.567, factors dist: 24.653
+
+epoch: 5, 801/3767 21.3%, 0.150 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.8, rec loss: 3.887, entropy loss: -0.513, cl loss w: 1.776, cl loss xw: 0.463
+  dis loss: 0.344, adv loss: 2.657, latent dist: 351.656, factors dist: 24.665
+
+epoch: 5, 1001/3767 26.6%, 0.239 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.0, rec loss: 3.891, entropy loss: -0.513, cl loss w: 1.777, cl loss xw: 0.464
+  dis loss: 0.342, adv loss: 2.667, latent dist: 349.775, factors dist: 24.672
+
+epoch: 5, 1201/3767 31.9%, 0.138 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.1, rec loss: 3.894, entropy loss: -0.513, cl loss w: 1.777, cl loss xw: 0.465
+  dis loss: 0.340, adv loss: 2.677, latent dist: 347.931, factors dist: 24.701
+
+epoch: 5, 1401/3767 37.2%, 0.131 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.3, rec loss: 3.898, entropy loss: -0.513, cl loss w: 1.777, cl loss xw: 0.467
+  dis loss: 0.338, adv loss: 2.687, latent dist: 346.371, factors dist: 24.712
+
+epoch: 5, 1601/3767 42.5%, 0.135 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.4, rec loss: 3.901, entropy loss: -0.513, cl loss w: 1.777, cl loss xw: 0.468
+  dis loss: 0.337, adv loss: 2.692, latent dist: 344.478, factors dist: 24.721
+
+epoch: 5, 1801/3767 47.8%, 0.133 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.6, rec loss: 3.904, entropy loss: -0.513, cl loss w: 1.777, cl loss xw: 0.469
+  dis loss: 0.335, adv loss: 2.700, latent dist: 342.592, factors dist: 24.730
+
+epoch: 5, 2001/3767 53.1%, 0.134 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.7, rec loss: 3.907, entropy loss: -0.512, cl loss w: 1.777, cl loss xw: 0.471
+  dis loss: 0.334, adv loss: 2.709, latent dist: 340.969, factors dist: 24.749
+
+epoch: 5, 2201/3767 58.4%, 0.134 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.9, rec loss: 3.910, entropy loss: -0.512, cl loss w: 1.777, cl loss xw: 0.472
+  dis loss: 0.332, adv loss: 2.717, latent dist: 338.870, factors dist: 24.755
+
+epoch: 5, 2401/3767 63.7%, 0.150 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.0, rec loss: 3.912, entropy loss: -0.512, cl loss w: 1.777, cl loss xw: 0.472
+  dis loss: 0.331, adv loss: 2.727, latent dist: 337.327, factors dist: 24.758
+
+epoch: 5, 2601/3767 69.0%, 0.151 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.2, rec loss: 3.915, entropy loss: -0.512, cl loss w: 1.777, cl loss xw: 0.473
+  dis loss: 0.329, adv loss: 2.732, latent dist: 335.985, factors dist: 24.762
+
+epoch: 5, 2801/3767 74.4%, 0.285 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.3, rec loss: 3.918, entropy loss: -0.512, cl loss w: 1.778, cl loss xw: 0.473
+  dis loss: 0.328, adv loss: 2.740, latent dist: 333.881, factors dist: 24.774
+
+epoch: 5, 3001/3767 79.7%, 0.246 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.4, rec loss: 3.920, entropy loss: -0.512, cl loss w: 1.778, cl loss xw: 0.475
+  dis loss: 0.326, adv loss: 2.746, latent dist: 331.664, factors dist: 24.786
+
+epoch: 5, 3201/3767 85.0%, 0.147 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.6, rec loss: 3.923, entropy loss: -0.512, cl loss w: 1.778, cl loss xw: 0.475
+  dis loss: 0.326, adv loss: 2.750, latent dist: 329.806, factors dist: 24.793
+
+epoch: 5, 3401/3767 90.3%, 0.143 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.7, rec loss: 3.926, entropy loss: -0.512, cl loss w: 1.778, cl loss xw: 0.475
+  dis loss: 0.324, adv loss: 2.759, latent dist: 328.666, factors dist: 24.808
+
+epoch: 5, 3601/3767 95.6%, 0.143 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.8, rec loss: 3.928, entropy loss: -0.512, cl loss w: 1.778, cl loss xw: 0.476
+  dis loss: 0.323, adv loss: 2.761, latent dist: 326.880, factors dist: 24.814
+
+epoch: 6, 1/3767 0.0%, 0.002 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:50.9, rec loss: 3.930, entropy loss: -0.512, cl loss w: 1.778, cl loss xw: 0.477
+  dis loss: 0.321, adv loss: 2.770, latent dist: 325.417, factors dist: 24.822
+
+epoch: 6, 201/3767 5.3%, 0.149 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.0, rec loss: 3.932, entropy loss: -0.512, cl loss w: 1.778, cl loss xw: 0.477
+  dis loss: 0.319, adv loss: 2.781, latent dist: 323.484, factors dist: 24.833
+
+epoch: 6, 401/3767 10.6%, 0.147 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.2, rec loss: 3.935, entropy loss: -0.512, cl loss w: 1.778, cl loss xw: 0.476
+  dis loss: 0.319, adv loss: 2.783, latent dist: 321.633, factors dist: 24.837
+
+epoch: 6, 601/3767 16.0%, 0.135 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.3, rec loss: 3.937, entropy loss: -0.511, cl loss w: 1.778, cl loss xw: 0.476
+  dis loss: 0.317, adv loss: 2.793, latent dist: 320.104, factors dist: 24.840
+
+epoch: 6, 801/3767 21.3%, 0.286 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.4, rec loss: 3.940, entropy loss: -0.511, cl loss w: 1.778, cl loss xw: 0.476
+  dis loss: 0.315, adv loss: 2.805, latent dist: 318.693, factors dist: 24.840
+
+epoch: 6, 1001/3767 26.6%, 0.279 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.5, rec loss: 3.942, entropy loss: -0.511, cl loss w: 1.778, cl loss xw: 0.476
+  dis loss: 0.314, adv loss: 2.808, latent dist: 317.221, factors dist: 24.845
+
+epoch: 6, 1201/3767 31.9%, 0.270 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.6, rec loss: 3.944, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.476
+  dis loss: 0.312, adv loss: 2.820, latent dist: 316.117, factors dist: 24.850
+
+epoch: 6, 1401/3767 37.2%, 0.281 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.7, rec loss: 3.946, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.477
+  dis loss: 0.311, adv loss: 2.826, latent dist: 314.460, factors dist: 24.870
+
+epoch: 6, 1601/3767 42.5%, 0.284 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.9, rec loss: 3.948, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.477
+  dis loss: 0.309, adv loss: 2.835, latent dist: 313.108, factors dist: 24.877
+
+epoch: 6, 1801/3767 47.8%, 0.292 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.0, rec loss: 3.951, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.477
+  dis loss: 0.308, adv loss: 2.843, latent dist: 312.150, factors dist: 24.883
+
+epoch: 6, 2001/3767 53.1%, 0.289 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.1, rec loss: 3.952, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.477
+  dis loss: 0.306, adv loss: 2.854, latent dist: 311.003, factors dist: 24.883
+
+epoch: 6, 2201/3767 58.4%, 0.282 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.2, rec loss: 3.955, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.477
+  dis loss: 0.305, adv loss: 2.860, latent dist: 309.429, factors dist: 24.890
+
+epoch: 6, 2401/3767 63.7%, 0.280 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.3, rec loss: 3.956, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.478
+  dis loss: 0.303, adv loss: 2.870, latent dist: 308.403, factors dist: 24.889
+
+epoch: 6, 2601/3767 69.0%, 0.278 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.4, rec loss: 3.958, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.478
+  dis loss: 0.301, adv loss: 2.882, latent dist: 307.140, factors dist: 24.903
+
+epoch: 6, 2801/3767 74.4%, 0.279 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.5, rec loss: 3.960, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.478
+  dis loss: 0.299, adv loss: 2.889, latent dist: 305.473, factors dist: 24.903
+
+epoch: 6, 3001/3767 79.7%, 0.278 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.5, rec loss: 3.962, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.478
+  dis loss: 0.297, adv loss: 2.897, latent dist: 303.801, factors dist: 24.911
+
+epoch: 6, 3201/3767 85.0%, 0.283 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.6, rec loss: 3.963, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.478
+  dis loss: 0.296, adv loss: 2.905, latent dist: 303.156, factors dist: 24.922
+
+epoch: 6, 3401/3767 90.3%, 0.284 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.7, rec loss: 3.965, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.478
+  dis loss: 0.295, adv loss: 2.910, latent dist: 301.786, factors dist: 24.935
+
+epoch: 6, 3601/3767 95.6%, 0.276 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.8, rec loss: 3.967, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.478
+  dis loss: 0.293, adv loss: 2.922, latent dist: 300.884, factors dist: 24.942
+
+epoch: 7, 1/3767 0.0%, 0.003 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:52.9, rec loss: 3.968, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.478
+  dis loss: 0.292, adv loss: 2.928, latent dist: 299.614, factors dist: 24.949
+
+epoch: 7, 201/3767 5.3%, 0.287 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.0, rec loss: 3.970, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.477
+  dis loss: 0.290, adv loss: 2.935, latent dist: 298.170, factors dist: 24.957
+
+epoch: 7, 401/3767 10.6%, 0.282 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.1, rec loss: 3.972, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.477
+  dis loss: 0.288, adv loss: 2.947, latent dist: 296.738, factors dist: 24.968
+
+epoch: 7, 601/3767 16.0%, 0.280 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.2, rec loss: 3.974, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.476
+  dis loss: 0.286, adv loss: 2.962, latent dist: 295.492, factors dist: 24.975
+
+epoch: 7, 801/3767 21.3%, 0.275 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.3, rec loss: 3.976, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.476
+  dis loss: 0.285, adv loss: 2.970, latent dist: 293.974, factors dist: 24.983
+
+epoch: 7, 1001/3767 26.6%, 0.282 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.4, rec loss: 3.978, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.475
+  dis loss: 0.283, adv loss: 2.980, latent dist: 293.260, factors dist: 24.987
+
+epoch: 7, 1201/3767 31.9%, 0.222 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.5, rec loss: 3.979, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.474
+  dis loss: 0.282, adv loss: 2.990, latent dist: 292.199, factors dist: 24.996
+
+epoch: 7, 1401/3767 37.2%, 0.284 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.6, rec loss: 3.981, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.473
+  dis loss: 0.280, adv loss: 2.999, latent dist: 290.882, factors dist: 25.006
+
+epoch: 7, 1601/3767 42.5%, 0.287 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.7, rec loss: 3.983, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.474
+  dis loss: 0.279, adv loss: 3.007, latent dist: 289.607, factors dist: 25.010
+
+epoch: 7, 1801/3767 47.8%, 0.284 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.8, rec loss: 3.984, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.473
+  dis loss: 0.277, adv loss: 3.018, latent dist: 288.405, factors dist: 25.020
+
+epoch: 7, 2001/3767 53.1%, 0.285 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.9, rec loss: 3.986, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.473
+  dis loss: 0.276, adv loss: 3.026, latent dist: 287.391, factors dist: 25.036
+
+epoch: 7, 2201/3767 58.4%, 0.276 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.9, rec loss: 3.988, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.472
+  dis loss: 0.274, adv loss: 3.038, latent dist: 286.396, factors dist: 25.045
+
+epoch: 7, 2401/3767 63.7%, 0.282 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.0, rec loss: 3.989, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.471
+  dis loss: 0.273, adv loss: 3.048, latent dist: 285.348, factors dist: 25.048
+
+epoch: 7, 2601/3767 69.0%, 0.284 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.1, rec loss: 3.991, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.471
+  dis loss: 0.271, adv loss: 3.055, latent dist: 284.490, factors dist: 25.055
+
+epoch: 7, 2801/3767 74.4%, 0.284 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.2, rec loss: 3.993, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.471
+  dis loss: 0.270, adv loss: 3.063, latent dist: 283.344, factors dist: 25.056
+
+epoch: 7, 3001/3767 79.7%, 0.288 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.3, rec loss: 3.994, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.471
+  dis loss: 0.269, adv loss: 3.069, latent dist: 282.279, factors dist: 25.066
+
+epoch: 7, 3201/3767 85.0%, 0.294 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.3, rec loss: 3.995, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.470
+  dis loss: 0.268, adv loss: 3.074, latent dist: 281.110, factors dist: 25.073
+
+epoch: 7, 3401/3767 90.3%, 0.294 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.4, rec loss: 3.997, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.470
+  dis loss: 0.267, adv loss: 3.083, latent dist: 279.983, factors dist: 25.084
+
+epoch: 7, 3601/3767 95.6%, 0.290 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.5, rec loss: 3.998, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.470
+  dis loss: 0.265, adv loss: 3.093, latent dist: 278.957, factors dist: 25.084
+
+epoch: 8, 1/3767 0.0%, 0.003 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.5, rec loss: 3.999, entropy loss: -0.511, cl loss w: 1.781, cl loss xw: 0.470
+  dis loss: 0.264, adv loss: 3.103, latent dist: 278.055, factors dist: 25.086
+
+epoch: 8, 201/3767 5.3%, 0.283 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.6, rec loss: 4.000, entropy loss: -0.511, cl loss w: 1.781, cl loss xw: 0.469
+  dis loss: 0.262, adv loss: 3.112, latent dist: 277.439, factors dist: 25.097
+
+epoch: 8, 401/3767 10.6%, 0.286 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.7, rec loss: 4.001, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.468
+  dis loss: 0.261, adv loss: 3.125, latent dist: 276.493, factors dist: 25.100
+
+epoch: 8, 601/3767 16.0%, 0.275 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.7, rec loss: 4.002, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.468
+  dis loss: 0.259, adv loss: 3.135, latent dist: 275.589, factors dist: 25.114
+
+epoch: 8, 801/3767 21.3%, 0.276 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.8, rec loss: 4.003, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.467
+  dis loss: 0.258, adv loss: 3.148, latent dist: 275.008, factors dist: 25.124
+
+epoch: 8, 1001/3767 26.6%, 0.261 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.8, rec loss: 4.004, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.466
+  dis loss: 0.256, adv loss: 3.157, latent dist: 274.493, factors dist: 25.133
+
+epoch: 8, 1201/3767 31.9%, 0.285 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.9, rec loss: 4.006, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.466
+  dis loss: 0.255, adv loss: 3.164, latent dist: 273.475, factors dist: 25.142
+
+epoch: 8, 1401/3767 37.2%, 0.279 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.0, rec loss: 4.007, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.465
+  dis loss: 0.254, adv loss: 3.170, latent dist: 272.786, factors dist: 25.144
+
+epoch: 8, 1601/3767 42.5%, 0.285 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.0, rec loss: 4.008, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.465
+  dis loss: 0.253, adv loss: 3.177, latent dist: 271.869, factors dist: 25.147
+
+epoch: 8, 1801/3767 47.8%, 0.238 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.1, rec loss: 4.009, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.464
+  dis loss: 0.252, adv loss: 3.185, latent dist: 271.107, factors dist: 25.159
+
+epoch: 8, 2001/3767 53.1%, 0.282 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.1, rec loss: 4.010, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.464
+  dis loss: 0.251, adv loss: 3.191, latent dist: 270.153, factors dist: 25.173
+
+epoch: 8, 2201/3767 58.4%, 0.283 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.2, rec loss: 4.011, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.463
+  dis loss: 0.249, adv loss: 3.198, latent dist: 269.421, factors dist: 25.191
+
+epoch: 8, 2401/3767 63.7%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.2, rec loss: 4.012, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.462
+  dis loss: 0.248, adv loss: 3.207, latent dist: 268.304, factors dist: 25.201
+
+epoch: 8, 2601/3767 69.0%, 0.288 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.3, rec loss: 4.012, entropy loss: -0.512, cl loss w: 1.781, cl loss xw: 0.462
+  dis loss: 0.247, adv loss: 3.217, latent dist: 268.140, factors dist: 25.214
+
+epoch: 8, 2801/3767 74.4%, 0.273 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.3, rec loss: 4.013, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.461
+  dis loss: 0.246, adv loss: 3.223, latent dist: 267.253, factors dist: 25.222
+
+epoch: 8, 3001/3767 79.7%, 0.284 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.4, rec loss: 4.014, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.460
+  dis loss: 0.245, adv loss: 3.231, latent dist: 266.557, factors dist: 25.230
+
+epoch: 8, 3201/3767 85.0%, 0.284 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.4, rec loss: 4.015, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.460
+  dis loss: 0.244, adv loss: 3.236, latent dist: 265.898, factors dist: 25.234
+
+epoch: 8, 3401/3767 90.3%, 0.283 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.5, rec loss: 4.016, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.460
+  dis loss: 0.243, adv loss: 3.243, latent dist: 265.223, factors dist: 25.243
+
+epoch: 8, 3601/3767 95.6%, 0.280 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.5, rec loss: 4.017, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.459
+  dis loss: 0.241, adv loss: 3.251, latent dist: 264.560, factors dist: 25.259
+
+epoch: 9, 1/3767 0.0%, 0.003 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.6, rec loss: 4.018, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.458
+  dis loss: 0.240, adv loss: 3.257, latent dist: 263.937, factors dist: 25.265
+
+epoch: 9, 201/3767 5.3%, 0.284 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.6, rec loss: 4.018, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.457
+  dis loss: 0.240, adv loss: 3.262, latent dist: 263.291, factors dist: 25.276
+
+epoch: 9, 401/3767 10.6%, 0.281 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.6, rec loss: 4.019, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.456
+  dis loss: 0.239, adv loss: 3.267, latent dist: 262.758, factors dist: 25.274
+
+epoch: 9, 601/3767 16.0%, 0.294 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.019, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.456
+  dis loss: 0.238, adv loss: 3.271, latent dist: 262.045, factors dist: 25.279
+
+epoch: 9, 801/3767 21.3%, 0.289 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.020, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.455
+  dis loss: 0.237, adv loss: 3.275, latent dist: 261.674, factors dist: 25.299
+
+epoch: 9, 1001/3767 26.6%, 0.286 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.020, entropy loss: -0.514, cl loss w: 1.781, cl loss xw: 0.454
+  dis loss: 0.236, adv loss: 3.282, latent dist: 260.949, factors dist: 25.310
+
+epoch: 9, 1201/3767 31.9%, 0.280 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.021, entropy loss: -0.514, cl loss w: 1.782, cl loss xw: 0.453
+  dis loss: 0.235, adv loss: 3.286, latent dist: 260.202, factors dist: 25.324
+
+epoch: 9, 1401/3767 37.2%, 0.283 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.8, rec loss: 4.022, entropy loss: -0.514, cl loss w: 1.782, cl loss xw: 0.453
+  dis loss: 0.234, adv loss: 3.292, latent dist: 259.685, factors dist: 25.340
+
+epoch: 9, 1601/3767 42.5%, 0.288 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.8, rec loss: 4.022, entropy loss: -0.514, cl loss w: 1.782, cl loss xw: 0.452
+  dis loss: 0.233, adv loss: 3.296, latent dist: 258.857, factors dist: 25.347
+
+epoch: 9, 1801/3767 47.8%, 0.283 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.023, entropy loss: -0.514, cl loss w: 1.782, cl loss xw: 0.451
+  dis loss: 0.232, adv loss: 3.301, latent dist: 257.989, factors dist: 25.353
+
+epoch: 9, 2001/3767 53.1%, 0.280 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.023, entropy loss: -0.514, cl loss w: 1.782, cl loss xw: 0.451
+  dis loss: 0.232, adv loss: 3.305, latent dist: 257.130, factors dist: 25.357
+
+epoch: 9, 2201/3767 58.4%, 0.284 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.024, entropy loss: -0.514, cl loss w: 1.782, cl loss xw: 0.450
+  dis loss: 0.231, adv loss: 3.311, latent dist: 256.396, factors dist: 25.374
+
+epoch: 9, 2401/3767 63.7%, 0.284 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.025, entropy loss: -0.514, cl loss w: 1.782, cl loss xw: 0.450
+  dis loss: 0.230, adv loss: 3.318, latent dist: 255.790, factors dist: 25.391
+
+epoch: 9, 2601/3767 69.0%, 0.282 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.025, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.449
+  dis loss: 0.229, adv loss: 3.323, latent dist: 255.078, factors dist: 25.401
+
+epoch: 9, 2801/3767 74.4%, 0.233 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.026, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.449
+  dis loss: 0.228, adv loss: 3.327, latent dist: 254.641, factors dist: 25.407
+
+epoch: 9, 3001/3767 79.7%, 0.143 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.026, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.448
+  dis loss: 0.227, adv loss: 3.332, latent dist: 253.838, factors dist: 25.419
+
+epoch: 9, 3201/3767 85.0%, 0.132 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.027, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.447
+  dis loss: 0.226, adv loss: 3.334, latent dist: 253.116, factors dist: 25.431
+
+epoch: 9, 3401/3767 90.3%, 0.133 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.027, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.447
+  dis loss: 0.225, adv loss: 3.339, latent dist: 252.459, factors dist: 25.442
+
+epoch: 9, 3601/3767 95.6%, 0.135 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.028, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.446
+  dis loss: 0.225, adv loss: 3.342, latent dist: 251.937, factors dist: 25.449
+
+epoch: 10, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.029, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.446
+  dis loss: 0.224, adv loss: 3.344, latent dist: 251.678, factors dist: 25.462
+
+epoch: 10, 201/3767 5.3%, 0.162 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.029, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.445
+  dis loss: 0.224, adv loss: 3.348, latent dist: 250.983, factors dist: 25.470
+
+epoch: 10, 401/3767 10.6%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.029, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.444
+  dis loss: 0.223, adv loss: 3.352, latent dist: 250.340, factors dist: 25.481
+
+epoch: 10, 601/3767 16.0%, 0.151 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.029, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.443
+  dis loss: 0.222, adv loss: 3.355, latent dist: 249.630, factors dist: 25.493
+
+epoch: 10, 801/3767 21.3%, 0.147 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.030, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.442
+  dis loss: 0.221, adv loss: 3.358, latent dist: 248.877, factors dist: 25.501
+
+epoch: 10, 1001/3767 26.6%, 0.157 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.030, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.441
+  dis loss: 0.221, adv loss: 3.362, latent dist: 248.102, factors dist: 25.514
+
+epoch: 10, 1201/3767 31.9%, 0.183 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.030, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.441
+  dis loss: 0.220, adv loss: 3.365, latent dist: 247.666, factors dist: 25.520
+
+epoch: 10, 1401/3767 37.2%, 0.190 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.440
+  dis loss: 0.219, adv loss: 3.369, latent dist: 247.042, factors dist: 25.531
+
+epoch: 10, 1601/3767 42.5%, 0.188 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.517, cl loss w: 1.782, cl loss xw: 0.439
+  dis loss: 0.219, adv loss: 3.372, latent dist: 246.729, factors dist: 25.543
+
+epoch: 10, 1801/3767 47.8%, 0.196 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.517, cl loss w: 1.782, cl loss xw: 0.438
+  dis loss: 0.218, adv loss: 3.375, latent dist: 246.168, factors dist: 25.555
+
+epoch: 10, 2001/3767 53.1%, 0.219 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.517, cl loss w: 1.782, cl loss xw: 0.437
+  dis loss: 0.217, adv loss: 3.379, latent dist: 245.507, factors dist: 25.561
+
+epoch: 10, 2201/3767 58.4%, 0.196 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.517, cl loss w: 1.782, cl loss xw: 0.436
+  dis loss: 0.217, adv loss: 3.381, latent dist: 244.951, factors dist: 25.569
+
+epoch: 10, 2401/3767 63.7%, 0.194 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.517, cl loss w: 1.782, cl loss xw: 0.436
+  dis loss: 0.216, adv loss: 3.382, latent dist: 244.406, factors dist: 25.575
+
+epoch: 10, 2601/3767 69.0%, 0.196 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.517, cl loss w: 1.782, cl loss xw: 0.435
+  dis loss: 0.216, adv loss: 3.386, latent dist: 243.870, factors dist: 25.582
+
+epoch: 10, 2801/3767 74.4%, 0.185 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.517, cl loss w: 1.782, cl loss xw: 0.434
+  dis loss: 0.215, adv loss: 3.389, latent dist: 243.297, factors dist: 25.594
+
+epoch: 10, 3001/3767 79.7%, 0.192 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.033, entropy loss: -0.518, cl loss w: 1.782, cl loss xw: 0.433
+  dis loss: 0.214, adv loss: 3.391, latent dist: 242.814, factors dist: 25.602
+
+epoch: 10, 3201/3767 85.0%, 0.197 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.518, cl loss w: 1.782, cl loss xw: 0.433
+  dis loss: 0.214, adv loss: 3.394, latent dist: 242.121, factors dist: 25.616
+
+epoch: 10, 3401/3767 90.3%, 0.187 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.518, cl loss w: 1.782, cl loss xw: 0.432
+  dis loss: 0.213, adv loss: 3.396, latent dist: 241.741, factors dist: 25.621
+
+epoch: 10, 3601/3767 95.6%, 0.190 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.518, cl loss w: 1.782, cl loss xw: 0.431
+  dis loss: 0.213, adv loss: 3.397, latent dist: 241.286, factors dist: 25.631
+
+epoch: 11, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.518, cl loss w: 1.782, cl loss xw: 0.430
+  dis loss: 0.212, adv loss: 3.399, latent dist: 240.760, factors dist: 25.635
+
+epoch: 11, 201/3767 5.3%, 0.201 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.518, cl loss w: 1.782, cl loss xw: 0.429
+  dis loss: 0.211, adv loss: 3.401, latent dist: 240.185, factors dist: 25.648
+
+epoch: 11, 401/3767 10.6%, 0.189 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.035, entropy loss: -0.519, cl loss w: 1.782, cl loss xw: 0.428
+  dis loss: 0.211, adv loss: 3.403, latent dist: 239.449, factors dist: 25.663
+
+epoch: 11, 601/3767 16.0%, 0.193 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.035, entropy loss: -0.519, cl loss w: 1.782, cl loss xw: 0.427
+  dis loss: 0.210, adv loss: 3.403, latent dist: 238.883, factors dist: 25.667
+
+epoch: 11, 801/3767 21.3%, 0.201 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.519, cl loss w: 1.783, cl loss xw: 0.426
+  dis loss: 0.210, adv loss: 3.404, latent dist: 238.263, factors dist: 25.681
+
+epoch: 11, 1001/3767 26.6%, 0.195 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.519, cl loss w: 1.783, cl loss xw: 0.426
+  dis loss: 0.209, adv loss: 3.405, latent dist: 237.743, factors dist: 25.697
+
+epoch: 11, 1201/3767 31.9%, 0.194 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.519, cl loss w: 1.783, cl loss xw: 0.425
+  dis loss: 0.209, adv loss: 3.407, latent dist: 237.231, factors dist: 25.703
+
+epoch: 11, 1401/3767 37.2%, 0.189 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.519, cl loss w: 1.783, cl loss xw: 0.424
+  dis loss: 0.209, adv loss: 3.406, latent dist: 236.862, factors dist: 25.711
+
+epoch: 11, 1601/3767 42.5%, 0.190 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.520, cl loss w: 1.783, cl loss xw: 0.423
+  dis loss: 0.209, adv loss: 3.406, latent dist: 236.435, factors dist: 25.726
+
+epoch: 11, 1801/3767 47.8%, 0.198 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.037, entropy loss: -0.520, cl loss w: 1.783, cl loss xw: 0.423
+  dis loss: 0.208, adv loss: 3.407, latent dist: 236.054, factors dist: 25.740
+
+epoch: 11, 2001/3767 53.1%, 0.193 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.037, entropy loss: -0.520, cl loss w: 1.783, cl loss xw: 0.422
+  dis loss: 0.208, adv loss: 3.408, latent dist: 235.527, factors dist: 25.752
+
+epoch: 11, 2201/3767 58.4%, 0.197 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.037, entropy loss: -0.520, cl loss w: 1.783, cl loss xw: 0.421
+  dis loss: 0.207, adv loss: 3.408, latent dist: 235.198, factors dist: 25.758
+
+epoch: 11, 2401/3767 63.7%, 0.197 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.037, entropy loss: -0.520, cl loss w: 1.783, cl loss xw: 0.421
+  dis loss: 0.207, adv loss: 3.409, latent dist: 234.570, factors dist: 25.771
+
+epoch: 11, 2601/3767 69.0%, 0.214 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.520, cl loss w: 1.783, cl loss xw: 0.420
+  dis loss: 0.207, adv loss: 3.408, latent dist: 234.131, factors dist: 25.780
+
+epoch: 11, 2801/3767 74.4%, 0.195 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.521, cl loss w: 1.783, cl loss xw: 0.419
+  dis loss: 0.206, adv loss: 3.408, latent dist: 233.679, factors dist: 25.786
+
+epoch: 11, 3001/3767 79.7%, 0.188 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.521, cl loss w: 1.783, cl loss xw: 0.418
+  dis loss: 0.206, adv loss: 3.408, latent dist: 233.142, factors dist: 25.797
+
+epoch: 11, 3201/3767 85.0%, 0.190 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.521, cl loss w: 1.783, cl loss xw: 0.418
+  dis loss: 0.206, adv loss: 3.407, latent dist: 232.723, factors dist: 25.804
+
+epoch: 11, 3401/3767 90.3%, 0.189 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.521, cl loss w: 1.783, cl loss xw: 0.417
+  dis loss: 0.206, adv loss: 3.406, latent dist: 232.308, factors dist: 25.817
+
+epoch: 11, 3601/3767 95.6%, 0.193 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.521, cl loss w: 1.783, cl loss xw: 0.416
+  dis loss: 0.205, adv loss: 3.405, latent dist: 231.879, factors dist: 25.833
+
+epoch: 12, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.521, cl loss w: 1.783, cl loss xw: 0.416
+  dis loss: 0.205, adv loss: 3.405, latent dist: 231.497, factors dist: 25.846
+
+epoch: 12, 201/3767 5.3%, 0.192 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.522, cl loss w: 1.783, cl loss xw: 0.415
+  dis loss: 0.205, adv loss: 3.404, latent dist: 231.108, factors dist: 25.859
+
+epoch: 12, 401/3767 10.6%, 0.186 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.039, entropy loss: -0.522, cl loss w: 1.783, cl loss xw: 0.414
+  dis loss: 0.205, adv loss: 3.403, latent dist: 230.745, factors dist: 25.874
+
+epoch: 12, 601/3767 16.0%, 0.196 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.039, entropy loss: -0.522, cl loss w: 1.783, cl loss xw: 0.413
+  dis loss: 0.204, adv loss: 3.403, latent dist: 230.421, factors dist: 25.892
+
+epoch: 12, 801/3767 21.3%, 0.197 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.522, cl loss w: 1.783, cl loss xw: 0.413
+  dis loss: 0.204, adv loss: 3.403, latent dist: 230.106, factors dist: 25.909
+
+epoch: 12, 1001/3767 26.6%, 0.199 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.522, cl loss w: 1.783, cl loss xw: 0.412
+  dis loss: 0.204, adv loss: 3.402, latent dist: 229.731, factors dist: 25.924
+
+epoch: 12, 1201/3767 31.9%, 0.195 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.522, cl loss w: 1.783, cl loss xw: 0.411
+  dis loss: 0.204, adv loss: 3.401, latent dist: 229.285, factors dist: 25.934
+
+epoch: 12, 1401/3767 37.2%, 0.185 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.523, cl loss w: 1.783, cl loss xw: 0.410
+  dis loss: 0.204, adv loss: 3.399, latent dist: 229.007, factors dist: 25.951
+
+epoch: 12, 1601/3767 42.5%, 0.209 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.523, cl loss w: 1.783, cl loss xw: 0.410
+  dis loss: 0.204, adv loss: 3.397, latent dist: 228.852, factors dist: 25.957
+
+epoch: 12, 1801/3767 47.8%, 0.190 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.523, cl loss w: 1.783, cl loss xw: 0.410
+  dis loss: 0.203, adv loss: 3.397, latent dist: 228.462, factors dist: 25.968
+
+epoch: 12, 2001/3767 53.1%, 0.192 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.523, cl loss w: 1.783, cl loss xw: 0.409
+  dis loss: 0.204, adv loss: 3.395, latent dist: 228.025, factors dist: 25.982
+
+epoch: 12, 2201/3767 58.4%, 0.189 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.523, cl loss w: 1.783, cl loss xw: 0.408
+  dis loss: 0.203, adv loss: 3.394, latent dist: 227.720, factors dist: 25.993
+
+epoch: 12, 2401/3767 63.7%, 0.196 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.523, cl loss w: 1.783, cl loss xw: 0.407
+  dis loss: 0.203, adv loss: 3.394, latent dist: 227.479, factors dist: 26.014
+
+epoch: 12, 2601/3767 69.0%, 0.194 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.523, cl loss w: 1.783, cl loss xw: 0.407
+  dis loss: 0.203, adv loss: 3.393, latent dist: 227.400, factors dist: 26.029
+
+epoch: 12, 2801/3767 74.4%, 0.183 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.407
+  dis loss: 0.203, adv loss: 3.392, latent dist: 226.946, factors dist: 26.052
+
+epoch: 12, 3001/3767 79.7%, 0.184 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.406
+  dis loss: 0.202, adv loss: 3.391, latent dist: 226.656, factors dist: 26.068
+
+epoch: 12, 3201/3767 85.0%, 0.194 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.405
+  dis loss: 0.202, adv loss: 3.390, latent dist: 226.280, factors dist: 26.091
+
+epoch: 12, 3401/3767 90.3%, 0.185 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.404
+  dis loss: 0.202, adv loss: 3.390, latent dist: 226.052, factors dist: 26.098
+
+epoch: 12, 3601/3767 95.6%, 0.188 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.404
+  dis loss: 0.202, adv loss: 3.388, latent dist: 225.699, factors dist: 26.113
+
+epoch: 13, 1/680 0.1%, 0.009 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.040, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.403
+  dis loss: 0.202, adv loss: 3.387, latent dist: 225.298, factors dist: 26.122
+
+epoch: 13, 201/680 29.6%, 0.169 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.041, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.403
+  dis loss: 0.202, adv loss: 3.386, latent dist: 225.152, factors dist: 26.132
+
+epoch: 13, 401/680 59.0%, 0.168 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.041, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.402
+  dis loss: 0.202, adv loss: 3.384, latent dist: 225.159, factors dist: 26.154
+
+epoch: 13, 601/680 88.4%, 0.175 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.9, rec loss: 4.040, entropy loss: -0.524, cl loss w: 1.783, cl loss xw: 0.401
+  dis loss: 0.201, adv loss: 3.382, latent dist: 224.861, factors dist: 26.166
+
+epoch: 14, 1/680 0.1%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.040, entropy loss: -0.524, cl loss w: 1.782, cl loss xw: 0.401
+  dis loss: 0.201, adv loss: 3.382, latent dist: 224.767, factors dist: 26.174
+
+epoch: 14, 201/680 29.6%, 0.173 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.8, rec loss: 4.039, entropy loss: -0.524, cl loss w: 1.782, cl loss xw: 0.400
+  dis loss: 0.201, adv loss: 3.379, latent dist: 224.698, factors dist: 26.183
+
+epoch: 14, 401/680 59.0%, 0.170 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.038, entropy loss: -0.524, cl loss w: 1.782, cl loss xw: 0.399
+  dis loss: 0.201, adv loss: 3.378, latent dist: 224.369, factors dist: 26.200
+
+epoch: 14, 601/680 88.4%, 0.174 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.037, entropy loss: -0.524, cl loss w: 1.782, cl loss xw: 0.398
+  dis loss: 0.201, adv loss: 3.376, latent dist: 224.047, factors dist: 26.214
+
+epoch: 15, 1/680 0.1%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.524, cl loss w: 1.782, cl loss xw: 0.398
+  dis loss: 0.201, adv loss: 3.374, latent dist: 223.972, factors dist: 26.217
+
+epoch: 15, 201/680 29.6%, 0.175 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.524, cl loss w: 1.782, cl loss xw: 0.397
+  dis loss: 0.201, adv loss: 3.371, latent dist: 223.717, factors dist: 26.230
+
+epoch: 15, 401/680 59.0%, 0.178 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.524, cl loss w: 1.782, cl loss xw: 0.396
+  dis loss: 0.202, adv loss: 3.369, latent dist: 223.583, factors dist: 26.241
+
+epoch: 15, 601/680 88.4%, 0.170 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.030, entropy loss: -0.525, cl loss w: 1.781, cl loss xw: 0.395
+  dis loss: 0.202, adv loss: 3.366, latent dist: 223.559, factors dist: 26.247
+
+epoch: 1, 1/3767 0.0%, 0.002 s per iter, lr: 0.0000, tr: 1.00, tau: 0.999, noise: 1.000
+  ppl:1278677.0, rec loss: 14.061, entropy loss: -0.061, cl loss w: 1.843, cl loss xw: 0.001
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 201/3767 5.3%, 0.069 s per iter, lr: 0.0000, tr: 1.00, tau: 0.857, noise: 1.000
+  ppl:20263.4, rec loss: 9.917, entropy loss: -0.074, cl loss w: 1.805, cl loss xw: 0.304
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 401/3767 10.6%, 0.067 s per iter, lr: 0.0001, tr: 1.00, tau: 0.735, noise: 1.000
+  ppl:2361.7, rec loss: 7.767, entropy loss: -0.143, cl loss w: 1.770, cl loss xw: 0.235
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 601/3767 16.0%, 0.068 s per iter, lr: 0.0001, tr: 1.00, tau: 0.630, noise: 1.000
+  ppl:882.4, rec loss: 6.783, entropy loss: -0.229, cl loss w: 1.756, cl loss xw: 0.207
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 801/3767 21.3%, 0.068 s per iter, lr: 0.0001, tr: 1.00, tau: 0.541, noise: 1.000
+  ppl:490.2, rec loss: 6.195, entropy loss: -0.293, cl loss w: 1.751, cl loss xw: 0.193
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1001/3767 26.6%, 0.067 s per iter, lr: 0.0001, tr: 1.00, tau: 0.464, noise: 1.000
+  ppl:323.4, rec loss: 5.779, entropy loss: -0.334, cl loss w: 1.747, cl loss xw: 0.184
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1201/3767 31.9%, 0.068 s per iter, lr: 0.0002, tr: 1.00, tau: 0.398, noise: 1.000
+  ppl:234.8, rec loss: 5.459, entropy loss: -0.364, cl loss w: 1.746, cl loss xw: 0.176
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1401/3767 37.2%, 0.067 s per iter, lr: 0.0002, tr: 1.00, tau: 0.341, noise: 1.000
+  ppl:180.8, rec loss: 5.198, entropy loss: -0.388, cl loss w: 1.745, cl loss xw: 0.169
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1601/3767 42.5%, 0.114 s per iter, lr: 0.0002, tr: 1.00, tau: 0.293, noise: 0.296
+  ppl:145.0, rec loss: 4.977, entropy loss: -0.406, cl loss w: 1.745, cl loss xw: 0.163
+  dis loss: 0.563, adv loss: 0.892, latent dist: 21.964, factors dist: 22.806
+
+epoch: 1, 1801/3767 47.8%, 0.161 s per iter, lr: 0.0002, tr: 1.00, tau: 0.251, noise: 0.289
+  ppl:119.5, rec loss: 4.783, entropy loss: -0.421, cl loss w: 1.745, cl loss xw: 0.158
+  dis loss: 0.288, adv loss: 1.848, latent dist: 21.966, factors dist: 22.792
+
+epoch: 1, 2001/3767 53.1%, 0.162 s per iter, lr: 0.0003, tr: 1.00, tau: 0.215, noise: 0.282
+  ppl:100.5, rec loss: 4.611, entropy loss: -0.434, cl loss w: 1.746, cl loss xw: 0.152
+  dis loss: 0.186, adv loss: 2.742, latent dist: 23.526, factors dist: 22.786
+
+epoch: 1, 2201/3767 58.4%, 0.162 s per iter, lr: 0.0003, tr: 1.00, tau: 0.185, noise: 0.275
+  ppl:86.3, rec loss: 4.458, entropy loss: -0.445, cl loss w: 1.747, cl loss xw: 0.148
+  dis loss: 0.144, adv loss: 3.242, latent dist: 24.931, factors dist: 22.792
+
+epoch: 1, 2401/3767 63.7%, 0.161 s per iter, lr: 0.0003, tr: 1.00, tau: 0.158, noise: 0.268
+  ppl:75.3, rec loss: 4.321, entropy loss: -0.454, cl loss w: 1.747, cl loss xw: 0.146
+  dis loss: 0.123, adv loss: 3.461, latent dist: 25.506, factors dist: 22.799
+
+epoch: 1, 2601/3767 69.0%, 0.160 s per iter, lr: 0.0003, tr: 1.00, tau: 0.136, noise: 0.261
+  ppl:67.2, rec loss: 4.207, entropy loss: -0.461, cl loss w: 1.748, cl loss xw: 0.145
+  dis loss: 0.106, adv loss: 3.734, latent dist: 26.984, factors dist: 22.816
+
+epoch: 1, 2801/3767 74.4%, 0.169 s per iter, lr: 0.0004, tr: 1.00, tau: 0.117, noise: 0.254
+  ppl:60.9, rec loss: 4.110, entropy loss: -0.467, cl loss w: 1.748, cl loss xw: 0.147
+  dis loss: 0.093, adv loss: 3.982, latent dist: 29.215, factors dist: 22.835
+
+epoch: 1, 3001/3767 79.7%, 0.173 s per iter, lr: 0.0004, tr: 1.00, tau: 0.100, noise: 0.247
+  ppl:55.9, rec loss: 4.024, entropy loss: -0.472, cl loss w: 1.749, cl loss xw: 0.149
+  dis loss: 0.087, adv loss: 4.036, latent dist: 31.317, factors dist: 22.871
+
+epoch: 1, 3201/3767 85.0%, 0.160 s per iter, lr: 0.0004, tr: 1.00, tau: 0.086, noise: 0.240
+  ppl:52.3, rec loss: 3.958, entropy loss: -0.475, cl loss w: 1.749, cl loss xw: 0.154
+  dis loss: 0.084, adv loss: 4.021, latent dist: 33.490, factors dist: 22.890
+
+epoch: 1, 3401/3767 90.3%, 0.162 s per iter, lr: 0.0005, tr: 1.00, tau: 0.074, noise: 0.233
+  ppl:49.5, rec loss: 3.901, entropy loss: -0.478, cl loss w: 1.750, cl loss xw: 0.159
+  dis loss: 0.083, adv loss: 3.980, latent dist: 34.534, factors dist: 22.945
+
+epoch: 1, 3601/3767 95.6%, 0.163 s per iter, lr: 0.0005, tr: 1.00, tau: 0.063, noise: 0.226
+  ppl:47.0, rec loss: 3.851, entropy loss: -0.481, cl loss w: 1.750, cl loss xw: 0.163
+  dis loss: 0.083, adv loss: 3.925, latent dist: 35.675, factors dist: 22.963
+
+epoch: 2, 1/3767 0.0%, 0.002 s per iter, lr: 0.0005, tr: 1.00, tau: 0.055, noise: 0.220
+  ppl:45.4, rec loss: 3.814, entropy loss: -0.484, cl loss w: 1.750, cl loss xw: 0.165
+  dis loss: 0.086, adv loss: 3.857, latent dist: 37.053, factors dist: 22.976
+
+epoch: 2, 201/3767 5.3%, 0.161 s per iter, lr: 0.0005, tr: 1.00, tau: 0.048, noise: 0.213
+  ppl:43.2, rec loss: 3.765, entropy loss: -0.487, cl loss w: 1.751, cl loss xw: 0.166
+  dis loss: 0.095, adv loss: 3.751, latent dist: 40.601, factors dist: 22.987
+
+epoch: 2, 401/3767 10.6%, 0.161 s per iter, lr: 0.0006, tr: 1.00, tau: 0.041, noise: 0.206
+  ppl:41.4, rec loss: 3.723, entropy loss: -0.490, cl loss w: 1.752, cl loss xw: 0.167
+  dis loss: 0.103, adv loss: 3.666, latent dist: 46.791, factors dist: 23.013
+
+epoch: 2, 601/3767 16.0%, 0.162 s per iter, lr: 0.0006, tr: 1.00, tau: 0.035, noise: 0.199
+  ppl:40.0, rec loss: 3.688, entropy loss: -0.492, cl loss w: 1.753, cl loss xw: 0.169
+  dis loss: 0.112, adv loss: 3.580, latent dist: 54.099, factors dist: 23.042
+
+epoch: 2, 801/3767 21.3%, 0.164 s per iter, lr: 0.0006, tr: 1.00, tau: 0.030, noise: 0.192
+  ppl:38.8, rec loss: 3.658, entropy loss: -0.494, cl loss w: 1.754, cl loss xw: 0.169
+  dis loss: 0.122, adv loss: 3.505, latent dist: 67.246, factors dist: 23.073
+
+epoch: 2, 1001/3767 26.6%, 0.165 s per iter, lr: 0.0006, tr: 1.00, tau: 0.026, noise: 0.185
+  ppl:37.9, rec loss: 3.634, entropy loss: -0.497, cl loss w: 1.755, cl loss xw: 0.171
+  dis loss: 0.129, adv loss: 3.449, latent dist: 89.000, factors dist: 23.106
+
+epoch: 2, 1201/3767 31.9%, 0.160 s per iter, lr: 0.0007, tr: 1.00, tau: 0.022, noise: 0.178
+  ppl:37.4, rec loss: 3.622, entropy loss: -0.499, cl loss w: 1.756, cl loss xw: 0.178
+  dis loss: 0.139, adv loss: 3.386, latent dist: 121.813, factors dist: 23.141
+
+epoch: 2, 1401/3767 37.2%, 0.159 s per iter, lr: 0.0007, tr: 1.00, tau: 0.019, noise: 0.171
+  ppl:37.1, rec loss: 3.614, entropy loss: -0.500, cl loss w: 1.757, cl loss xw: 0.183
+  dis loss: 0.144, adv loss: 3.352, latent dist: 150.032, factors dist: 23.172
+
+epoch: 2, 1601/3767 42.5%, 0.159 s per iter, lr: 0.0007, tr: 1.00, tau: 0.016, noise: 0.163
+  ppl:37.2, rec loss: 3.615, entropy loss: -0.500, cl loss w: 1.758, cl loss xw: 0.191
+  dis loss: 0.148, adv loss: 3.332, latent dist: 197.516, factors dist: 23.198
+
+epoch: 2, 1801/3767 47.8%, 0.163 s per iter, lr: 0.0007, tr: 1.00, tau: 0.014, noise: 0.156
+  ppl:37.3, rec loss: 3.620, entropy loss: -0.501, cl loss w: 1.759, cl loss xw: 0.201
+  dis loss: 0.158, adv loss: 3.285, latent dist: 246.063, factors dist: 23.229
+
+epoch: 2, 2001/3767 53.1%, 0.161 s per iter, lr: 0.0008, tr: 1.00, tau: 0.012, noise: 0.149
+  ppl:37.7, rec loss: 3.629, entropy loss: -0.502, cl loss w: 1.760, cl loss xw: 0.211
+  dis loss: 0.174, adv loss: 3.215, latent dist: 271.869, factors dist: 23.270
+
+epoch: 2, 2201/3767 58.4%, 0.160 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.142
+  ppl:37.9, rec loss: 3.636, entropy loss: -0.503, cl loss w: 1.761, cl loss xw: 0.220
+  dis loss: 0.184, adv loss: 3.167, latent dist: 317.315, factors dist: 23.303
+
+epoch: 2, 2401/3767 63.7%, 0.162 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.135
+  ppl:38.2, rec loss: 3.644, entropy loss: -0.504, cl loss w: 1.762, cl loss xw: 0.232
+  dis loss: 0.197, adv loss: 3.109, latent dist: 344.252, factors dist: 23.345
+
+epoch: 2, 2601/3767 69.0%, 0.162 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.128
+  ppl:38.5, rec loss: 3.651, entropy loss: -0.505, cl loss w: 1.763, cl loss xw: 0.242
+  dis loss: 0.213, adv loss: 3.046, latent dist: 367.402, factors dist: 23.394
+
+epoch: 2, 2801/3767 74.4%, 0.163 s per iter, lr: 0.0008, tr: 1.00, tau: 0.010, noise: 0.121
+  ppl:38.9, rec loss: 3.662, entropy loss: -0.505, cl loss w: 1.763, cl loss xw: 0.254
+  dis loss: 0.232, adv loss: 2.966, latent dist: 376.033, factors dist: 23.426
+
+epoch: 2, 3001/3767 79.7%, 0.163 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.114
+  ppl:39.4, rec loss: 3.672, entropy loss: -0.505, cl loss w: 1.764, cl loss xw: 0.266
+  dis loss: 0.242, adv loss: 2.920, latent dist: 385.340, factors dist: 23.458
+
+epoch: 2, 3201/3767 85.0%, 0.163 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.107
+  ppl:39.8, rec loss: 3.685, entropy loss: -0.506, cl loss w: 1.765, cl loss xw: 0.278
+  dis loss: 0.254, adv loss: 2.873, latent dist: 397.799, factors dist: 23.493
+
+epoch: 2, 3401/3767 90.3%, 0.161 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.100
+  ppl:40.3, rec loss: 3.696, entropy loss: -0.506, cl loss w: 1.766, cl loss xw: 0.288
+  dis loss: 0.266, adv loss: 2.828, latent dist: 405.637, factors dist: 23.523
+
+epoch: 2, 3601/3767 95.6%, 0.162 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.093
+  ppl:40.7, rec loss: 3.707, entropy loss: -0.507, cl loss w: 1.766, cl loss xw: 0.298
+  dis loss: 0.280, adv loss: 2.771, latent dist: 411.373, factors dist: 23.565
+
+epoch: 3, 1/3767 0.0%, 0.002 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.087
+  ppl:41.2, rec loss: 3.718, entropy loss: -0.507, cl loss w: 1.767, cl loss xw: 0.308
+  dis loss: 0.289, adv loss: 2.734, latent dist: 421.898, factors dist: 23.601
+
+epoch: 3, 201/3767 5.3%, 0.161 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.080
+  ppl:41.6, rec loss: 3.728, entropy loss: -0.507, cl loss w: 1.768, cl loss xw: 0.315
+  dis loss: 0.299, adv loss: 2.691, latent dist: 435.026, factors dist: 23.646
+
+epoch: 3, 401/3767 10.6%, 0.160 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.073
+  ppl:42.0, rec loss: 3.737, entropy loss: -0.507, cl loss w: 1.768, cl loss xw: 0.321
+  dis loss: 0.307, adv loss: 2.657, latent dist: 435.058, factors dist: 23.684
+
+epoch: 3, 601/3767 16.0%, 0.160 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.066
+  ppl:42.4, rec loss: 3.747, entropy loss: -0.508, cl loss w: 1.769, cl loss xw: 0.328
+  dis loss: 0.311, adv loss: 2.638, latent dist: 441.158, factors dist: 23.713
+
+epoch: 3, 801/3767 21.3%, 0.173 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.059
+  ppl:42.7, rec loss: 3.755, entropy loss: -0.508, cl loss w: 1.769, cl loss xw: 0.336
+  dis loss: 0.316, adv loss: 2.619, latent dist: 441.479, factors dist: 23.731
+
+epoch: 3, 1001/3767 26.6%, 0.162 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.052
+  ppl:43.1, rec loss: 3.763, entropy loss: -0.508, cl loss w: 1.770, cl loss xw: 0.344
+  dis loss: 0.323, adv loss: 2.597, latent dist: 437.863, factors dist: 23.750
+
+epoch: 3, 1201/3767 31.9%, 0.164 s per iter, lr: 0.0007, tr: 1.00, tau: 0.010, noise: 0.045
+  ppl:43.4, rec loss: 3.770, entropy loss: -0.508, cl loss w: 1.770, cl loss xw: 0.351
+  dis loss: 0.330, adv loss: 2.577, latent dist: 434.744, factors dist: 23.777
+
+epoch: 3, 1401/3767 37.2%, 0.162 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.038
+  ppl:43.7, rec loss: 3.778, entropy loss: -0.508, cl loss w: 1.771, cl loss xw: 0.358
+  dis loss: 0.336, adv loss: 2.561, latent dist: 432.511, factors dist: 23.788
+
+epoch: 3, 1601/3767 42.5%, 0.164 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.031
+  ppl:44.0, rec loss: 3.785, entropy loss: -0.509, cl loss w: 1.771, cl loss xw: 0.364
+  dis loss: 0.335, adv loss: 2.572, latent dist: 429.422, factors dist: 23.797
+
+epoch: 3, 1801/3767 47.8%, 0.161 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.023
+  ppl:44.3, rec loss: 3.791, entropy loss: -0.509, cl loss w: 1.771, cl loss xw: 0.368
+  dis loss: 0.338, adv loss: 2.577, latent dist: 429.994, factors dist: 23.807
+
+epoch: 3, 2001/3767 53.1%, 0.163 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.016
+  ppl:44.6, rec loss: 3.797, entropy loss: -0.509, cl loss w: 1.772, cl loss xw: 0.375
+  dis loss: 0.340, adv loss: 2.581, latent dist: 429.752, factors dist: 23.820
+
+epoch: 3, 2201/3767 58.4%, 0.164 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.009
+  ppl:44.8, rec loss: 3.803, entropy loss: -0.509, cl loss w: 1.772, cl loss xw: 0.380
+  dis loss: 0.346, adv loss: 2.573, latent dist: 426.118, factors dist: 23.831
+
+epoch: 3, 2401/3767 63.7%, 0.162 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.002
+  ppl:45.1, rec loss: 3.808, entropy loss: -0.509, cl loss w: 1.772, cl loss xw: 0.385
+  dis loss: 0.346, adv loss: 2.582, latent dist: 424.494, factors dist: 23.844
+
+epoch: 3, 2601/3767 69.0%, 0.164 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.3, rec loss: 3.813, entropy loss: -0.509, cl loss w: 1.773, cl loss xw: 0.390
+  dis loss: 0.347, adv loss: 2.592, latent dist: 421.702, factors dist: 23.865
+
+epoch: 3, 2801/3767 74.4%, 0.162 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.5, rec loss: 3.818, entropy loss: -0.509, cl loss w: 1.773, cl loss xw: 0.395
+  dis loss: 0.349, adv loss: 2.593, latent dist: 416.644, factors dist: 23.869
+
+epoch: 3, 3001/3767 79.7%, 0.159 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.7, rec loss: 3.822, entropy loss: -0.510, cl loss w: 1.773, cl loss xw: 0.399
+  dis loss: 0.351, adv loss: 2.600, latent dist: 413.530, factors dist: 23.872
+
+epoch: 3, 3201/3767 85.0%, 0.163 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:45.9, rec loss: 3.826, entropy loss: -0.510, cl loss w: 1.774, cl loss xw: 0.404
+  dis loss: 0.352, adv loss: 2.609, latent dist: 409.722, factors dist: 23.873
+
+epoch: 3, 3401/3767 90.3%, 0.160 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.1, rec loss: 3.830, entropy loss: -0.510, cl loss w: 1.774, cl loss xw: 0.407
+  dis loss: 0.351, adv loss: 2.621, latent dist: 405.010, factors dist: 23.870
+
+epoch: 3, 3601/3767 95.6%, 0.161 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.2, rec loss: 3.834, entropy loss: -0.510, cl loss w: 1.774, cl loss xw: 0.410
+  dis loss: 0.350, adv loss: 2.637, latent dist: 400.264, factors dist: 23.869
+
+epoch: 4, 1/3767 0.0%, 0.002 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.4, rec loss: 3.836, entropy loss: -0.510, cl loss w: 1.775, cl loss xw: 0.412
+  dis loss: 0.350, adv loss: 2.647, latent dist: 396.425, factors dist: 23.865
+
+epoch: 4, 201/3767 5.3%, 0.161 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.5, rec loss: 3.839, entropy loss: -0.510, cl loss w: 1.775, cl loss xw: 0.412
+  dis loss: 0.350, adv loss: 2.660, latent dist: 392.286, factors dist: 23.866
+
+epoch: 4, 401/3767 10.6%, 0.163 s per iter, lr: 0.0006, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.6, rec loss: 3.841, entropy loss: -0.510, cl loss w: 1.775, cl loss xw: 0.412
+  dis loss: 0.349, adv loss: 2.678, latent dist: 388.874, factors dist: 23.864
+
+epoch: 4, 601/3767 16.0%, 0.162 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.7, rec loss: 3.843, entropy loss: -0.509, cl loss w: 1.775, cl loss xw: 0.413
+  dis loss: 0.347, adv loss: 2.696, latent dist: 385.104, factors dist: 23.861
+
+epoch: 4, 801/3767 21.3%, 0.194 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.8, rec loss: 3.846, entropy loss: -0.510, cl loss w: 1.776, cl loss xw: 0.414
+  dis loss: 0.347, adv loss: 2.716, latent dist: 381.839, factors dist: 23.858
+
+epoch: 4, 1001/3767 26.6%, 0.169 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:46.9, rec loss: 3.848, entropy loss: -0.510, cl loss w: 1.776, cl loss xw: 0.416
+  dis loss: 0.348, adv loss: 2.722, latent dist: 377.871, factors dist: 23.859
+
+epoch: 4, 1201/3767 31.9%, 0.153 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.0, rec loss: 3.850, entropy loss: -0.510, cl loss w: 1.776, cl loss xw: 0.417
+  dis loss: 0.346, adv loss: 2.748, latent dist: 374.933, factors dist: 23.854
+
+epoch: 4, 1401/3767 37.2%, 0.153 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.1, rec loss: 3.852, entropy loss: -0.510, cl loss w: 1.776, cl loss xw: 0.418
+  dis loss: 0.344, adv loss: 2.769, latent dist: 372.045, factors dist: 23.849
+
+epoch: 4, 1601/3767 42.5%, 0.161 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.2, rec loss: 3.853, entropy loss: -0.510, cl loss w: 1.777, cl loss xw: 0.419
+  dis loss: 0.343, adv loss: 2.792, latent dist: 368.826, factors dist: 23.845
+
+epoch: 4, 1801/3767 47.8%, 0.153 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.2, rec loss: 3.855, entropy loss: -0.510, cl loss w: 1.777, cl loss xw: 0.420
+  dis loss: 0.344, adv loss: 2.801, latent dist: 366.762, factors dist: 23.841
+
+epoch: 4, 2001/3767 53.1%, 0.189 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.3, rec loss: 3.857, entropy loss: -0.510, cl loss w: 1.777, cl loss xw: 0.420
+  dis loss: 0.342, adv loss: 2.820, latent dist: 363.646, factors dist: 23.840
+
+epoch: 4, 2201/3767 58.4%, 0.187 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.4, rec loss: 3.858, entropy loss: -0.510, cl loss w: 1.777, cl loss xw: 0.422
+  dis loss: 0.342, adv loss: 2.832, latent dist: 360.960, factors dist: 23.838
+
+epoch: 4, 2401/3767 63.7%, 0.161 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.4, rec loss: 3.859, entropy loss: -0.510, cl loss w: 1.777, cl loss xw: 0.422
+  dis loss: 0.340, adv loss: 2.848, latent dist: 358.045, factors dist: 23.834
+
+epoch: 4, 2601/3767 69.0%, 0.172 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.5, rec loss: 3.861, entropy loss: -0.510, cl loss w: 1.778, cl loss xw: 0.422
+  dis loss: 0.338, adv loss: 2.872, latent dist: 355.546, factors dist: 23.833
+
+epoch: 4, 2801/3767 74.4%, 0.165 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.6, rec loss: 3.862, entropy loss: -0.510, cl loss w: 1.778, cl loss xw: 0.423
+  dis loss: 0.336, adv loss: 2.889, latent dist: 352.890, factors dist: 23.833
+
+epoch: 4, 3001/3767 79.7%, 0.169 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.6, rec loss: 3.863, entropy loss: -0.510, cl loss w: 1.778, cl loss xw: 0.425
+  dis loss: 0.336, adv loss: 2.906, latent dist: 351.086, factors dist: 23.832
+
+epoch: 4, 3201/3767 85.0%, 0.170 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.7, rec loss: 3.864, entropy loss: -0.510, cl loss w: 1.778, cl loss xw: 0.425
+  dis loss: 0.337, adv loss: 2.915, latent dist: 348.409, factors dist: 23.833
+
+epoch: 4, 3401/3767 90.3%, 0.165 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.7, rec loss: 3.865, entropy loss: -0.510, cl loss w: 1.778, cl loss xw: 0.425
+  dis loss: 0.338, adv loss: 2.922, latent dist: 346.722, factors dist: 23.832
+
+epoch: 4, 3601/3767 95.6%, 0.161 s per iter, lr: 0.0005, tr: 1.00, tau: 0.010, noise: 0.000
+  ppl:47.8, rec loss: 3.866, entropy loss: -0.511, cl loss w: 1.778, cl loss xw: 0.425
+  dis loss: 0.337, adv loss: 2.933, latent dist: 343.817, factors dist: 23.831
+
+epoch: 5, 1/3767 0.0%, 0.002 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:47.8, rec loss: 3.867, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.426
+  dis loss: 0.334, adv loss: 2.948, latent dist: 341.572, factors dist: 23.829
+
+epoch: 5, 201/3767 5.3%, 0.166 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.0, rec loss: 3.871, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.426
+  dis loss: 0.332, adv loss: 2.964, latent dist: 338.768, factors dist: 23.827
+
+epoch: 5, 401/3767 10.6%, 0.166 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.2, rec loss: 3.875, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.425
+  dis loss: 0.331, adv loss: 2.981, latent dist: 336.784, factors dist: 23.824
+
+epoch: 5, 601/3767 16.0%, 0.162 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.4, rec loss: 3.879, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.424
+  dis loss: 0.330, adv loss: 2.998, latent dist: 334.238, factors dist: 23.822
+
+epoch: 5, 801/3767 21.3%, 0.166 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.5, rec loss: 3.882, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.424
+  dis loss: 0.328, adv loss: 3.018, latent dist: 332.613, factors dist: 23.822
+
+epoch: 5, 1001/3767 26.6%, 0.162 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.7, rec loss: 3.886, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.424
+  dis loss: 0.327, adv loss: 3.031, latent dist: 330.186, factors dist: 23.820
+
+epoch: 5, 1201/3767 31.9%, 0.162 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:48.9, rec loss: 3.889, entropy loss: -0.511, cl loss w: 1.779, cl loss xw: 0.423
+  dis loss: 0.325, adv loss: 3.050, latent dist: 328.319, factors dist: 23.819
+
+epoch: 5, 1401/3767 37.2%, 0.165 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.0, rec loss: 3.893, entropy loss: -0.511, cl loss w: 1.780, cl loss xw: 0.423
+  dis loss: 0.322, adv loss: 3.072, latent dist: 326.940, factors dist: 23.817
+
+epoch: 5, 1601/3767 42.5%, 0.171 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.2, rec loss: 3.896, entropy loss: -0.512, cl loss w: 1.780, cl loss xw: 0.423
+  dis loss: 0.320, adv loss: 3.094, latent dist: 324.415, factors dist: 23.816
+
+epoch: 5, 1801/3767 47.8%, 0.161 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.4, rec loss: 3.899, entropy loss: -0.512, cl loss w: 1.780, cl loss xw: 0.422
+  dis loss: 0.318, adv loss: 3.119, latent dist: 322.524, factors dist: 23.814
+
+epoch: 5, 2001/3767 53.1%, 0.170 s per iter, lr: 0.0005, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.5, rec loss: 3.902, entropy loss: -0.512, cl loss w: 1.780, cl loss xw: 0.421
+  dis loss: 0.316, adv loss: 3.142, latent dist: 320.985, factors dist: 23.812
+
+epoch: 5, 2201/3767 58.4%, 0.165 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.6, rec loss: 3.905, entropy loss: -0.512, cl loss w: 1.780, cl loss xw: 0.420
+  dis loss: 0.315, adv loss: 3.162, latent dist: 318.708, factors dist: 23.812
+
+epoch: 5, 2401/3767 63.7%, 0.163 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.8, rec loss: 3.907, entropy loss: -0.512, cl loss w: 1.780, cl loss xw: 0.419
+  dis loss: 0.313, adv loss: 3.180, latent dist: 316.703, factors dist: 23.809
+
+epoch: 5, 2601/3767 69.0%, 0.161 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:49.9, rec loss: 3.910, entropy loss: -0.512, cl loss w: 1.780, cl loss xw: 0.419
+  dis loss: 0.312, adv loss: 3.197, latent dist: 315.200, factors dist: 23.808
+
+epoch: 5, 2801/3767 74.4%, 0.160 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.0, rec loss: 3.913, entropy loss: -0.512, cl loss w: 1.780, cl loss xw: 0.418
+  dis loss: 0.310, adv loss: 3.210, latent dist: 313.182, factors dist: 23.807
+
+epoch: 5, 3001/3767 79.7%, 0.170 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.2, rec loss: 3.915, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.418
+  dis loss: 0.308, adv loss: 3.231, latent dist: 311.283, factors dist: 23.805
+
+epoch: 5, 3201/3767 85.0%, 0.174 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.3, rec loss: 3.918, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.417
+  dis loss: 0.306, adv loss: 3.252, latent dist: 309.435, factors dist: 23.803
+
+epoch: 5, 3401/3767 90.3%, 0.167 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.4, rec loss: 3.921, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.417
+  dis loss: 0.303, adv loss: 3.278, latent dist: 308.327, factors dist: 23.803
+
+epoch: 5, 3601/3767 95.6%, 0.152 s per iter, lr: 0.0004, tr: 0.90, tau: 0.010, noise: 0.000
+  ppl:50.5, rec loss: 3.923, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.416
+  dis loss: 0.301, adv loss: 3.306, latent dist: 307.097, factors dist: 23.802
+
+epoch: 6, 1/3767 0.0%, 0.002 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:50.6, rec loss: 3.925, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.416
+  dis loss: 0.299, adv loss: 3.323, latent dist: 306.151, factors dist: 23.801
+
+epoch: 6, 201/3767 5.3%, 0.154 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:50.8, rec loss: 3.927, entropy loss: -0.513, cl loss w: 1.781, cl loss xw: 0.414
+  dis loss: 0.297, adv loss: 3.341, latent dist: 304.597, factors dist: 23.799
+
+epoch: 6, 401/3767 10.6%, 0.152 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:50.9, rec loss: 3.929, entropy loss: -0.514, cl loss w: 1.781, cl loss xw: 0.413
+  dis loss: 0.294, adv loss: 3.366, latent dist: 303.071, factors dist: 23.797
+
+epoch: 6, 601/3767 16.0%, 0.156 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.0, rec loss: 3.932, entropy loss: -0.514, cl loss w: 1.781, cl loss xw: 0.411
+  dis loss: 0.292, adv loss: 3.390, latent dist: 301.851, factors dist: 23.795
+
+epoch: 6, 801/3767 21.3%, 0.150 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.1, rec loss: 3.934, entropy loss: -0.514, cl loss w: 1.781, cl loss xw: 0.410
+  dis loss: 0.290, adv loss: 3.414, latent dist: 300.574, factors dist: 23.793
+
+epoch: 6, 1001/3767 26.6%, 0.152 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.2, rec loss: 3.936, entropy loss: -0.514, cl loss w: 1.781, cl loss xw: 0.409
+  dis loss: 0.289, adv loss: 3.430, latent dist: 299.135, factors dist: 23.791
+
+epoch: 6, 1201/3767 31.9%, 0.150 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.3, rec loss: 3.938, entropy loss: -0.514, cl loss w: 1.782, cl loss xw: 0.408
+  dis loss: 0.286, adv loss: 3.449, latent dist: 297.479, factors dist: 23.789
+
+epoch: 6, 1401/3767 37.2%, 0.149 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.4, rec loss: 3.940, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.407
+  dis loss: 0.284, adv loss: 3.477, latent dist: 296.590, factors dist: 23.787
+
+epoch: 6, 1601/3767 42.5%, 0.148 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.5, rec loss: 3.943, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.405
+  dis loss: 0.282, adv loss: 3.499, latent dist: 295.136, factors dist: 23.785
+
+epoch: 6, 1801/3767 47.8%, 0.150 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.6, rec loss: 3.944, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.405
+  dis loss: 0.280, adv loss: 3.521, latent dist: 293.872, factors dist: 23.783
+
+epoch: 6, 2001/3767 53.1%, 0.152 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.7, rec loss: 3.946, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.404
+  dis loss: 0.278, adv loss: 3.543, latent dist: 292.641, factors dist: 23.781
+
+epoch: 6, 2201/3767 58.4%, 0.153 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:51.9, rec loss: 3.948, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.404
+  dis loss: 0.276, adv loss: 3.563, latent dist: 291.293, factors dist: 23.779
+
+epoch: 6, 2401/3767 63.7%, 0.155 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.0, rec loss: 3.950, entropy loss: -0.515, cl loss w: 1.782, cl loss xw: 0.403
+  dis loss: 0.274, adv loss: 3.580, latent dist: 289.946, factors dist: 23.777
+
+epoch: 6, 2601/3767 69.0%, 0.155 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.1, rec loss: 3.952, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.402
+  dis loss: 0.272, adv loss: 3.601, latent dist: 289.005, factors dist: 23.775
+
+epoch: 6, 2801/3767 74.4%, 0.162 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.2, rec loss: 3.954, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.401
+  dis loss: 0.270, adv loss: 3.623, latent dist: 287.962, factors dist: 23.772
+
+epoch: 6, 3001/3767 79.7%, 0.152 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.3, rec loss: 3.956, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.401
+  dis loss: 0.268, adv loss: 3.641, latent dist: 286.813, factors dist: 23.769
+
+epoch: 6, 3201/3767 85.0%, 0.154 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.3, rec loss: 3.958, entropy loss: -0.516, cl loss w: 1.782, cl loss xw: 0.400
+  dis loss: 0.267, adv loss: 3.659, latent dist: 285.538, factors dist: 23.767
+
+epoch: 6, 3401/3767 90.3%, 0.154 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.4, rec loss: 3.960, entropy loss: -0.516, cl loss w: 1.783, cl loss xw: 0.399
+  dis loss: 0.265, adv loss: 3.679, latent dist: 284.154, factors dist: 23.765
+
+epoch: 6, 3601/3767 95.6%, 0.156 s per iter, lr: 0.0004, tr: 0.87, tau: 0.010, noise: 0.000
+  ppl:52.5, rec loss: 3.962, entropy loss: -0.516, cl loss w: 1.783, cl loss xw: 0.399
+  dis loss: 0.263, adv loss: 3.697, latent dist: 282.967, factors dist: 23.767
+
+epoch: 7, 1/3767 0.0%, 0.002 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:52.6, rec loss: 3.963, entropy loss: -0.517, cl loss w: 1.783, cl loss xw: 0.398
+  dis loss: 0.262, adv loss: 3.706, latent dist: 281.533, factors dist: 23.765
+
+epoch: 7, 201/3767 5.3%, 0.150 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:52.7, rec loss: 3.965, entropy loss: -0.517, cl loss w: 1.783, cl loss xw: 0.397
+  dis loss: 0.260, adv loss: 3.724, latent dist: 280.680, factors dist: 23.763
+
+epoch: 7, 401/3767 10.6%, 0.149 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:52.8, rec loss: 3.966, entropy loss: -0.517, cl loss w: 1.783, cl loss xw: 0.396
+  dis loss: 0.259, adv loss: 3.739, latent dist: 280.015, factors dist: 23.761
+
+epoch: 7, 601/3767 16.0%, 0.149 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:52.9, rec loss: 3.968, entropy loss: -0.517, cl loss w: 1.783, cl loss xw: 0.394
+  dis loss: 0.257, adv loss: 3.756, latent dist: 278.759, factors dist: 23.759
+
+epoch: 7, 801/3767 21.3%, 0.156 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.0, rec loss: 3.970, entropy loss: -0.518, cl loss w: 1.783, cl loss xw: 0.394
+  dis loss: 0.257, adv loss: 3.764, latent dist: 277.906, factors dist: 23.760
+
+epoch: 7, 1001/3767 26.6%, 0.152 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.1, rec loss: 3.972, entropy loss: -0.518, cl loss w: 1.783, cl loss xw: 0.392
+  dis loss: 0.257, adv loss: 3.773, latent dist: 276.842, factors dist: 23.759
+
+epoch: 7, 1201/3767 31.9%, 0.153 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.2, rec loss: 3.973, entropy loss: -0.518, cl loss w: 1.783, cl loss xw: 0.391
+  dis loss: 0.255, adv loss: 3.788, latent dist: 275.740, factors dist: 23.761
+
+epoch: 7, 1401/3767 37.2%, 0.152 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.3, rec loss: 3.975, entropy loss: -0.518, cl loss w: 1.783, cl loss xw: 0.390
+  dis loss: 0.253, adv loss: 3.805, latent dist: 274.620, factors dist: 23.760
+
+epoch: 7, 1601/3767 42.5%, 0.151 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.3, rec loss: 3.977, entropy loss: -0.519, cl loss w: 1.783, cl loss xw: 0.389
+  dis loss: 0.251, adv loss: 3.822, latent dist: 273.527, factors dist: 23.760
+
+epoch: 7, 1801/3767 47.8%, 0.150 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.4, rec loss: 3.978, entropy loss: -0.519, cl loss w: 1.783, cl loss xw: 0.388
+  dis loss: 0.250, adv loss: 3.839, latent dist: 272.519, factors dist: 23.760
+
+epoch: 7, 2001/3767 53.1%, 0.149 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.5, rec loss: 3.980, entropy loss: -0.519, cl loss w: 1.783, cl loss xw: 0.387
+  dis loss: 0.248, adv loss: 3.855, latent dist: 271.598, factors dist: 23.759
+
+epoch: 7, 2201/3767 58.4%, 0.149 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.6, rec loss: 3.982, entropy loss: -0.519, cl loss w: 1.783, cl loss xw: 0.386
+  dis loss: 0.247, adv loss: 3.870, latent dist: 270.589, factors dist: 23.758
+
+epoch: 7, 2401/3767 63.7%, 0.147 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.7, rec loss: 3.983, entropy loss: -0.520, cl loss w: 1.783, cl loss xw: 0.385
+  dis loss: 0.245, adv loss: 3.884, latent dist: 269.582, factors dist: 23.756
+
+epoch: 7, 2601/3767 69.0%, 0.151 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.8, rec loss: 3.985, entropy loss: -0.520, cl loss w: 1.784, cl loss xw: 0.384
+  dis loss: 0.244, adv loss: 3.901, latent dist: 268.783, factors dist: 23.754
+
+epoch: 7, 2801/3767 74.4%, 0.150 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:53.9, rec loss: 3.987, entropy loss: -0.520, cl loss w: 1.784, cl loss xw: 0.384
+  dis loss: 0.242, adv loss: 3.916, latent dist: 267.888, factors dist: 23.755
+
+epoch: 7, 3001/3767 79.7%, 0.153 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.0, rec loss: 3.988, entropy loss: -0.520, cl loss w: 1.784, cl loss xw: 0.384
+  dis loss: 0.241, adv loss: 3.933, latent dist: 266.840, factors dist: 23.753
+
+epoch: 7, 3201/3767 85.0%, 0.156 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.0, rec loss: 3.990, entropy loss: -0.520, cl loss w: 1.784, cl loss xw: 0.383
+  dis loss: 0.239, adv loss: 3.948, latent dist: 265.721, factors dist: 23.753
+
+epoch: 7, 3401/3767 90.3%, 0.154 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.1, rec loss: 3.991, entropy loss: -0.521, cl loss w: 1.784, cl loss xw: 0.383
+  dis loss: 0.238, adv loss: 3.962, latent dist: 264.834, factors dist: 23.751
+
+epoch: 7, 3601/3767 95.6%, 0.153 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.2, rec loss: 3.993, entropy loss: -0.521, cl loss w: 1.784, cl loss xw: 0.382
+  dis loss: 0.236, adv loss: 3.980, latent dist: 263.970, factors dist: 23.751
+
+epoch: 8, 1/3767 0.0%, 0.002 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.3, rec loss: 3.994, entropy loss: -0.521, cl loss w: 1.784, cl loss xw: 0.381
+  dis loss: 0.235, adv loss: 3.989, latent dist: 262.974, factors dist: 23.749
+
+epoch: 8, 201/3767 5.3%, 0.157 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.3, rec loss: 3.995, entropy loss: -0.521, cl loss w: 1.784, cl loss xw: 0.380
+  dis loss: 0.234, adv loss: 4.007, latent dist: 262.280, factors dist: 23.747
+
+epoch: 8, 401/3767 10.6%, 0.153 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.4, rec loss: 3.996, entropy loss: -0.522, cl loss w: 1.784, cl loss xw: 0.379
+  dis loss: 0.232, adv loss: 4.027, latent dist: 261.359, factors dist: 23.746
+
+epoch: 8, 601/3767 16.0%, 0.153 s per iter, lr: 0.0004, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.4, rec loss: 3.997, entropy loss: -0.522, cl loss w: 1.784, cl loss xw: 0.378
+  dis loss: 0.231, adv loss: 4.037, latent dist: 260.346, factors dist: 23.746
+
+epoch: 8, 801/3767 21.3%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.5, rec loss: 3.998, entropy loss: -0.522, cl loss w: 1.784, cl loss xw: 0.377
+  dis loss: 0.230, adv loss: 4.046, latent dist: 259.630, factors dist: 23.745
+
+epoch: 8, 1001/3767 26.6%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.5, rec loss: 3.999, entropy loss: -0.523, cl loss w: 1.784, cl loss xw: 0.376
+  dis loss: 0.229, adv loss: 4.063, latent dist: 258.701, factors dist: 23.743
+
+epoch: 8, 1201/3767 31.9%, 0.155 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.6, rec loss: 4.000, entropy loss: -0.523, cl loss w: 1.784, cl loss xw: 0.375
+  dis loss: 0.228, adv loss: 4.078, latent dist: 257.944, factors dist: 23.741
+
+epoch: 8, 1401/3767 37.2%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.6, rec loss: 4.001, entropy loss: -0.523, cl loss w: 1.784, cl loss xw: 0.374
+  dis loss: 0.226, adv loss: 4.092, latent dist: 257.278, factors dist: 23.740
+
+epoch: 8, 1601/3767 42.5%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.7, rec loss: 4.002, entropy loss: -0.524, cl loss w: 1.784, cl loss xw: 0.374
+  dis loss: 0.225, adv loss: 4.105, latent dist: 256.421, factors dist: 23.738
+
+epoch: 8, 1801/3767 47.8%, 0.151 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.7, rec loss: 4.003, entropy loss: -0.524, cl loss w: 1.784, cl loss xw: 0.373
+  dis loss: 0.224, adv loss: 4.119, latent dist: 255.618, factors dist: 23.737
+
+epoch: 8, 2001/3767 53.1%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.8, rec loss: 4.004, entropy loss: -0.524, cl loss w: 1.784, cl loss xw: 0.372
+  dis loss: 0.223, adv loss: 4.131, latent dist: 254.657, factors dist: 23.736
+
+epoch: 8, 2201/3767 58.4%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.9, rec loss: 4.005, entropy loss: -0.525, cl loss w: 1.784, cl loss xw: 0.371
+  dis loss: 0.222, adv loss: 4.142, latent dist: 253.930, factors dist: 23.735
+
+epoch: 8, 2401/3767 63.7%, 0.151 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:54.9, rec loss: 4.006, entropy loss: -0.525, cl loss w: 1.785, cl loss xw: 0.370
+  dis loss: 0.220, adv loss: 4.155, latent dist: 253.058, factors dist: 23.733
+
+epoch: 8, 2601/3767 69.0%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.0, rec loss: 4.007, entropy loss: -0.525, cl loss w: 1.785, cl loss xw: 0.369
+  dis loss: 0.219, adv loss: 4.171, latent dist: 252.432, factors dist: 23.733
+
+epoch: 8, 2801/3767 74.4%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.0, rec loss: 4.007, entropy loss: -0.525, cl loss w: 1.785, cl loss xw: 0.369
+  dis loss: 0.218, adv loss: 4.186, latent dist: 251.950, factors dist: 23.731
+
+epoch: 8, 3001/3767 79.7%, 0.154 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.1, rec loss: 4.008, entropy loss: -0.526, cl loss w: 1.785, cl loss xw: 0.369
+  dis loss: 0.216, adv loss: 4.203, latent dist: 251.296, factors dist: 23.730
+
+epoch: 8, 3201/3767 85.0%, 0.163 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.1, rec loss: 4.010, entropy loss: -0.526, cl loss w: 1.785, cl loss xw: 0.368
+  dis loss: 0.215, adv loss: 4.225, latent dist: 251.026, factors dist: 23.729
+
+epoch: 8, 3401/3767 90.3%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.2, rec loss: 4.011, entropy loss: -0.526, cl loss w: 1.785, cl loss xw: 0.367
+  dis loss: 0.214, adv loss: 4.242, latent dist: 250.178, factors dist: 23.727
+
+epoch: 8, 3601/3767 95.6%, 0.155 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.2, rec loss: 4.011, entropy loss: -0.526, cl loss w: 1.785, cl loss xw: 0.366
+  dis loss: 0.212, adv loss: 4.255, latent dist: 249.378, factors dist: 23.728
+
+epoch: 9, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.3, rec loss: 4.012, entropy loss: -0.527, cl loss w: 1.785, cl loss xw: 0.365
+  dis loss: 0.211, adv loss: 4.267, latent dist: 248.544, factors dist: 23.727
+
+epoch: 9, 201/3767 5.3%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.3, rec loss: 4.013, entropy loss: -0.527, cl loss w: 1.785, cl loss xw: 0.365
+  dis loss: 0.210, adv loss: 4.281, latent dist: 247.796, factors dist: 23.726
+
+epoch: 9, 401/3767 10.6%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.3, rec loss: 4.013, entropy loss: -0.527, cl loss w: 1.785, cl loss xw: 0.364
+  dis loss: 0.209, adv loss: 4.296, latent dist: 247.054, factors dist: 23.727
+
+epoch: 9, 601/3767 16.0%, 0.155 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.4, rec loss: 4.014, entropy loss: -0.528, cl loss w: 1.785, cl loss xw: 0.363
+  dis loss: 0.208, adv loss: 4.309, latent dist: 246.297, factors dist: 23.726
+
+epoch: 9, 801/3767 21.3%, 0.157 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.4, rec loss: 4.015, entropy loss: -0.528, cl loss w: 1.785, cl loss xw: 0.362
+  dis loss: 0.207, adv loss: 4.323, latent dist: 245.718, factors dist: 23.725
+
+epoch: 9, 1001/3767 26.6%, 0.157 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.4, rec loss: 4.015, entropy loss: -0.528, cl loss w: 1.785, cl loss xw: 0.361
+  dis loss: 0.205, adv loss: 4.335, latent dist: 244.823, factors dist: 23.724
+
+epoch: 9, 1201/3767 31.9%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.5, rec loss: 4.016, entropy loss: -0.528, cl loss w: 1.785, cl loss xw: 0.360
+  dis loss: 0.204, adv loss: 4.349, latent dist: 244.380, factors dist: 23.723
+
+epoch: 9, 1401/3767 37.2%, 0.159 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.5, rec loss: 4.016, entropy loss: -0.529, cl loss w: 1.785, cl loss xw: 0.359
+  dis loss: 0.203, adv loss: 4.362, latent dist: 243.705, factors dist: 23.722
+
+epoch: 9, 1601/3767 42.5%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.5, rec loss: 4.017, entropy loss: -0.529, cl loss w: 1.785, cl loss xw: 0.358
+  dis loss: 0.202, adv loss: 4.372, latent dist: 243.014, factors dist: 23.721
+
+epoch: 9, 1801/3767 47.8%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.6, rec loss: 4.018, entropy loss: -0.529, cl loss w: 1.785, cl loss xw: 0.357
+  dis loss: 0.201, adv loss: 4.380, latent dist: 242.524, factors dist: 23.720
+
+epoch: 9, 2001/3767 53.1%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.6, rec loss: 4.019, entropy loss: -0.530, cl loss w: 1.785, cl loss xw: 0.356
+  dis loss: 0.200, adv loss: 4.393, latent dist: 241.961, factors dist: 23.720
+
+epoch: 9, 2201/3767 58.4%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.019, entropy loss: -0.530, cl loss w: 1.785, cl loss xw: 0.355
+  dis loss: 0.199, adv loss: 4.406, latent dist: 241.230, factors dist: 23.719
+
+epoch: 9, 2401/3767 63.7%, 0.154 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.020, entropy loss: -0.530, cl loss w: 1.785, cl loss xw: 0.355
+  dis loss: 0.198, adv loss: 4.418, latent dist: 240.523, factors dist: 23.718
+
+epoch: 9, 2601/3767 69.0%, 0.157 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.020, entropy loss: -0.530, cl loss w: 1.785, cl loss xw: 0.354
+  dis loss: 0.197, adv loss: 4.428, latent dist: 239.838, factors dist: 23.719
+
+epoch: 9, 2801/3767 74.4%, 0.162 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.7, rec loss: 4.021, entropy loss: -0.531, cl loss w: 1.785, cl loss xw: 0.353
+  dis loss: 0.196, adv loss: 4.440, latent dist: 239.188, factors dist: 23.717
+
+epoch: 9, 3001/3767 79.7%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.8, rec loss: 4.021, entropy loss: -0.531, cl loss w: 1.785, cl loss xw: 0.353
+  dis loss: 0.195, adv loss: 4.451, latent dist: 238.471, factors dist: 23.717
+
+epoch: 9, 3201/3767 85.0%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.8, rec loss: 4.022, entropy loss: -0.531, cl loss w: 1.785, cl loss xw: 0.352
+  dis loss: 0.194, adv loss: 4.462, latent dist: 237.763, factors dist: 23.716
+
+epoch: 9, 3401/3767 90.3%, 0.157 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.8, rec loss: 4.023, entropy loss: -0.532, cl loss w: 1.785, cl loss xw: 0.351
+  dis loss: 0.193, adv loss: 4.473, latent dist: 237.145, factors dist: 23.715
+
+epoch: 9, 3601/3767 95.6%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.023, entropy loss: -0.532, cl loss w: 1.786, cl loss xw: 0.350
+  dis loss: 0.192, adv loss: 4.482, latent dist: 236.499, factors dist: 23.717
+
+epoch: 10, 1/3767 0.0%, 0.002 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.024, entropy loss: -0.532, cl loss w: 1.786, cl loss xw: 0.349
+  dis loss: 0.191, adv loss: 4.489, latent dist: 235.678, factors dist: 23.715
+
+epoch: 10, 201/3767 5.3%, 0.171 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.024, entropy loss: -0.532, cl loss w: 1.786, cl loss xw: 0.349
+  dis loss: 0.191, adv loss: 4.500, latent dist: 234.869, factors dist: 23.713
+
+epoch: 10, 401/3767 10.6%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:55.9, rec loss: 4.024, entropy loss: -0.533, cl loss w: 1.786, cl loss xw: 0.348
+  dis loss: 0.190, adv loss: 4.511, latent dist: 234.224, factors dist: 23.711
+
+epoch: 10, 601/3767 16.0%, 0.152 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.025, entropy loss: -0.533, cl loss w: 1.786, cl loss xw: 0.347
+  dis loss: 0.189, adv loss: 4.524, latent dist: 233.539, factors dist: 23.712
+
+epoch: 10, 801/3767 21.3%, 0.154 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.025, entropy loss: -0.533, cl loss w: 1.786, cl loss xw: 0.347
+  dis loss: 0.188, adv loss: 4.536, latent dist: 232.931, factors dist: 23.711
+
+epoch: 10, 1001/3767 26.6%, 0.156 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.026, entropy loss: -0.534, cl loss w: 1.786, cl loss xw: 0.346
+  dis loss: 0.187, adv loss: 4.549, latent dist: 232.505, factors dist: 23.712
+
+epoch: 10, 1201/3767 31.9%, 0.159 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.0, rec loss: 4.026, entropy loss: -0.534, cl loss w: 1.786, cl loss xw: 0.345
+  dis loss: 0.186, adv loss: 4.557, latent dist: 231.957, factors dist: 23.712
+
+epoch: 10, 1401/3767 37.2%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.026, entropy loss: -0.534, cl loss w: 1.786, cl loss xw: 0.344
+  dis loss: 0.185, adv loss: 4.569, latent dist: 231.370, factors dist: 23.712
+
+epoch: 10, 1601/3767 42.5%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.027, entropy loss: -0.534, cl loss w: 1.786, cl loss xw: 0.344
+  dis loss: 0.184, adv loss: 4.580, latent dist: 230.714, factors dist: 23.710
+
+epoch: 10, 1801/3767 47.8%, 0.152 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.027, entropy loss: -0.535, cl loss w: 1.786, cl loss xw: 0.343
+  dis loss: 0.183, adv loss: 4.591, latent dist: 230.117, factors dist: 23.709
+
+epoch: 10, 2001/3767 53.1%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.027, entropy loss: -0.535, cl loss w: 1.786, cl loss xw: 0.342
+  dis loss: 0.182, adv loss: 4.602, latent dist: 229.490, factors dist: 23.707
+
+epoch: 10, 2201/3767 58.4%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.028, entropy loss: -0.535, cl loss w: 1.786, cl loss xw: 0.341
+  dis loss: 0.181, adv loss: 4.614, latent dist: 228.852, factors dist: 23.707
+
+epoch: 10, 2401/3767 63.7%, 0.153 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.028, entropy loss: -0.535, cl loss w: 1.786, cl loss xw: 0.341
+  dis loss: 0.180, adv loss: 4.625, latent dist: 228.183, factors dist: 23.706
+
+epoch: 10, 2601/3767 69.0%, 0.158 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.028, entropy loss: -0.536, cl loss w: 1.786, cl loss xw: 0.340
+  dis loss: 0.179, adv loss: 4.636, latent dist: 227.622, factors dist: 23.704
+
+epoch: 10, 2801/3767 74.4%, 0.157 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.029, entropy loss: -0.536, cl loss w: 1.786, cl loss xw: 0.339
+  dis loss: 0.179, adv loss: 4.648, latent dist: 226.948, factors dist: 23.703
+
+epoch: 10, 3001/3767 79.7%, 0.163 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.029, entropy loss: -0.536, cl loss w: 1.786, cl loss xw: 0.339
+  dis loss: 0.178, adv loss: 4.658, latent dist: 226.367, factors dist: 23.703
+
+epoch: 10, 3201/3767 85.0%, 0.155 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.030, entropy loss: -0.536, cl loss w: 1.786, cl loss xw: 0.339
+  dis loss: 0.177, adv loss: 4.670, latent dist: 225.843, factors dist: 23.702
+
+epoch: 10, 3401/3767 90.3%, 0.305 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.030, entropy loss: -0.537, cl loss w: 1.786, cl loss xw: 0.338
+  dis loss: 0.176, adv loss: 4.684, latent dist: 225.470, factors dist: 23.701
+
+epoch: 10, 3601/3767 95.6%, 0.300 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.030, entropy loss: -0.537, cl loss w: 1.786, cl loss xw: 0.337
+  dis loss: 0.175, adv loss: 4.695, latent dist: 224.787, factors dist: 23.700
+
+epoch: 11, 1/3767 0.0%, 0.003 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.537, cl loss w: 1.786, cl loss xw: 0.337
+  dis loss: 0.174, adv loss: 4.704, latent dist: 224.347, factors dist: 23.701
+
+epoch: 11, 201/3767 5.3%, 0.300 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.537, cl loss w: 1.786, cl loss xw: 0.336
+  dis loss: 0.173, adv loss: 4.715, latent dist: 223.820, factors dist: 23.703
+
+epoch: 11, 401/3767 10.6%, 0.298 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.538, cl loss w: 1.786, cl loss xw: 0.335
+  dis loss: 0.173, adv loss: 4.726, latent dist: 223.265, factors dist: 23.703
+
+epoch: 11, 601/3767 16.0%, 0.303 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.538, cl loss w: 1.786, cl loss xw: 0.334
+  dis loss: 0.172, adv loss: 4.733, latent dist: 222.733, factors dist: 23.702
+
+epoch: 11, 801/3767 21.3%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.538, cl loss w: 1.786, cl loss xw: 0.334
+  dis loss: 0.171, adv loss: 4.743, latent dist: 222.317, factors dist: 23.702
+
+epoch: 11, 1001/3767 26.6%, 0.301 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.032, entropy loss: -0.538, cl loss w: 1.786, cl loss xw: 0.333
+  dis loss: 0.170, adv loss: 4.755, latent dist: 221.914, factors dist: 23.700
+
+epoch: 11, 1201/3767 31.9%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.539, cl loss w: 1.786, cl loss xw: 0.333
+  dis loss: 0.169, adv loss: 4.767, latent dist: 221.365, factors dist: 23.699
+
+epoch: 11, 1401/3767 37.2%, 0.302 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.539, cl loss w: 1.786, cl loss xw: 0.332
+  dis loss: 0.169, adv loss: 4.778, latent dist: 220.909, factors dist: 23.698
+
+epoch: 11, 1601/3767 42.5%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.539, cl loss w: 1.786, cl loss xw: 0.332
+  dis loss: 0.168, adv loss: 4.789, latent dist: 220.411, factors dist: 23.698
+
+epoch: 11, 1801/3767 47.8%, 0.300 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.539, cl loss w: 1.786, cl loss xw: 0.332
+  dis loss: 0.167, adv loss: 4.800, latent dist: 219.967, factors dist: 23.697
+
+epoch: 11, 2001/3767 53.1%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.540, cl loss w: 1.786, cl loss xw: 0.331
+  dis loss: 0.166, adv loss: 4.810, latent dist: 219.498, factors dist: 23.696
+
+epoch: 11, 2201/3767 58.4%, 0.299 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.540, cl loss w: 1.786, cl loss xw: 0.330
+  dis loss: 0.165, adv loss: 4.822, latent dist: 219.068, factors dist: 23.695
+
+epoch: 11, 2401/3767 63.7%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.540, cl loss w: 1.786, cl loss xw: 0.330
+  dis loss: 0.165, adv loss: 4.830, latent dist: 218.513, factors dist: 23.694
+
+epoch: 11, 2601/3767 69.0%, 0.301 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.540, cl loss w: 1.786, cl loss xw: 0.329
+  dis loss: 0.164, adv loss: 4.838, latent dist: 217.987, factors dist: 23.694
+
+epoch: 11, 2801/3767 74.4%, 0.300 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.033, entropy loss: -0.540, cl loss w: 1.786, cl loss xw: 0.329
+  dis loss: 0.163, adv loss: 4.847, latent dist: 217.517, factors dist: 23.694
+
+epoch: 11, 3001/3767 79.7%, 0.300 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.541, cl loss w: 1.787, cl loss xw: 0.328
+  dis loss: 0.163, adv loss: 4.858, latent dist: 217.077, factors dist: 23.695
+
+epoch: 11, 3201/3767 85.0%, 0.304 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.541, cl loss w: 1.787, cl loss xw: 0.328
+  dis loss: 0.162, adv loss: 4.865, latent dist: 216.675, factors dist: 23.694
+
+epoch: 11, 3401/3767 90.3%, 0.301 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.541, cl loss w: 1.787, cl loss xw: 0.328
+  dis loss: 0.161, adv loss: 4.874, latent dist: 216.217, factors dist: 23.693
+
+epoch: 11, 3601/3767 95.6%, 0.304 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.541, cl loss w: 1.787, cl loss xw: 0.327
+  dis loss: 0.161, adv loss: 4.882, latent dist: 215.806, factors dist: 23.692
+
+epoch: 12, 1/3767 0.0%, 0.003 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.541, cl loss w: 1.787, cl loss xw: 0.327
+  dis loss: 0.160, adv loss: 4.887, latent dist: 215.309, factors dist: 23.691
+
+epoch: 12, 201/3767 5.3%, 0.305 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.541, cl loss w: 1.787, cl loss xw: 0.326
+  dis loss: 0.159, adv loss: 4.896, latent dist: 214.835, factors dist: 23.691
+
+epoch: 12, 401/3767 10.6%, 0.297 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.542, cl loss w: 1.787, cl loss xw: 0.326
+  dis loss: 0.159, adv loss: 4.903, latent dist: 214.358, factors dist: 23.691
+
+epoch: 12, 601/3767 16.0%, 0.299 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.542, cl loss w: 1.787, cl loss xw: 0.325
+  dis loss: 0.158, adv loss: 4.911, latent dist: 213.893, factors dist: 23.690
+
+epoch: 12, 801/3767 21.3%, 0.295 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.542, cl loss w: 1.787, cl loss xw: 0.325
+  dis loss: 0.157, adv loss: 4.919, latent dist: 213.511, factors dist: 23.690
+
+epoch: 12, 1001/3767 26.6%, 0.289 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.542, cl loss w: 1.787, cl loss xw: 0.324
+  dis loss: 0.157, adv loss: 4.925, latent dist: 213.071, factors dist: 23.690
+
+epoch: 12, 1201/3767 31.9%, 0.316 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.542, cl loss w: 1.787, cl loss xw: 0.324
+  dis loss: 0.156, adv loss: 4.931, latent dist: 212.624, factors dist: 23.689
+
+epoch: 12, 1401/3767 37.2%, 0.270 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.543, cl loss w: 1.787, cl loss xw: 0.323
+  dis loss: 0.155, adv loss: 4.940, latent dist: 212.204, factors dist: 23.689
+
+epoch: 12, 1601/3767 42.5%, 0.313 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.035, entropy loss: -0.543, cl loss w: 1.787, cl loss xw: 0.323
+  dis loss: 0.155, adv loss: 4.949, latent dist: 211.872, factors dist: 23.688
+
+epoch: 12, 1801/3767 47.8%, 0.150 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.035, entropy loss: -0.543, cl loss w: 1.787, cl loss xw: 0.322
+  dis loss: 0.154, adv loss: 4.958, latent dist: 211.529, factors dist: 23.687
+
+epoch: 12, 2001/3767 53.1%, 0.144 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.035, entropy loss: -0.543, cl loss w: 1.787, cl loss xw: 0.322
+  dis loss: 0.153, adv loss: 4.967, latent dist: 211.214, factors dist: 23.685
+
+epoch: 12, 2201/3767 58.4%, 0.289 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.035, entropy loss: -0.543, cl loss w: 1.787, cl loss xw: 0.321
+  dis loss: 0.153, adv loss: 4.975, latent dist: 210.779, factors dist: 23.685
+
+epoch: 12, 2401/3767 63.7%, 0.291 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.321
+  dis loss: 0.152, adv loss: 4.981, latent dist: 210.346, factors dist: 23.685
+
+epoch: 12, 2601/3767 69.0%, 0.292 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.321
+  dis loss: 0.152, adv loss: 4.989, latent dist: 210.031, factors dist: 23.687
+
+epoch: 12, 2801/3767 74.4%, 0.293 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.321
+  dis loss: 0.151, adv loss: 4.996, latent dist: 209.628, factors dist: 23.688
+
+epoch: 12, 3001/3767 79.7%, 0.288 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.320
+  dis loss: 0.150, adv loss: 5.003, latent dist: 209.240, factors dist: 23.688
+
+epoch: 12, 3201/3767 85.0%, 0.287 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.320
+  dis loss: 0.150, adv loss: 5.010, latent dist: 208.848, factors dist: 23.686
+
+epoch: 12, 3401/3767 90.3%, 0.288 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.320
+  dis loss: 0.149, adv loss: 5.017, latent dist: 208.452, factors dist: 23.686
+
+epoch: 12, 3601/3767 95.6%, 0.292 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.319
+  dis loss: 0.149, adv loss: 5.023, latent dist: 208.113, factors dist: 23.686
+
+epoch: 13, 1/680 0.1%, 0.005 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.037, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.319
+  dis loss: 0.148, adv loss: 5.029, latent dist: 207.670, factors dist: 23.686
+
+epoch: 13, 201/680 29.6%, 0.288 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.037, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.318
+  dis loss: 0.148, adv loss: 5.035, latent dist: 207.216, factors dist: 23.688
+
+epoch: 13, 401/680 59.0%, 0.285 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.7, rec loss: 4.037, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.318
+  dis loss: 0.147, adv loss: 5.041, latent dist: 206.732, factors dist: 23.688
+
+epoch: 13, 601/680 88.4%, 0.281 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.037, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.317
+  dis loss: 0.147, adv loss: 5.047, latent dist: 206.248, factors dist: 23.687
+
+epoch: 14, 1/680 0.1%, 0.003 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.036, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.317
+  dis loss: 0.146, adv loss: 5.052, latent dist: 206.094, factors dist: 23.686
+
+epoch: 14, 201/680 29.6%, 0.283 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.6, rec loss: 4.035, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.316
+  dis loss: 0.146, adv loss: 5.058, latent dist: 205.662, factors dist: 23.685
+
+epoch: 14, 401/680 59.0%, 0.275 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.5, rec loss: 4.034, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.315
+  dis loss: 0.145, adv loss: 5.064, latent dist: 205.185, factors dist: 23.684
+
+epoch: 14, 601/680 88.4%, 0.281 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.033, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.315
+  dis loss: 0.145, adv loss: 5.071, latent dist: 204.767, factors dist: 23.683
+
+epoch: 15, 1/680 0.1%, 0.003 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.4, rec loss: 4.032, entropy loss: -0.544, cl loss w: 1.787, cl loss xw: 0.314
+  dis loss: 0.145, adv loss: 5.075, latent dist: 204.601, factors dist: 23.682
+
+epoch: 15, 201/680 29.6%, 0.289 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.3, rec loss: 4.031, entropy loss: -0.545, cl loss w: 1.787, cl loss xw: 0.314
+  dis loss: 0.144, adv loss: 5.083, latent dist: 204.166, factors dist: 23.683
+
+epoch: 15, 401/680 59.0%, 0.281 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.2, rec loss: 4.029, entropy loss: -0.545, cl loss w: 1.787, cl loss xw: 0.313
+  dis loss: 0.144, adv loss: 5.088, latent dist: 203.708, factors dist: 23.684
+
+epoch: 15, 601/680 88.4%, 0.281 s per iter, lr: 0.0003, tr: 0.85, tau: 0.010, noise: 0.000
+  ppl:56.1, rec loss: 4.027, entropy loss: -0.545, cl loss w: 1.787, cl loss xw: 0.312
+  dis loss: 0.143, adv loss: 5.094, latent dist: 203.215, factors dist: 23.683
+

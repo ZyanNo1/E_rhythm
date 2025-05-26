@@ -1,0 +1,129 @@
+epoch: 1, lr: 0.0007, tr: 1.00
+  gen loss: 3.488  ppl:32.71
+
+epoch: 2, lr: 0.0006, tr: 1.00
+  gen loss: 2.078  ppl:7.99
+
+epoch: 3, lr: 0.0005, tr: 1.00
+  gen loss: 1.653  ppl:5.22
+
+epoch: 4, lr: 0.0004, tr: 0.92
+  gen loss: 1.436  ppl:4.20
+
+epoch: 5, lr: 0.0004, tr: 0.90
+  gen loss: 1.299  ppl:3.67
+
+epoch: 6, lr: 0.0003, tr: 0.87
+  gen loss: 1.212  ppl:3.36
+
+epoch: 7, lr: 0.0003, tr: 0.85
+  gen loss: 1.150  ppl:3.16
+
+epoch: 8, lr: 0.0003, tr: 0.85
+  gen loss: 1.102  ppl:3.01
+
+epoch: 9, lr: 0.0003, tr: 0.85
+  gen loss: 1.072  ppl:2.92
+
+epoch: 10, lr: 0.0002, tr: 0.85
+  gen loss: 1.043  ppl:2.84
+
+epoch: 1, lr: 0.0007, tr: 1.00
+  gen loss: 3.599  ppl:36.56
+
+epoch: 2, lr: 0.0006, tr: 1.00
+  gen loss: 2.120  ppl:8.33
+
+epoch: 3, lr: 0.0005, tr: 1.00
+  gen loss: 1.665  ppl:5.28
+
+epoch: 4, lr: 0.0004, tr: 0.92
+  gen loss: 1.437  ppl:4.21
+
+epoch: 5, lr: 0.0004, tr: 0.90
+  gen loss: 1.292  ppl:3.64
+
+epoch: 6, lr: 0.0003, tr: 0.87
+  gen loss: 1.203  ppl:3.33
+
+epoch: 7, lr: 0.0003, tr: 0.85
+  gen loss: 1.145  ppl:3.14
+
+epoch: 8, lr: 0.0003, tr: 0.85
+  gen loss: 1.104  ppl:3.02
+
+epoch: 9, lr: 0.0003, tr: 0.85
+  gen loss: 1.071  ppl:2.92
+
+epoch: 10, lr: 0.0002, tr: 0.85
+  gen loss: 1.040  ppl:2.83
+
+epoch: 1, lr: 0.0007, tr: 1.00
+  gen loss: 3.513  ppl:33.56
+
+epoch: 2, lr: 0.0006, tr: 1.00
+  gen loss: 2.135  ppl:8.45
+
+epoch: 3, lr: 0.0005, tr: 1.00
+  gen loss: 1.711  ppl:5.53
+
+epoch: 4, lr: 0.0004, tr: 0.92
+  gen loss: 1.501  ppl:4.49
+
+epoch: 5, lr: 0.0004, tr: 0.90
+  gen loss: 1.369  ppl:3.93
+
+epoch: 6, lr: 0.0003, tr: 0.87
+  gen loss: 1.278  ppl:3.59
+
+epoch: 7, lr: 0.0003, tr: 0.85
+  gen loss: 1.215  ppl:3.37
+
+epoch: 8, lr: 0.0003, tr: 0.85
+  gen loss: 1.165  ppl:3.21
+
+epoch: 9, lr: 0.0003, tr: 0.85
+  gen loss: 1.129  ppl:3.09
+
+epoch: 10, lr: 0.0002, tr: 0.85
+  gen loss: 1.099  ppl:3.00
+
+epoch: 1, lr: 0.0007, tr: 1.00
+  gen loss: 3.449  ppl:31.47
+
+epoch: 2, lr: 0.0006, tr: 1.00
+  gen loss: 2.073  ppl:7.95
+
+epoch: 3, lr: 0.0005, tr: 1.00
+  gen loss: 1.670  ppl:5.31
+
+epoch: 1, lr: 0.0007, tr: 1.00
+  gen loss: 3.487  ppl:32.69
+
+epoch: 2, lr: 0.0006, tr: 1.00
+  gen loss: 2.090  ppl:8.08
+
+epoch: 3, lr: 0.0005, tr: 1.00
+  gen loss: 1.686  ppl:5.40
+
+epoch: 4, lr: 0.0004, tr: 0.92
+  gen loss: 1.494  ppl:4.46
+
+epoch: 5, lr: 0.0004, tr: 0.90
+  gen loss: 1.367  ppl:3.92
+
+epoch: 6, lr: 0.0003, tr: 0.87
+  gen loss: 1.281  ppl:3.60
+
+epoch: 7, lr: 0.0003, tr: 0.85
+  gen loss: 1.226  ppl:3.41
+
+epoch: 8, lr: 0.0003, tr: 0.85
+  gen loss: 1.180  ppl:3.25
+
+epoch: 9, lr: 0.0003, tr: 0.85
+  gen loss: 1.138  ppl:3.12
+
+epoch: 10, lr: 0.0002, tr: 0.85
+  gen loss: 1.113  ppl:3.04
+

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="./css/user_home.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            overflow-x: hidden; /* 防止水平滚动条 */
+        }
+        
+        .space{
+            background-color: #367446;
+            z-index: 10;
+            position: relative;
+            margin: auto;
+            width: 100vh;
+            height: 100px;
+        }
+        .sidebar {
+            width: 100px; /* 侧边栏初始宽度 */
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑动画效果 */
+            z-index: 1000; /* 确保侧边栏在主内容区域之上 */
+        }
+
+        .sidebar:hover {
+            width: 150px; /* 鼠标悬停时侧边栏宽度增加到170像素 */
+            background-color: #444; /* 鼠标悬停时改变背景色（可选） */
+        }
+
+        .main-content {
+            margin-left: 420px; /* 确保主内容区域从侧边栏的最大宽度开始留出空间 */
+            margin-right: 420px;
+            /* margin-top: 20px; */
+            padding: 40px;
+            overflow-y: auto; /* 允许正文内容垂直滚动 */
+            height: 900px; /* 占据整个视口高度 */
+            background-color: rgb(255, 255, 255);
+            background-image: url('./img/bg2.png');
+            background-size: cover; /* 确保背景图片覆盖整个区域 */
+            background-position: center; /* 将背景图片居中 */
+        }
+
+        /* 可选：为侧边栏链接添加样式 */
+        .sidebar a {
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            text-align: center;
+            transition: color 0.3s ease-in-out; /* 平滑文字颜色变化（可选） */
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+            color: #f0f0f0; /* 鼠标悬停在链接上时改变文字颜色（可选） */
+        }
+
+        .content-wrapper {
+            flex-grow: 1; /* 占据剩余空间 */
+            display:flex;
+            flex-direction: column; /* 垂直排列子元素 */
+            overflow: hidden; /* 隐藏滚动条（如果需要的话，可以在内部元素上设置滚动） */
+            background-color: rgba(255, 255, 255, 0.5); /* 半透明背景色 */
+            background-image: url('./img/bg.png');
+            background-size: cover; /* 让背景图片覆盖整个区域 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-position: center; /* 将背景图片居中 */
+        }
+
+        .top-navbar {
+            background-color: #ffffffb9;;
+            color: rgb(0, 0, 0); 
+            padding: 10px 20px;
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 将容器分为12等份 */  
+            align-items: center; /* 垂直居中 */
+        }
+        
+        .nav-right {  
+            grid-column: 10 / 12; /* 右边的标签占据第3列（可以调整为更右的列，根据需要） */  
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 15px; /* 标签之间的间距 */  
+            font-size: 25px;
+        }  
+
+        .nav-right a {  
+            color: white;  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(0, 0, 0); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+        }  
+ 
+        .nav-right a:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* 悬停时背景变亮 */
+        }
+ 
+        .main-content {
+        
+            /* flex-grow: 1; */
+            overflow-y: auto; /* 允许正文内容垂直滚动 */
+            padding: 20px;
+            box-sizing: border-box; /* 包括内边距和边框在内的元素总宽度和高度 */
+            background-color: #fdfdfdd0;
+            position: relative;
+        }
+
+        .result-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-image: url('./img/b.jpg');
+        }
+
+        .result-title {
+            background-color: #961d1d;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .result-text {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            padding: 0 10px;
+            word-wrap: break-word; /* 防止长单词溢出 */
+        }
+
+        .copy-button {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .copy-button button {
+            width: 800px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #5c5357;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .copy-button button:hover {
+            background-color: #b47272;
+            transform: scale(1.05);
+        }
+
+        .filter-container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-image: url('./img/b.jpg');
+            
+        }
+
+        .filter-header {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .filter-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #929292;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            border-radius: 24px;
+        }
+
+        .filter-button.selected {
+            background-color: #961d1d;
+        }
+
+        .filter-button:hover:not(.selected) {
+            background-color: #ffa1a1;
+            transform: scale(1.05);
+        }
+
+        .filter-input-container {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .filter-input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+        }
+
+        .generate-button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #961d1d;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .generate-button:hover {
+            background-color: #fc9e9e;
+            transform: scale(1.05);
+        }
+
+        .region {
+            width: 100%;
+            height: 80%;
+        }
+        .hidden {
+            display: none; /* This will make the element not take up space */
+        }
+
+        .button {
+            margin-left: 85px;
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            background-color: #929292; /* Green */
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth transition for background color */
+        }
+        .button:hover:not(.active) {
+            background-color: #ffa1a1; /* Darker green on hover */
+        }
+        .button:selected {
+            background-color: #961d1d; /* Darkest green on click */
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+        }
+        .row {
+            margin-bottom: 20px;
+        }
+        .label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .custom-radio {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 10px;
+            background-color: #929292;
+            cursor: pointer;
+            user-select: none;
+            border-radius: 24px;
+        }
+        .custom-radio:hover {
+            background-color: #fc9e9e;
+        }
+        .custom-radio.selected {
+            background-color: #961d1d;
+            color: #fff;
+        }
+        input[type="text"] {
+            width: 97%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .poem-content {
+            width: 97%;
+            height: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 28px;
+            outline: none;
+            resize: none;
+        }
+
+    </style>
+</head>
+
+<body class="content" id="content">
+    <div class="sidebar">
+        <a href="./home.html"><img src="./img/logo.png "style="border-radius: 15px;width: 40px;height: 40px;" alt="产品logo"></a>
+        <a href="./write.html">创作</a>
+        <a href="./cowork.html">合作</a>
+        <a href="./collection.html">收藏夹</a>
+        <a href="./workshop.html">工坊</a>
+        <a href="./user.html"><img src="./img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="top-navbar">
+            <div class="nav-right">
+                <a href="login.html">登录</a>
+                <a href="register.html">注册</a>
+            </div>
+        </div>
+        <div class="main-content" style="background-image: url('./img/bg2.png');">
+
+            <div class="filter-button selected" style="margin-left: 110px;" data-type="1" data-value="创作诗歌" onclick="showRegion1()">创作诗歌</div>
+            <div class="filter-button" data-type="1" data-value="发表文章" onclick="showRegion2()">发表文章</div>
+            <div class="filter-button" data-type="1" data-value="亿韵启界AI助手" onclick="showRegion3()">亿韵启界AI助手</div>
+            <div class="region" id="region1">
+                <div class="container">
+                    <div class="result-title" style="margin: 0%;">格式设置</div>
+                    <div class="row">
+                        <span class="label">创作类型</span>
+                        <div class="custom-radio" data-value="jueju">绝句</div>
+                        <div class="custom-radio" data-value="lushi">律诗</div>
+                    </div>
+                    <div class="row">
+                        <span class="label">字数排列</span>
+                        <div class="custom-radio" data-value="wuyan">五言</div>
+                        <div class="custom-radio" data-value="qiyan">七言</div>
+                    </div>
+                    <div class="result-title" style="margin: 0%;">内容创作</div>
+                    <div class="row">
+                        <span class="label">题</span>
+                        <input type="text" id="title" placeholder="输入作品的题目">
+                    </div>
+                    <div class="row">
+                        <span class="label">作者署名</span>
+                        <input type="text" id="author" placeholder="输入作品署名">
+                    </div>
+                    <div class="row">
+                        <span class="label">内容</span>
+                    </div>
+                    <textarea class="poem-content" id="content" placeholder="在这里输入诗歌内容"></textarea>
+                    <div class="row">
+                        <span class="label"></span>
+                        <div class="custom-radio" data-value="save">保存</div>
+                        <div class="custom-radio" data-value="share">分享</div>
+                    </div>
+                </div>
+            </div>
+            <div class="region hidden" id="region2">
+                <div class="container">
+                    <div class="result-title" style="margin: 0%;">格式设置</div>
+                    <div class="row">
+                        <span class="label">文章类型</span>
+                        <div class="custom-radio" data-value="jueju">个人诗歌杂谈</div>
+                        <div class="custom-radio" data-value="lushi">诗词赏析</div>
+                        <div class="custom-radio" data-value="lushi">创作灵感求助</div>
+                    </div>
+                    <div class="row">
+                        <span class="label">文章长度</span>
+                        <div class="custom-radio" data-value="wuyan">短文(不超过100字)</div>
+                        <div class="custom-radio" data-value="qiyan">长文</div>
+                    </div>
+                    <div class="result-title" style="margin: 0%;">内容创作</div>
+                    <div class="row">
+                        <span class="label">文章标题</span>
+                        <input type="text" id="title" placeholder="输入作品的题目">
+                    </div>
+                    <div class="row">
+                        <span class="label">作者署名</span>
+                        <input type="text" id="author" placeholder="输入作品署名">
+                    </div>
+                    <div class="row">
+                        <span class="label">内容</span>
+                    </div>
+                    <textarea class="poem-content" id="content" placeholder="在这里输入文章内容"></textarea>
+                    <div class="row">
+                        <span class="label"></span>
+                        <div class="custom-radio" data-value="save">保存</div>
+                        <div class="custom-radio" data-value="share">分享</div>
+                    </div>
+                </div>
+            </div>
+            <div class="region hidden" id="region3">
+                <div>
+
+                    <div class="filter-container">
+                        <div class="result-title" style="margin: 0%;">选择样式</div>
+                        <div class="filter-header">类型</div>
+                        <div class="filter-button" data-type="poem-type" data-value="五言绝句">五言绝句</div>
+                        <div class="filter-button" data-type="poem-type" data-value="七言律诗">七言律诗</div>
+                
+                        <div class="filter-header">环境</div>
+                        <div class="filter-button" data-type="environment" data-value="军旅生活">军旅生活</div>
+                        <div class="filter-button" data-type="environment" data-value="田园风光">田园风光</div>
+                        <div class="filter-button" data-type="environment" data-value="其它">其它</div>
+                
+                        <div class="filter-header">感情基调</div>
+                        <div class="filter-button" data-type="mood" data-value="愉快">愉快</div>
+                        <div class="filter-button" data-type="mood" data-value="悲伤">悲伤</div>
+                
+                        <form action="/process" method="post" class="filter-input-container">
+                            <input type="text" class="filter-input" placeholder="输入关键词">
+                            <button class="generate-button" type="submit">开始生成</button>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div class="result-container">
+                        <div class="result-title">生成结果</div>
+                        <div class="result-text" id="poem-text">
+                            <!-- 这里将显示生成的古诗内容 -->
+                            <p>这是第一行古诗。</p>
+                            <p>这是第二行古诗。</p>
+                            <!-- 可以根据需要添加更多行 -->
+                        </div>
+                        <div class="copy-button">
+                            <button onclick="copyText()">复制</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        const radios = document.querySelectorAll('.custom-radio');
+        const contentArea = document.getElementById('content');
+        let selectedType = '';
+        let selectedFormat = '';
+
+        radios.forEach(radio => {
+            radio.addEventListener('click', () => {
+                // Deselect all radios in the same row
+                const row = radio.parentElement;
+                row.querySelectorAll('.custom-radio').forEach(r => r.classList.remove('selected'));
+
+                // Select the clicked radio
+                radio.classList.add('selected');
+
+                // Handle type and format selection
+                if (radio.dataset.value === 'jueju' || radio.dataset.value === 'lushi') {
+                    selectedType = radio.dataset.value;
+                } else if (radio.dataset.value === 'wuyan' || radio.dataset.value === 'qiyan') {
+                    selectedFormat = radio.dataset.value;
+                    formatContent();
+                }
+            });
+        });
+
+        contentArea.addEventListener('input', formatContent);
+
+        function formatContent() {
+            if (!selectedFormat) return;
+
+            const lines = contentArea.value.split('\n');
+            const wordLimit = selectedFormat === 'wuyan' ? 5 : 7;
+            let formattedContent = '';
+
+            lines.forEach(line => {
+                while (line.length > wordLimit) {
+                    formattedContent += line.substring(0, wordLimit) + '\n';
+                    line = line.substring(wordLimit);
+                }
+                formattedContent += line + '\n';
+            });
+
+            contentArea.value = formattedContent.trim();
+        }
+
+        
+        function copyText() {
+            var poemTextElement = document.getElementById("poem-text");
+            var paragraphs = poemTextElement.getElementsByTagName("p");
+            var textToCopy = "";
+
+            // 遍历所有<p>元素，并将它们的文本内容连接起来，中间没有空行
+            for (var i = 0; i < paragraphs.length; i++) {
+                textToCopy += paragraphs[i].textContent.trim() + "\n"; // 使用trim()去除可能的前后空格，并添加换行符作为行分隔
+            }
+
+            // 去除字符串末尾的换行符（如果有的话）
+            if (textToCopy.endsWith("\n")) {
+                textToCopy = textToCopy.slice(0, -1);
+            }
+
+            var textArea = document.createElement("textarea");
+            textArea.value = textToCopy;
+
+            // ...（接下来的代码保持不变，用于创建文本域、复制文本并清理）
+
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+
+            try {
+                var successful = document.execCommand('copy');
+                var msg = successful ? '成功' : '失败';
+                alert('复制' + msg);
+            } catch (err) {
+                alert('无法复制文本');
+            }
+
+            document.body.removeChild(textArea);
+        }
+
+        document.querySelectorAll('.filter-button').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const type = e.target.getAttribute('data-type');
+                document.querySelectorAll(`.filter-button[data-type="${type}"]`).forEach(btn => {
+                    btn.classList.remove('selected');
+                });
+                e.target.classList.add('selected');
+            });
+        });
+
+        function showRegion1() {
+            // Hide Region 2,3
+            document.getElementById('region2').classList.add('hidden');
+            document.getElementById('region3').classList.add('hidden');
+            // Show Region 1
+            document.getElementById('region1').classList.remove('hidden');
+        }
+
+        function showRegion2() {
+            // Hide Region 1,3
+            document.getElementById('region1').classList.add('hidden');
+            document.getElementById('region3').classList.add('hidden');
+            // Show Region 2
+            document.getElementById('region2').classList.remove('hidden');
+        }
+
+        function showRegion3() {
+            // Hide Region 1,2
+            document.getElementById('region1').classList.add('hidden');
+            document.getElementById('region2').classList.add('hidden');
+            // Show Region 3
+            document.getElementById('region3').classList.remove('hidden');
+        }
+    </script>
+</body>
+
+</html>

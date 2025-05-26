@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社区</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="./css/user_home.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <style>
+        body {
+            font-family: '楷体', 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            overflow-x: hidden; /* 防止水平滚动条 */
+            overflow-y: scroll;
+        }
+        
+        .space{
+            background-color: #367446;
+            z-index: 10;
+            position: relative;
+            margin: auto;
+            width: 100vh;
+            height: 100px;
+        }
+        .sidebar {
+            width: 100px; /* 侧边栏初始宽度 */
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑动画效果 */
+            z-index: 1000; /* 确保侧边栏在主内容区域之上 */
+        }
+
+        .sidebar:hover {
+            width: 150px; /* 鼠标悬停时侧边栏宽度增加到170像素 */
+            background-color: #444; /* 鼠标悬停时改变背景色（可选） */
+        }
+        
+        .sidebar a {
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            text-align: center;
+            transition: color 0.3s ease-in-out; /* 平滑文字颜色变化（可选） */
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+            color: #f0f0f0; /* 鼠标悬停在链接上时改变文字颜色（可选） */
+        }
+
+        .main-content {
+            margin-left: 340px; /* 确保主内容区域从侧边栏的最大宽度开始留出空间 */
+            margin-right: 240px;
+            margin-top: 20px;
+            padding: 40px;
+            /* flex-grow: 1; 占据剩余空间 */
+            height: 900px; /* 占据整个视口高度 */
+            /* 可以根据需要添加其他样式 */
+            display: flex;
+        }
+
+        .content-wrapper {
+            flex-grow: 1; /* 占据剩余空间 */
+            height: 1150px;
+            display:flex;
+            flex-direction: column; /* 垂直排列子元素 */
+            background-color: rgba(255, 255, 255, 0.5); /* 半透明背景色 */
+            background-image: url('./img/b.jpg');
+            background-size: cover; /* 让背景图片覆盖整个区域 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-position: center; /* 将背景图片居中 */
+        }
+
+        .top-navbar {
+            background-color: #ffffffb9;;
+            color: rgb(0, 0, 0); 
+            padding: 10px 20px;
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 将容器分为12等份 */  
+            align-items: center; /* 垂直居中 */
+        }
+
+        
+        .nav-right {  
+            grid-column: 10 / 12; /* 右边的标签占据第3列（可以调整为更右的列，根据需要） */  
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 15px; /* 标签之间的间距 */  
+            font-size: 25px;
+        }  
+
+        .nav-1 {  
+            grid-column: 2;
+            display: flex;  
+            justify-content: flex-end; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 1%; /* 标签之间的间距 */  
+            font-size: 20px;
+        }  
+
+        .nav-2 {  
+            grid-column: 3;
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 1%; /* 标签之间的间距 */  
+            font-size: 20px;
+        }  
+
+        .nav-2 a {  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(59, 59, 59); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+        }  
+
+        .nav-3 {  
+            grid-column: 5/8;
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 1%; /* 标签之间的间距 */  
+            font-size: 20px;  
+        } 
+
+        /* 搜索框容器的样式 */
+        .search-container {
+            width: 800px; /* 搜索框宽度 */
+            position: relative; /* 相对定位，用于放置搜索按钮 */
+        }
+        
+        /* 输入框的样式 */
+        .search-input {
+            width: 60%; /* 宽度占满容器 */
+            padding: 10px; /* 内边距 */
+            font-size: 16px; /* 字体大小 */
+            border: none; /* 无边框 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+            outline: none; /* 去除焦点时的轮廓线 */
+            border-radius: 24px; /* 圆角 */
+            display: inline-block;
+        }
+        
+        /* 搜索按钮的样式 */
+        .search-button {
+            border-radius: 24px; /* 圆角 */
+            position: relative; /* 绝对定位，相对于搜索框容器 */
+            right: 0; /* 右侧对齐 */
+            top: 0; /* 与输入框顶部对齐 */
+            height: 39px; /* 高度与输入框一致 */
+            border: none; /* 无边框 */
+            background-color: #3d7375; /* 背景颜色 */
+            color: #fff; /* 字体颜色 */
+            padding: 0 15px; /* 内边距 */
+            cursor: pointer; /* 鼠标悬停时变为手形 */
+            outline: none; /* 去除焦点时的轮廓线 */
+            display: inline-block;
+            background-image: url('../img/搜索.png');
+            background-size: cover; /* 让背景图片覆盖整个区域 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-position: center; /* 将背景图片居中 */
+
+        }
+        
+        /* 鼠标悬停时搜索按钮的样式变化 */
+        .search-button:hover {
+            background-color: #5cb9b9; /* 背景颜色变深 */
+        }
+        
+        /* 搜索框占位符文本的样式 */
+        .search-input::placeholder {
+            color: #999; /* 占位符文本颜色 */
+            opacity: 1; /* 透明度 */
+        }
+
+        input[type="text"],
+        input[type="submit"] {
+            display: inline-block; /* 使元素横向排列 */
+            margin-right: 10px; /* 右侧外边距，调整元素之间的间距 */
+        }
+
+        .nav-right a {     
+            color: white;  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(0, 0, 0); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+            
+        }  
+
+        .nav-right a {
+            white-space: nowrap;      /* 链接内容不换行 */
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .nav-right a:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* 悬停时背景变亮 */
+        }
+
+        .main-content {
+        /* flex-grow: 1; */
+            padding: 0px;
+            box-sizing: border-box; /* 包括内边距和边框在内的元素总宽度和高度 */
+            position: relative;
+        }
+        .left-panel {
+            height: 1100px;
+            flex: 7; /* 左边部分稍微宽一点，使用比例值分配宽度 */
+            background-color: #ffffff; /* 示例背景色 */
+            padding: 20px;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+            margin-right: 10px; /* 添加右边距以产生空隙 */
+        }
+
+        .right {
+            display:flex ;
+            flex-direction: column; 
+            height: 1100px;
+            flex: 3;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+        }
+        .right-panel {
+            height: 450px;
+            /* flex: 3; */
+            background-color: #ffffff; /* 示例背景色 */
+            padding: 20px;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+        }
+        .right-panel2 {
+            height: 500px;
+            /* flex: 3; */
+            background-color: #ffffff; /* 示例背景色 */
+            padding: 20px;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+        }
+        .postcontainer{
+            height: 90%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: visible;
+        }
+
+        /* 选项卡样式 */
+        .tabs {
+            display: flex;
+            justify-content:left;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            font-family: 'youshebiaotihei';
+            font-size: 24px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .tab.active, .tab:hover {
+            border-bottom: 2px solid #3498db;
+        }
+
+        /* 帖子样式 */
+        .posts {
+            width: 100%;
+            height: 85%;
+            display: block;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+            overflow-y: visible;
+            overflow-x: hidden;
+
+        }
+
+
+        .post {
+            background-color: #ffffff;
+            padding: 20px;
+            width: calc(90% - 5px);
+            display: block;
+        }
+
+        .post-title {
+            font-size: 28px;
+            font-weight: 1000;
+            margin-bottom: 15px;
+        }
+
+        .post-content {
+            font-size: 20px;
+            line-height: 1.5;
+            height: 55px; /* 两行文字的高度 */
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .post-content::after {
+            content: '...';
+            position: absolute;
+            bottom: 0;
+            right: 5px;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+        }
+
+        .read-more {
+            font-family: 'youshebiaotihei';
+            color: #78b6be;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .no-content{
+            font-family: 'youshebiaotihei';
+            font-size: 15px;
+            
+        }
+
+        /* 用户操作样式 */
+        .user-actions {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+
+        .heat {
+            font-family: 'youshebiaotihei';
+            width: 80px;
+            height: 20px;
+            font-size: 18px;
+            color: #fa6868;
+            background-color: #ffeaea;
+            border-radius: 24px; /* 圆角 */
+            padding: 5px;
+        }
+
+        .action-btn {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            margin-left: 30px;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .action-btn:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* 加载更多按钮样式 */
+        .load-more {
+            display: block;
+            width: 150px;
+            padding: 10px;
+            margin-left: 0px;
+            margin-top: 30px;
+            background-color: #818181;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .load-more:hover {
+            background-color: #55a8a8;
+        }
+        .special-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f5f5f5; /* 稍微有点灰的背景颜色 */
+            padding: 20px;
+            border-radius: 5px; /* 可选：添加圆角 */
+            width: 220px;
+            height: 100px;
+            margin: auto;
+        }
+        .special-box2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            border-radius: 50px; /* 可选：添加圆角 */
+            width: 230px;
+            margin: auto;
+            font-family: 'youshebiaotihei';
+            border: 2px dashed rgb(78, 154, 160); /* 2px 宽度，虚线样式，红色边框 */
+            font-size: 40px;
+            
+        }
+
+        .left-content {
+            flex: 1; /* 弹性布局中的比例 */
+            margin-right: 20px; /* 右边距，可根据需要调整 */
+        }
+
+        .left-content h2 {
+            margin-top: 0; /* 移除标题顶部的默认外边距 */
+            font-size: 15px; /* 标题字体大小，可根据需要调整 */
+        }
+
+        .left-content p {
+            font-size: 14px; /* 正文字体大小，可根据需要调整 */
+            color: #666; /* 正文颜色，可根据需要调整 */
+        }
+
+        .right-content {
+            flex: 1; /* 弹性布局中的比例 */
+            text-align: right; /* 图像右对齐 */
+        }
+
+        .right-content img {
+            max-width: 100%; /* 图像最大宽度为容器宽度 */
+            height: auto; /* 图像高度自适应 */
+        }
+        .user-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            cursor: pointer; /* 鼠标悬停时变为手形 */
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%; /* 圆形头像 */
+            margin-right: 10px;
+        }
+        
+        .username {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="sidebar">
+            <a href="/home"><img src="./img/logo.png "style="border-radius: 15px;width: 40px;height: 40px;" alt="产品logo"></a>
+            <a href="/write">创作</a>
+            <a href="/cowork">论坛</a>
+            <a href="/collection">收藏夹</a>
+            <a href="/pediaHome">百科</a>
+            <a href="http://127.0.0.1:8080">数据台</a>
+            <% if(user && user.username){ %>
+                <a href="/user/info"><img src="<%= user.avatar ? user.avatar : '../img/用户.jpg' %>" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+            <% }else{ %>
+                <a href="/user/login"><img src="../img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+            <% } %>
+        </div>
+        <div class="top-navbar">
+            <div class="nav-1">
+                <a href="/home"><img src="../img/logo.png" style="border-radius: 15px;width: 40px;height: 40px;" alt="首页"></a>
+            </div>
+            <div class="nav-2">
+                <a href="/cowork">E-R社区</a>
+            </div>
+            <div class="nav-3">
+                <form action="/cowork" method="get" class="display: flex">
+                    <input type="text" name="wd" class="search-input" placeholder="  搜索你想要的内容">
+                    <input type="submit" value="搜索" class="search-button">
+                </form>
+            </div>
+            <div class="nav-right">
+                <% if(user && user.username){ %>
+                    <a>欢迎，<%= user.username %></a> 
+                    <a href="/user/logout">注销</a>  
+                    <a href="/user/info"><img src="<%= user.avatar ? user.avatar : '../img/用户.jpg' %>" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+                <% }else{ %>
+                    <a href="/user/login">登录</a>
+                    <a href="/user/reg">注册</a>
+                    <a href="/user/login"><img src="../img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+                <% } %>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="left-panel">
+                <div class="postcontainer">
+                    <div class="tabs">
+                        <a class="tab active" href ="/cowork" style="color: #3498db;">推荐</a>
+                        <a class="tab" href ="/collection" style="color: #ff5100;">收藏</a>
+                        <a class="tab" href ="#"style="color: rgb(255, 102, 0);">热榜</a>
+                    </div>
+                    
+                    <div class="posts">
+                        <!-- 帖子1 -->
+                        <% var len = data.length %>
+                        <% if(len == 0) { %>
+                            <div class="no-content" style="text-align: center;">
+                                <h2>没有找到相关内容</h2>
+                            </div>
+                        <% } else { %>  
+                            <% for(var i=0; i<len; i++) { %>
+                                <div class="post" data-post-id="<%= data[len-i-1].id %>">
+                                    <div class="post-title"><%= data[len-i-1].title %></div>
+                                    <hr>
+                                    <div class="post-content"><%= data[len-i-1].username %>：<%= data[len-i-1].content %></div>
+                                    <a href="/list/<%= data[len-i-1].id %>.html" class="read-more">阅读全文</a>
+                                    <div class="user-actions">
+                                        <% var heat= (2 * data[len-i-1].like + 3 * data[len-i-1].collection)*10; %>
+                                        <span class="heat"><img src="../img/火焰-copy.png" style="width: 18px;"> <%=heat%></span>
+                                        <div class="action-btn" data-id="<%=i%>" data-type="like"><img src="../img/赞.png" style="width: 18px;" ></div>
+                                        <div class="action-btn" data-id="<%=i%>" data-type="collection"><img src="../img/收藏.png" style="width: 18px;" ></div>
+                                    </div>
+                                </div>
+                            <% } %>
+                        <% } %>  
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-panel" style="margin-bottom: 20px;">
+                    <div class="tabs">
+                        <img src="../img/资料修改icon.png" style="width: 40px;">
+                        <p> &nbsp;&nbsp;创作中心</p><br>
+                    </div>
+                    <a href="/write" style="box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);"><img src="../img/写文章.png" alt="" style="width: 30px;"><span style="font-family: 'youshebiaotihei';font-size: 30px;">写诗作文</span></a>
+                    <a href="/write" style="box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);"><img src="../img/草稿箱.png" alt="" style="width: 30px;"><span style="font-family: 'youshebiaotihei';font-size: 30px;">草稿</span></a><br><br>
+                    <div class="special-box">
+                        <div class="left-content">
+                            <h2>开启诗词之路</h2>
+                            <p>发布首篇内容，开通创作中心 快来成为社区创作者吧～</p>
+                        </div>
+                        <div class="right-content">
+                            <img src="../img/诗人.png" alt="Image Description">
+                        </div>
+                    </div><br><br>
+                    <div class="special-box2">
+                        <div class="left-content">
+                            <a href="/write" style="color: #55a8a8;">+ 开始创作</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-panel2">
+                    <div class="tabs">
+                        <img src="../img/邀请好友.png" style="width: 40px;">
+                        <p> &nbsp;&nbsp;推荐关注</p><br>
+                    </div>
+                    <div class="user-bar" data-username="user1">
+                        <img src="../img/fant1650.jpg" alt="User 1 Avatar" class="avatar">
+                        <span class="username">fant1650</span>
+                    </div>
+                    <div class="user-bar" data-username="user1">
+                        <img src="../img/Zyan_Li.jpg" alt="User 1 Avatar" class="avatar">
+                        <span class="username">Zyan_Li</span>
+                    </div>
+                    <div class="user-bar" data-username="user1">
+                        <img src="../img/一苇杭之.jpg" alt="User 1 Avatar" class="avatar">
+                        <span class="username">一苇杭之</span>
+                    </div>
+                    <div class="user-bar" data-username="user1">
+                        <img src="../img/工作账号.jpg" alt="User 1 Avatar" class="avatar">
+                        <span class="username">工作账号</span>
+                    </div>
+                    <div class="user-bar" data-username="user1">
+                        <img src="../img/K1nsom.jpg" alt="User 1 Avatar" class="avatar">
+                        <span class="username">K1nsom</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    const userId = <%= (user && user.uid) ? JSON.stringify(user.uid) : 'null' %>;
+
+    // 初始化每个帖子的点赞/收藏状态
+    document.addEventListener('DOMContentLoaded', async function() {
+        const posts = document.querySelectorAll('.post');
+        for (const post of posts) {
+            const postId = post.getAttribute('data-post-id');
+            if (!postId || !userId || userId === 'null') continue;
+            try {
+                const state = await initializePostState(postId, userId);
+                const likeBtn = post.querySelector('[data-type="like"]');
+                const likeImg = likeBtn.querySelector('img');
+                if (likeBtn) {
+                    likeBtn.classList.toggle('active', state.is_liked);
+                    likeImg.src = state.is_liked ? '../img/点赞.png' : '../img/赞.png';
+                }
+                const collectBtn = post.querySelector('[data-type="collection"]');
+                const collectImg = collectBtn.querySelector('img');
+                if (collectBtn) {
+                    collectBtn.classList.toggle('active', state.is_collected);
+                    collectImg.src = state.is_collected ? '../img/收藏1.png' : '../img/收藏.png';
+                }
+            } catch (e) {}
+        }
+
+        // 事件代理：点赞/收藏
+        document.querySelector('.posts').addEventListener('click', async function(event) {
+            const btn = event.target.closest('.action-btn');
+            if (!btn) return;
+            const post = btn.closest('.post');
+            const postId = post.getAttribute('data-post-id');
+            const type = btn.getAttribute('data-type');
+            const img = btn.querySelector('img');
+            if (!userId || userId === 'null') {
+                alert('请先登录');
+                return;
+            }
+            const isActive = !btn.classList.contains('active');
+            try {
+                await handlePostAction(postId, type, isActive);
+                btn.classList.toggle('active', isActive);
+                if (type === 'like') img.src = isActive ? '../img/点赞.png' : '../img/赞.png';
+                if (type === 'collection') img.src = isActive ? '../img/收藏1.png' : '../img/收藏.png';
+                updateHeat(post, postId);
+            } catch (e) {
+                alert('操作失败');
+            } 
+        });
+
+        // 更新热度
+        async function updateHeat(post, postId) {
+            try {
+                const res = await fetch(`/list/api/post/heat?postId=${postId}`);
+                const data = await res.json();
+                const heatSpan = post.querySelector('.heat');
+                if (heatSpan) {
+                    heatSpan.innerHTML = `<img src="../img/火焰-copy.png" style="width: 18px;"> ${data.heat}`;
+                }
+            } catch (e) {}
+        }
+    });
+
+    // API函数
+    async function handlePostAction(postId, type, isActive) {
+        const response = await fetch('/list/api/post/action', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ postId, type, isActive })
+        });
+        if (!response.ok) throw new Error('操作失败');
+        return await response.json();
+    }
+    async function initializePostState(postId, userId) {
+        const response = await fetch(`/list/api/post/state?postId=${postId}&userId=${userId}`);
+        if (!response.ok) throw new Error('获取状态失败');
+        return await response.json();
+    }
+    </script>
+</body>
+</html>

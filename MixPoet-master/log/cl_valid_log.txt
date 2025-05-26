@@ -1,0 +1,320 @@
+epoch: 1, lr: 1.0000
+  cl_xw loss: 0.705, accu: 79.2, f1: 78.7; 
+  cl_w loss: 0.987, accu: 50.2, f1: 49.6; 
+
+epoch: 2, lr: 1.0000
+  cl_xw loss: 1.000, accu: 78.3, f1: 78.1; 
+  cl_w loss: 0.971, accu: 53.0, f1: 52.3; 
+
+epoch: 3, lr: 1.0000
+  cl_xw loss: 1.063, accu: 82.4, f1: 82.2; 
+  cl_w loss: 0.945, accu: 55.1, f1: 54.6; 
+
+epoch: 4, lr: 1.0000
+  cl_xw loss: 1.186, accu: 79.7, f1: 79.2; 
+  cl_w loss: 0.931, accu: 57.2, f1: 56.7; 
+
+epoch: 5, lr: 1.0000
+  cl_xw loss: 1.651, accu: 82.1, f1: 81.8; 
+  cl_w loss: 0.923, accu: 56.6, f1: 56.3; 
+
+epoch: 6, lr: 1.0000
+  cl_xw loss: 1.511, accu: 82.0, f1: 81.9; 
+  cl_w loss: 0.926, accu: 56.6, f1: 56.2; 
+
+epoch: 7, lr: 1.0000
+  cl_xw loss: 1.614, accu: 83.1, f1: 83.0; 
+  cl_w loss: 0.921, accu: 56.8, f1: 56.2; 
+
+epoch: 8, lr: 1.0000
+  cl_xw loss: 1.857, accu: 82.1, f1: 81.9; 
+  cl_w loss: 0.923, accu: 58.1, f1: 57.6; 
+
+epoch: 9, lr: 1.0000
+  cl_xw loss: 1.861, accu: 80.8, f1: 80.5; 
+  cl_w loss: 0.922, accu: 57.7, f1: 57.2; 
+
+epoch: 10, lr: 1.0000
+  cl_xw loss: 2.081, accu: 82.6, f1: 82.4; 
+  cl_w loss: 0.930, accu: 57.2, f1: 56.9; 
+
+epoch: 1, lr: 1.0000
+  cl_xw loss: 0.724, accu: 68.7, f1: 68.1; 
+  cl_w loss: 0.686, accu: 55.3, f1: 50.4; 
+
+epoch: 2, lr: 1.0000
+  cl_xw loss: 1.440, accu: 67.2, f1: 66.8; 
+  cl_w loss: 0.683, accu: 56.7, f1: 51.3; 
+
+epoch: 3, lr: 1.0000
+  cl_xw loss: 1.876, accu: 66.8, f1: 66.4; 
+  cl_w loss: 0.680, accu: 56.4, f1: 47.5; 
+
+epoch: 4, lr: 1.0000
+  cl_xw loss: 2.301, accu: 68.7, f1: 68.0; 
+  cl_w loss: 0.678, accu: 58.3, f1: 56.8; 
+
+epoch: 5, lr: 1.0000
+  cl_xw loss: 1.973, accu: 71.3, f1: 70.8; 
+  cl_w loss: 0.684, accu: 57.1, f1: 55.3; 
+
+epoch: 6, lr: 1.0000
+  cl_xw loss: 1.672, accu: 70.8, f1: 70.5; 
+  cl_w loss: 0.679, accu: 58.1, f1: 56.8; 
+
+epoch: 7, lr: 1.0000
+  cl_xw loss: 2.382, accu: 71.5, f1: 71.0; 
+  cl_w loss: 0.685, accu: 56.3, f1: 54.5; 
+
+epoch: 8, lr: 1.0000
+  cl_xw loss: 2.514, accu: 68.2, f1: 67.5; 
+  cl_w loss: 0.692, accu: 58.1, f1: 56.6; 
+
+epoch: 9, lr: 1.0000
+  cl_xw loss: 2.758, accu: 70.1, f1: 69.7; 
+  cl_w loss: 0.709, accu: 57.2, f1: 56.1; 
+
+epoch: 10, lr: 1.0000
+  cl_xw loss: 3.217, accu: 69.0, f1: 68.3; 
+  cl_w loss: 0.709, accu: 57.0, f1: 55.6; 
+
+epoch: 1, lr: 1.0000
+  cl_xw loss: 0.769, accu: 78.3, f1: 77.5; 
+  cl_w loss: 0.987, accu: 52.3, f1: 51.9; 
+
+epoch: 2, lr: 1.0000
+  cl_xw loss: 0.991, accu: 81.2, f1: 80.8; 
+  cl_w loss: 0.962, accu: 54.4, f1: 53.7; 
+
+epoch: 3, lr: 1.0000
+  cl_xw loss: 1.153, accu: 81.6, f1: 81.4; 
+  cl_w loss: 0.939, accu: 54.0, f1: 53.2; 
+
+epoch: 4, lr: 1.0000
+  cl_xw loss: 1.464, accu: 81.1, f1: 80.8; 
+  cl_w loss: 0.932, accu: 54.1, f1: 53.8; 
+
+epoch: 5, lr: 1.0000
+  cl_xw loss: 1.782, accu: 79.3, f1: 78.8; 
+  cl_w loss: 0.946, accu: 55.2, f1: 54.5; 
+
+epoch: 6, lr: 1.0000
+  cl_xw loss: 1.897, accu: 78.6, f1: 78.3; 
+  cl_w loss: 0.934, accu: 55.7, f1: 55.4; 
+
+epoch: 7, lr: 1.0000
+  cl_xw loss: 1.505, accu: 82.5, f1: 82.2; 
+  cl_w loss: 0.915, accu: 55.6, f1: 55.1; 
+
+epoch: 8, lr: 1.0000
+  cl_xw loss: 1.789, accu: 83.2, f1: 83.0; 
+  cl_w loss: 0.912, accu: 58.3, f1: 57.9; 
+
+epoch: 9, lr: 1.0000
+  cl_xw loss: 1.880, accu: 82.2, f1: 81.7; 
+  cl_w loss: 0.929, accu: 57.5, f1: 56.9; 
+
+epoch: 10, lr: 1.0000
+  cl_xw loss: 2.119, accu: 81.8, f1: 81.2; 
+  cl_w loss: 0.913, accu: 57.4, f1: 57.1; 
+
+epoch: 1, lr: 1.0000
+  cl_xw loss: 0.700, accu: 70.1, f1: 68.8; 
+  cl_w loss: 0.691, accu: 52.9, f1: 47.3; 
+
+epoch: 2, lr: 1.0000
+  cl_xw loss: 1.293, accu: 72.4, f1: 71.7; 
+  cl_w loss: 0.686, accu: 54.1, f1: 51.9; 
+
+epoch: 3, lr: 1.0000
+  cl_xw loss: 1.596, accu: 71.7, f1: 71.2; 
+  cl_w loss: 0.681, accu: 56.9, f1: 55.9; 
+
+epoch: 4, lr: 1.0000
+  cl_xw loss: 1.764, accu: 72.9, f1: 72.5; 
+  cl_w loss: 0.679, accu: 57.0, f1: 56.3; 
+
+epoch: 5, lr: 1.0000
+  cl_xw loss: 2.030, accu: 72.2, f1: 71.6; 
+  cl_w loss: 0.687, accu: 57.4, f1: 56.9; 
+
+epoch: 6, lr: 1.0000
+  cl_xw loss: 1.775, accu: 70.0, f1: 69.5; 
+  cl_w loss: 0.685, accu: 58.3, f1: 57.3; 
+
+epoch: 7, lr: 1.0000
+  cl_xw loss: 2.455, accu: 68.5, f1: 67.8; 
+  cl_w loss: 0.684, accu: 58.3, f1: 55.7; 
+
+epoch: 8, lr: 1.0000
+  cl_xw loss: 2.567, accu: 72.2, f1: 71.4; 
+  cl_w loss: 0.685, accu: 57.7, f1: 56.8; 
+
+epoch: 9, lr: 1.0000
+  cl_xw loss: 2.626, accu: 72.8, f1: 72.0; 
+  cl_w loss: 0.704, accu: 56.7, f1: 55.5; 
+
+epoch: 10, lr: 1.0000
+  cl_xw loss: 3.208, accu: 72.2, f1: 71.4; 
+  cl_w loss: 0.710, accu: 57.6, f1: 56.6; 
+
+epoch: 1, lr: 1.0000
+  cl_xw loss: 0.663, accu: 80.0, f1: 79.5; 
+  cl_w loss: 1.002, accu: 52.1, f1: 51.7; 
+
+epoch: 2, lr: 1.0000
+  cl_xw loss: 1.030, accu: 79.2, f1: 78.7; 
+  cl_w loss: 0.976, accu: 51.9, f1: 51.5; 
+
+epoch: 3, lr: 1.0000
+  cl_xw loss: 1.260, accu: 81.4, f1: 81.0; 
+  cl_w loss: 0.961, accu: 52.9, f1: 52.5; 
+
+epoch: 4, lr: 1.0000
+  cl_xw loss: 1.515, accu: 80.6, f1: 80.3; 
+  cl_w loss: 0.948, accu: 54.3, f1: 53.9; 
+
+epoch: 5, lr: 1.0000
+  cl_xw loss: 1.429, accu: 82.7, f1: 82.4; 
+  cl_w loss: 0.931, accu: 55.2, f1: 54.9; 
+
+epoch: 6, lr: 1.0000
+  cl_xw loss: 1.611, accu: 81.8, f1: 81.5; 
+  cl_w loss: 0.936, accu: 55.9, f1: 55.4; 
+
+epoch: 7, lr: 1.0000
+  cl_xw loss: 1.762, accu: 82.0, f1: 81.6; 
+  cl_w loss: 0.935, accu: 56.8, f1: 56.4; 
+
+epoch: 8, lr: 1.0000
+  cl_xw loss: 2.012, accu: 82.4, f1: 82.0; 
+  cl_w loss: 0.912, accu: 57.3, f1: 57.0; 
+
+epoch: 9, lr: 1.0000
+  cl_xw loss: 2.069, accu: 81.3, f1: 81.0; 
+  cl_w loss: 0.923, accu: 56.4, f1: 56.1; 
+
+epoch: 10, lr: 1.0000
+  cl_xw loss: 2.442, accu: 80.5, f1: 80.1; 
+  cl_w loss: 0.935, accu: 56.9, f1: 56.3; 
+
+epoch: 1, lr: 1.0000
+  cl_xw loss: 0.785, accu: 63.8, f1: 61.7; 
+  cl_w loss: 0.686, accu: 54.1, f1: 48.8; 
+
+epoch: 2, lr: 1.0000
+  cl_xw loss: 1.435, accu: 64.8, f1: 63.8; 
+  cl_w loss: 0.673, accu: 58.2, f1: 56.2; 
+
+epoch: 3, lr: 1.0000
+  cl_xw loss: 1.950, accu: 67.4, f1: 66.0; 
+  cl_w loss: 0.680, accu: 58.1, f1: 55.5; 
+
+epoch: 4, lr: 1.0000
+  cl_xw loss: 1.766, accu: 67.9, f1: 67.3; 
+  cl_w loss: 0.672, accu: 58.8, f1: 58.2; 
+
+epoch: 5, lr: 1.0000
+  cl_xw loss: 2.576, accu: 67.8, f1: 66.0; 
+  cl_w loss: 0.676, accu: 57.7, f1: 53.1; 
+
+epoch: 6, lr: 1.0000
+  cl_xw loss: 2.237, accu: 71.0, f1: 70.3; 
+  cl_w loss: 0.681, accu: 59.3, f1: 58.4; 
+
+epoch: 7, lr: 1.0000
+  cl_xw loss: 2.670, accu: 69.1, f1: 68.3; 
+  cl_w loss: 0.674, accu: 60.4, f1: 59.3; 
+
+epoch: 8, lr: 1.0000
+  cl_xw loss: 3.236, accu: 70.2, f1: 69.8; 
+  cl_w loss: 0.689, accu: 58.0, f1: 56.3; 
+
+epoch: 9, lr: 1.0000
+  cl_xw loss: 3.520, accu: 68.7, f1: 68.3; 
+  cl_w loss: 0.689, accu: 58.9, f1: 57.4; 
+
+epoch: 10, lr: 1.0000
+  cl_xw loss: 2.222, accu: 70.5, f1: 70.2; 
+  cl_w loss: 0.701, accu: 58.4, f1: 56.8; 
+
+epoch: 1, lr: 1.0000
+  cl_xw loss: 0.676, accu: 79.0, f1: 78.6; 
+  cl_w loss: 0.988, accu: 52.1, f1: 51.7; 
+
+epoch: 2, lr: 1.0000
+  cl_xw loss: 0.865, accu: 79.0, f1: 78.6; 
+  cl_w loss: 0.981, accu: 52.3, f1: 50.9; 
+
+epoch: 3, lr: 1.0000
+  cl_xw loss: 1.398, accu: 78.6, f1: 78.3; 
+  cl_w loss: 0.946, accu: 52.5, f1: 51.6; 
+
+epoch: 4, lr: 1.0000
+  cl_xw loss: 1.408, accu: 80.9, f1: 80.4; 
+  cl_w loss: 0.943, accu: 55.5, f1: 55.2; 
+
+epoch: 5, lr: 1.0000
+  cl_xw loss: 1.584, accu: 81.1, f1: 80.5; 
+  cl_w loss: 0.921, accu: 56.0, f1: 55.5; 
+
+epoch: 6, lr: 1.0000
+  cl_xw loss: 1.617, accu: 80.3, f1: 79.7; 
+  cl_w loss: 0.930, accu: 55.1, f1: 54.7; 
+
+epoch: 7, lr: 1.0000
+  cl_xw loss: 1.598, accu: 80.3, f1: 79.9; 
+  cl_w loss: 0.916, accu: 55.8, f1: 55.4; 
+
+epoch: 8, lr: 1.0000
+  cl_xw loss: 1.731, accu: 81.3, f1: 81.0; 
+  cl_w loss: 0.924, accu: 56.2, f1: 55.9; 
+
+epoch: 9, lr: 1.0000
+  cl_xw loss: 1.971, accu: 82.6, f1: 82.2; 
+  cl_w loss: 0.929, accu: 57.7, f1: 57.5; 
+
+epoch: 10, lr: 1.0000
+  cl_xw loss: 2.264, accu: 81.6, f1: 81.3; 
+  cl_w loss: 0.918, accu: 57.2, f1: 56.8; 
+
+epoch: 1, lr: 1.0000
+  cl_xw loss: 0.851, accu: 65.7, f1: 63.7; 
+  cl_w loss: 0.690, accu: 53.4, f1: 47.6; 
+
+epoch: 2, lr: 1.0000
+  cl_xw loss: 1.781, accu: 65.4, f1: 63.9; 
+  cl_w loss: 0.684, accu: 56.1, f1: 55.1; 
+
+epoch: 3, lr: 1.0000
+  cl_xw loss: 1.695, accu: 70.2, f1: 69.8; 
+  cl_w loss: 0.689, accu: 52.9, f1: 50.4; 
+
+epoch: 4, lr: 1.0000
+  cl_xw loss: 2.154, accu: 66.5, f1: 66.0; 
+  cl_w loss: 0.678, accu: 56.7, f1: 56.0; 
+
+epoch: 5, lr: 1.0000
+  cl_xw loss: 1.950, accu: 67.9, f1: 67.3; 
+  cl_w loss: 0.674, accu: 58.0, f1: 57.1; 
+
+epoch: 6, lr: 1.0000
+  cl_xw loss: 2.570, accu: 68.6, f1: 67.8; 
+  cl_w loss: 0.690, accu: 56.4, f1: 54.6; 
+
+epoch: 7, lr: 1.0000
+  cl_xw loss: 2.482, accu: 67.2, f1: 66.4; 
+  cl_w loss: 0.682, accu: 56.2, f1: 55.8; 
+
+epoch: 8, lr: 1.0000
+  cl_xw loss: 2.577, accu: 66.3, f1: 65.0; 
+  cl_w loss: 0.697, accu: 57.6, f1: 57.1; 
+
+epoch: 9, lr: 1.0000
+  cl_xw loss: 2.670, accu: 66.5, f1: 65.6; 
+  cl_w loss: 0.698, accu: 59.1, f1: 58.3; 
+
+epoch: 10, lr: 1.0000
+  cl_xw loss: 3.939, accu: 65.2, f1: 63.4; 
+  cl_w loss: 0.696, accu: 57.5, f1: 56.9; 
+

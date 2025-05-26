@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创作区</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .row {
+            margin-bottom: 20px;
+        }
+        .label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .custom-radio {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            cursor: pointer;
+            user-select: none;
+        }
+        .custom-radio:hover {
+            background-color: #e0e0e0;
+        }
+        .custom-radio.selected {
+            background-color: #007bff;
+            color: #fff;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .poem-content {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 18px;
+            outline: none;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <span class="label">创作类型</span>
+            <div class="custom-radio" data-value="jueju">绝句</div>
+            <div class="custom-radio" data-value="lushi">律诗</div>
+        </div>
+        <div class="row">
+            <span class="label">字数排列</span>
+            <div class="custom-radio" data-value="wuyan">五言</div>
+            <div class="custom-radio" data-value="qiyan">七言</div>
+        </div>
+        <div class="row">
+            <span class="label">题</span>
+            <input type="text" id="title" placeholder="输入作品的题目">
+        </div>
+        <div class="row">
+            <span class="label">作者署名</span>
+            <input type="text" id="author" placeholder="输入作品署名">
+        </div>
+        <div class="row">
+            <span class="label">内容</span>
+        </div>
+        <textarea class="poem-content" id="content" placeholder="在这里输入诗歌内容"></textarea>
+        <div class="row">
+            <span class="label"></span>
+            <div class="custom-radio" data-value="save">保存</div>
+            <div class="custom-radio" data-value="share">分享</div>
+        </div>
+    </div>
+
+    <script>
+        const radios = document.querySelectorAll('.custom-radio');
+        const contentArea = document.getElementById('content');
+        let selectedType = '';
+        let selectedFormat = '';
+
+        radios.forEach(radio => {
+            radio.addEventListener('click', () => {
+                // Deselect all radios in the same row
+                const row = radio.parentElement;
+                row.querySelectorAll('.custom-radio').forEach(r => r.classList.remove('selected'));
+
+                // Select the clicked radio
+                radio.classList.add('selected');
+
+                // Handle type and format selection
+                if (radio.dataset.value === 'jueju' || radio.dataset.value === 'lushi') {
+                    selectedType = radio.dataset.value;
+                } else if (radio.dataset.value === 'wuyan' || radio.dataset.value === 'qiyan') {
+                    selectedFormat = radio.dataset.value;
+                    formatContent();
+                }
+            });
+        });
+
+        contentArea.addEventListener('input', formatContent);
+
+        function formatContent() {
+            if (!selectedFormat) return;
+
+            const lines = contentArea.value.split('\n');
+            const wordLimit = selectedFormat === 'wuyan' ? 5 : 7;
+            let formattedContent = '';
+
+            lines.forEach(line => {
+                while (line.length > wordLimit) {
+                    formattedContent += line.substring(0, wordLimit) + '\n';
+                    line = line.substring(wordLimit);
+                }
+                formattedContent += line + '\n';
+            });
+
+            contentArea.value = formattedContent.trim();
+        }
+    </script>
+</body>
+</html>

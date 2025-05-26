@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4731373 */
+  src: url('../icomoon/iconfont.woff') format('woff2'),
+       url('../icomoon/iconfont.woff') format('woff'),
+       url('../icomoon/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-caret-left:before {
+  content: "\e63e";
+}
+
+.icon-arrow-caret-right:before {
+  content: "\e63f";
+}
+

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="../css/user_home.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            overflow-x: hidden; /* 防止水平滚动条 */
+        }
+
+        .sidebar {
+            width: 100px; /* 侧边栏初始宽度 */
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑动画效果 */
+            z-index: 1000; /* 确保侧边栏在主内容区域之上 */
+        }
+
+        .sidebar:hover {
+            width: 150px; /* 鼠标悬停时侧边栏宽度增加到170像素 */
+            background-color: #444; /* 鼠标悬停时改变背景色（可选） */
+        }
+
+        .main-content {
+            margin-left: 500px; /* 确保主内容区域从侧边栏的最大宽度开始留出空间 */
+            margin-right: 500px;
+            margin-top: 20px;
+            padding: 40px;
+            overflow-y: auto; /* 允许正文内容垂直滚动 */
+            flex-grow: 1; /* 占据剩余空间 */
+            height: 100vh; /* 占据整个视口高度 */
+            /* 可以根据需要添加其他样式 */
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* 可选：为侧边栏链接添加样式 */
+        .sidebar a {
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            text-align: center;
+            transition: color 0.3s ease-in-out; /* 平滑文字颜色变化（可选） */
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+            color: #f0f0f0; /* 鼠标悬停在链接上时改变文字颜色（可选） */
+        }
+
+        .content-wrapper {
+            flex-grow: 1; /* 占据剩余空间 */
+            display: flex;
+            flex-direction: column; /* 垂直排列子元素 */
+            overflow: hidden; /* 隐藏滚动条（如果需要的话，可以在内部元素上设置滚动） */
+            background-color: rgba(255, 255, 255, 0.5); /* 半透明背景色 */
+            background-image: url('./img/b.jpg');
+            background-size: cover; /* 让背景图片覆盖整个区域 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-position: center; /* 将背景图片居中 */
+        }
+ 
+        .top-navbar {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0); 
+            padding: 10px 20px;
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* 将容器分为12等份 */  
+            align-items: center; /* 垂直居中 */
+        }
+        
+        .nav-right {  
+            grid-column: 9 / 11; /* 右边的标签占据第3列（可以调整为更右的列，根据需要） */  
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 15px; /* 标签之间的间距 */  
+            font-size: 25px;
+        }  
+
+        .nav-right a {  
+            color: white;  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(0, 0, 0); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+        }  
+ 
+        .nav-right a:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* 悬停时背景变亮 */
+        }
+        
+        .nav-1 {  
+            grid-column: 2;
+            display: flex;  
+            justify-content: flex-end; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 1%; /* 标签之间的间距 */  
+            font-size: 20px;
+        }  
+
+        .nav-2 {  
+            grid-column: 3;
+            display: flex;  
+            justify-content: flex-start; /* 如果需要在列内左对齐标签，否则可以删除此行 */  
+            gap: 1%; /* 标签之间的间距 */  
+            font-size: 20px;
+        }  
+
+        .nav-2 a {  
+            text-decoration: none;  
+            padding: 10px 22px;  
+            transition: transform 0.3s ease, background-color 0.3s ease;  
+            font-family: 'youshebiaotihei';
+            color: rgb(59, 59, 59); 
+            text-decoration: none; /* 去除下划线 */
+            margin-left: 20px; /* 链接之间的间距 */
+            padding: 5px 10px; /* 链接内边距 */
+            border-radius: 5px; /* 圆角边框 */
+            transition: background-color 0.3s; /* 背景颜色过渡效果 */
+            justify-self: center; /* 在列中居中 */  
+            display: flex;
+        }  
+
+        .main-content {
+            flex-grow: 1; /* 占据剩余空间 */
+            overflow-y: auto; /* 允许正文内容垂直滚动 */
+            padding: 20px;
+            box-sizing: border-box; /* 包括内边距和边框在内的元素总宽度和高度 */
+            background-color: #ffffff;
+        }
+        .left-panel {
+            height: 1100px;
+            flex: 7; /* 左边部分稍微宽一点，使用比例值分配宽度 */
+            background-color: #ffffff; /* 示例背景色 */
+            padding: 20px;
+            box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+            margin-right: 10px; /* 添加右边距以产生空隙 */
+        }
+        .postcontainer{
+            height: 90%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: visible;
+        }
+        .posts {
+            width: 100%;
+            height: 85%;
+            display: block;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+            overflow-y: visible;
+            overflow-x: hidden;
+
+        }
+
+        /* 帖子样式 */
+        .post {
+            background-color: #ffffff;
+            padding: 20px;
+            width: calc(90% - 5px);
+            display: block;
+        }
+
+        .post-title {
+            font-size: 28px;
+            font-weight: 1000;
+            margin-bottom: 15px;
+        }
+
+        .post-content {
+            font-size: 20px;
+            line-height: 1.5;
+            height: 48px; /* 两行文字的高度 */
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .post-content::after {
+            content: '...';
+            position: absolute;
+            bottom: 0;
+            right: 5px;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+        }
+
+        .read-more {
+            font-family: 'youshebiaotihei';
+            color: #78b6be;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        /* 用户操作样式 */
+        .user-actions {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+
+        .heat {
+            font-family: 'youshebiaotihei';
+            width: 80px;
+            height: 20px;
+            font-size: 18px;
+            color: #fa6868;
+            background-color: #ffeaea;
+            border-radius: 24px; /* 圆角 */
+            padding: 5px;
+        }
+
+        .action-btn {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            margin-left: 30px;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .no-content{
+            font-family: 'youshebiaotihei';
+            font-size: 30px;
+            
+        }
+    </style>
+</head>
+
+<body class="content" id="content">
+    <div class="sidebar">
+        <a href="/home"><img src="../img/logo.png "style="border-radius: 15px;width: 40px;height: 40px;" alt="产品logo"></a>
+        <a href="/write">创作</a>
+        <a href="/cowork">论坛</a>
+        <a href="/collection">收藏夹</a>
+        <a href="/pediaHome">百科</a>
+        <a href="http://127.0.0.1:8080">数据台</a>
+        <a href="/user/info"><img src="<%= user.avatar ? user.avatar : '../img/用户.jpg' %>" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="top-navbar">
+            <div class="nav-1">
+                <a href="/home"><img src="../img/logo.png" style="border-radius: 15px;width: 40px;height: 40px;" alt="首页"></a>
+            </div>
+            <div class="nav-2">
+                <a href="/cowork">收藏夹</a>
+            </div>
+            <div class="nav-right">
+            <% if (user && user.username) { %>
+                <a href="/user/info"><%= user.username %></a>
+                <a href="/user/logout">注销</a>
+                <a href="/user/info"><img src="<%= user.avatar ? user.avatar : '../img/用户.jpg' %>" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+            <% } else { %>
+                <a href="/user/login">登录</a>
+                <a href="/user/reg">注册</a>
+                <a href="/user/login"><img src="../img/用户.jpg" style="border-radius: 15px;width: 40px;height: 40px;" alt="用户"></a>
+            <% } %>
+        </div>
+        </div>
+        <div class="main-content">
+            <div class="left-panel">
+                <div class="postcontainer">
+                    
+                    <div class="posts">
+                        <% if (data && data.length) { %>
+                            <% var len = data.length; %>
+                            <% for(var i=0; i<data.length; i++) { %>
+                                <div class="post" data-post-id="<%= data[len-i-1].id %>">
+                                    <div class="post-title"><%= data[len-i-1].title %></div>
+                                    <hr>
+                                    <div class="post-content"><%= data[len-i-1].username %>：<%= data[len-i-1].content %></div>
+                                    <a href="/list/<%= data[len-i-1].id %>.html" class="read-more">阅读全文</a>
+                                    <div class="user-actions">
+                                        <% var heat= (2 * data[len-i-1].like + 3 * data[len-i-1].collection)*10; %>
+                                        <span class="heat"><img src="../img/火焰-copy.png" style="width: 18px;"> <%=heat%></span>
+                                        <div class="action-btn" data-id="<%=i%>" data-type="like"><img src="../img/赞.png" style="width: 18px;" ></div>
+                                        <div class="action-btn" data-id="<%=i%>" data-type="collection"><img src="../img/收藏.png" style="width: 18px;" ></div>
+                                    </div>
+                                </div>
+                            <% } %>
+                        <% } else { %>
+                            <p class="no-content">暂无收藏内容</p>
+                            <p class="no-content">去论坛里逛逛吧</p>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const userId = <%= (user && user.uid) ? JSON.stringify(user.uid) : 'null' %>;
+
+    // 初始化每个帖子的点赞/收藏状态
+    document.addEventListener('DOMContentLoaded', async function() {
+        const posts = document.querySelectorAll('.post');
+        for (const post of posts) {
+            const postId = post.getAttribute('data-post-id');
+            if (!postId || !userId || userId === 'null') continue;
+            try {
+                const state = await initializePostState(postId, userId);
+                const likeBtn = post.querySelector('[data-type="like"]');
+                const likeImg = likeBtn.querySelector('img');
+                if (likeBtn) {
+                    likeBtn.classList.toggle('active', state.is_liked);
+                    likeImg.src = state.is_liked ? '../img/点赞.png' : '../img/赞.png';
+                }
+                const collectBtn = post.querySelector('[data-type="collection"]');
+                const collectImg = collectBtn.querySelector('img');
+                if (collectBtn) {
+                    collectBtn.classList.toggle('active', state.is_collected);
+                    collectImg.src = state.is_collected ? '../img/收藏1.png' : '../img/收藏.png';
+                }
+            } catch (e) {}
+        }
+
+        // 事件代理：点赞/收藏
+        document.querySelector('.posts').addEventListener('click', async function(event) {
+            const btn = event.target.closest('.action-btn');
+            if (!btn) return;
+            const post = btn.closest('.post');
+            const postId = post.getAttribute('data-post-id');
+            const type = btn.getAttribute('data-type');
+            const img = btn.querySelector('img');
+            if (!userId || userId === 'null') {
+                alert('请先登录');
+                return;
+            }
+            const isActive = !btn.classList.contains('active');
+            try {
+                await handlePostAction(postId, type, isActive);
+                btn.classList.toggle('active', isActive);
+                if (type === 'like') img.src = isActive ? '../img/点赞.png' : '../img/赞.png';
+                if (type === 'collection') img.src = isActive ? '../img/收藏1.png' : '../img/收藏.png';
+                updateHeat(post, postId);
+            } catch (e) {
+                alert('操作失败');
+            } 
+        });
+
+        // 更新热度
+        async function updateHeat(post, postId) {
+            try {
+                const res = await fetch(`/list/api/post/heat?postId=${postId}`);
+                const data = await res.json();
+                const heatSpan = post.querySelector('.heat');
+                if (heatSpan) {
+                    heatSpan.innerHTML = `<img src="../img/火焰-copy.png" style="width: 18px;"> ${data.heat}`;
+                }
+            } catch (e) {}
+        }
+    });
+
+    // API函数
+    async function handlePostAction(postId, type, isActive) {
+        const response = await fetch('/list/api/post/action', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ postId, type, isActive })
+        });
+        if (!response.ok) throw new Error('操作失败');
+        return await response.json();
+    }
+    async function initializePostState(postId, userId) {
+        const response = await fetch(`/list/api/post/state?postId=${postId}&userId=${userId}`);
+        if (!response.ok) throw new Error('获取状态失败');
+        return await response.json();
+    }
+    </script>
+</body>
+
+</html>

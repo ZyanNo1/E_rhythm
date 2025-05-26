@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大创</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+    <div class="navbar">  
+        <div class="logo">  
+            <a href="/home"><img src="./img/logo.png "style="border-radius: 15px;width: 40px;height: 40px;" alt="产品logo"></a>
+        </div>  
+        <div class="nav-right">  
+            <a href="/home">首页</a>  
+            <a href="#login">简介</a>  
+            <a href="/cowork">社区</a>  
+        </div>  
+        <div class="user">
+            <img src="./img/用户.jpg" alt="用户">
+        </div>
+    </div>
+    <div class="header_shell">
+        <header>
+            <div class="img"></div>
+        </header>
+        <div class="main">
+            <main>
+                <article>
+                    <div class="multicol">
+                        <h1 style="font-family: 'youshebiaotihei';font-weight: 100;font-size: 60px;">欢迎来到</h1>
+                        <h2 style="font-family: 'youshebiaotihei';font-weight: 100;font-size: 60px;"> 亿韵启界 </h2>
+                        <p style="row-gap: 20px;">
+                            <br>
+                            七言五言 一言亿韵 <br>
+                            此乃词韵之台 亦为启界之土<br>
+                            古往今来<br>
+                            何者为至协之声 何者为至美之韵 <br><br><br>
+                            求者云云 道途漫漫<br>
+                            求者云云 而通天意者寥寥<br>
+                            一诗易 一诗真易?<br><br><br><br>
+                            人有其极 <br>
+                            然今得九歌之助 得以探远于此途也<br>
+                            <i style="font-size: 35px;font-family: '楷体';font-style: normal;font-weight:900;">朝闻道 夕死可矣!</i>
+                        </p>
+                    </div>
+                    <p>亿韵启界是一个专注于古诗文鉴赏和创作的平台，旨在让用户自由探索和分享中国传统诗词的美妙。通过便捷的创作工具和丰富的内容交互，用户可以深度体验古诗词的创作过程，同时学习和交流诗歌的意境与文化内涵。我们的目标是让中国诗词爱好者数量翻倍，并进一步推广古诗文的魅力。</p><br>
+                    <img src="./img/4.jpg" alt="">
+                    <div>
+                        <a href="./src.html" style="font-family: 'youshebiaotihei';font-size: 60px;font-weight: 100;color: cadetblue;">&nbsp;&nbsp;探索的可能:</a>
+                        <i style="font-family: 'youshebiaotihei';font-size: 50px;font-weight: 80;">我们不会定义您,但是您仍然需要方向</i><br>
+                        <a href="/write" style="font-family: 'youshebiaotihei';font-size: 60px;font-weight: 100;color: cadetblue;">&nbsp;&nbsp;创作的提升:</a>
+                        <i style="font-family: 'youshebiaotihei';font-size: 50px;font-weight: 80;">神经网络的帮助延申创作的空间</i><br>
+                        <a href="/cowork" style="font-family: 'youshebiaotihei';font-size: 60px;font-weight: 100;color: cadetblue;">&nbsp;&nbsp;思维的交互:</a>
+                        <i style="font-family: 'youshebiaotihei';font-size: 50px;font-weight: 80;">与更多创作者联合,实现思维的交互</i><br>
+                        <a href="/collection" style="font-family: 'youshebiaotihei';font-size: 60px;font-weight: 100;color: cadetblue;">&nbsp;&nbsp;智慧的收藏:</a>
+                        <i style="font-family: 'youshebiaotihei';font-size: 50px;font-weight: 80;">收藏您或其他创作者的创作,定格静谧的个人空间</i><br>
+                        <a href="/workshop" style="font-family: 'youshebiaotihei';font-size: 60px;font-weight: 100;color: cadetblue;">&nbsp;&nbsp;技术的融合:</a>
+                        <i style="font-family: 'youshebiaotihei';font-size: 50px;font-weight: 80;">创意工坊为诗人的思维提供了更多可视化思路</i><br>
+                    </div><img src="./img/1.jpg" alt="">
+                    <br>
+                    <p><i style="font-size: 50px;">功能介绍：<br></i>
+                        &nbsp;帖子创作： 用户可以在首页选择诗歌形式（如五言、七言绝句）生成诗句。平台还提供细节修改功能。<br>
+                        &nbsp;收藏夹： 用户可将优美诗句收藏展示，并能发图配文分享创作作品，提升个人主页的艺术氛围。<br>
+                        &nbsp;创意工坊： 平台为创作者提供丰富的插件和demo，帮助他们将作品进行创意可视化，实现诗歌内容与现代技术的融合。<br></p>
+                </article>
+            </main>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const header = document.querySelector('header');
+        const img = document.querySelector('.img');
+        let scrollDistance = 0;
+        let requestId = null;
+        function updateHeaderClipPath() {
+            const clipPathValue = `polygon(0 0, 100% 0%, 100% ${(scrollDistance <= 600) ? 100 - ((scrollDistance / 600) * 60) : 75}%, 0 100%)`;
+            header.style.clipPath = clipPathValue;
+            const scaleValue = 1 + ((scrollDistance / 600) * 1);
+            img.style.transform = `scale(${scaleValue})`;
+            const opacityValue = (scrollDistance / 600);
+        }
+        function scrollHandler(event) {
+            if (event.deltaY < 0) {
+                scrollDistance = Math.max(0, scrollDistance + event.deltaY);
+            } else {
+                scrollDistance = Math.min(600, scrollDistance + event.deltaY);
+            }
+            if (!requestId) {
+                requestId = window.requestAnimationFrame(() => {
+                    updateHeaderClipPath();
+                    requestId = null;
+                });
+            }
+        }
+        window.addEventListener('wheel', scrollHandler);
+    </script>
+</body>
+
+</html> 

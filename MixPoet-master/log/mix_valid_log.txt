@@ -1,0 +1,180 @@
+epoch: 1, lr: 0.001, tr: 0.85, tau: 1.000, noise: 0.220
+  ppl:21.8, rec loss: 3.081, entropy loss: -0.514, cl loss w: 1.763, cl loss xw: 1.886
+  dis loss: 0.300, adv loss: 1.763
+
+epoch: 2, lr: 0.001, tr: 1.00, tau: 1.000, noise: 0.087
+  ppl:84.4, rec loss: 4.435, entropy loss: -0.556, cl loss w: 1.772, cl loss xw: 1.283
+  dis loss: 0.993, adv loss: 0.536
+
+epoch: 3, lr: 0.001, tr: 1.00, tau: 1.000, noise: 0.000
+  ppl:79.5, rec loss: 4.376, entropy loss: -0.465, cl loss w: 1.776, cl loss xw: 1.718
+  dis loss: 0.515, adv loss: 1.010
+
+epoch: 4, lr: 0.000, tr: 1.00, tau: 1.000, noise: 0.000
+  ppl:80.3, rec loss: 4.386, entropy loss: -0.485, cl loss w: 1.785, cl loss xw: 2.221
+  dis loss: 0.511, adv loss: 1.016
+
+epoch: 5, lr: 0.000, tr: 0.90, tau: 1.000, noise: 0.000
+  ppl:79.1, rec loss: 4.370, entropy loss: -0.517, cl loss w: 1.776, cl loss xw: 2.053
+  dis loss: 0.449, adv loss: 1.254
+
+epoch: 6, lr: 0.000, tr: 0.87, tau: 1.000, noise: 0.000
+  ppl:78.0, rec loss: 4.357, entropy loss: -0.461, cl loss w: 1.782, cl loss xw: 2.798
+  dis loss: 0.330, adv loss: 1.520
+
+epoch: 7, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.0, rec loss: 4.356, entropy loss: -0.519, cl loss w: 1.789, cl loss xw: 2.526
+  dis loss: 0.567, adv loss: 1.020
+
+epoch: 8, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:77.7, rec loss: 4.353, entropy loss: -0.535, cl loss w: 1.797, cl loss xw: 2.460
+  dis loss: 0.260, adv loss: 1.773
+
+epoch: 9, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.2, rec loss: 4.360, entropy loss: -0.573, cl loss w: 1.785, cl loss xw: 2.250
+  dis loss: 0.258, adv loss: 1.824
+
+epoch: 10, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.2, rec loss: 4.360, entropy loss: -0.536, cl loss w: 1.794, cl loss xw: 2.814
+  dis loss: 0.172, adv loss: 2.154
+
+epoch: 11, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.3, rec loss: 4.360, entropy loss: -0.536, cl loss w: 1.785, cl loss xw: 2.662
+  dis loss: 0.177, adv loss: 2.175
+
+epoch: 12, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.2, rec loss: 4.359, entropy loss: -0.617, cl loss w: 1.784, cl loss xw: 2.318
+  dis loss: 0.434, adv loss: 1.405
+
+epoch: 1, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:100.2, rec loss: 4.608, entropy loss: -0.548, cl loss w: 1.772, cl loss xw: 2.885
+  dis loss: 0.053, adv loss: 4.005
+
+epoch: 2, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:107.1, rec loss: 4.674, entropy loss: -0.514, cl loss w: 1.772, cl loss xw: 3.443
+  dis loss: 0.042, adv loss: 4.118
+
+epoch: 3, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:114.5, rec loss: 4.741, entropy loss: -0.576, cl loss w: 1.773, cl loss xw: 2.994
+  dis loss: 0.038, adv loss: 4.403
+
+epoch: 1, lr: 0.001, tr: 0.85, tau: 1.000, noise: 0.220
+  ppl:24.4, rec loss: 3.196, entropy loss: -0.492, cl loss w: 1.748, cl loss xw: 2.108
+  dis loss: 0.300, adv loss: 1.802
+
+epoch: 2, lr: 0.001, tr: 1.00, tau: 1.000, noise: 0.087
+  ppl:83.8, rec loss: 4.429, entropy loss: -0.512, cl loss w: 1.799, cl loss xw: 1.474
+  dis loss: 1.740, adv loss: 0.248
+
+epoch: 3, lr: 0.001, tr: 1.00, tau: 1.000, noise: 0.000
+  ppl:75.3, rec loss: 4.322, entropy loss: -0.566, cl loss w: 1.793, cl loss xw: 1.381
+  dis loss: 1.156, adv loss: 0.591
+
+epoch: 4, lr: 0.000, tr: 1.00, tau: 1.000, noise: 0.000
+  ppl:80.1, rec loss: 4.383, entropy loss: -0.485, cl loss w: 1.775, cl loss xw: 1.860
+  dis loss: 0.262, adv loss: 1.747
+
+epoch: 5, lr: 0.000, tr: 0.90, tau: 1.000, noise: 0.000
+  ppl:78.6, rec loss: 4.365, entropy loss: -0.492, cl loss w: 1.782, cl loss xw: 1.823
+  dis loss: 0.163, adv loss: 2.315
+
+epoch: 6, lr: 0.000, tr: 0.87, tau: 1.000, noise: 0.000
+  ppl:78.7, rec loss: 4.366, entropy loss: -0.528, cl loss w: 1.787, cl loss xw: 1.911
+  dis loss: 0.149, adv loss: 2.592
+
+epoch: 7, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.2, rec loss: 4.359, entropy loss: -0.486, cl loss w: 1.773, cl loss xw: 2.157
+  dis loss: 0.195, adv loss: 2.456
+
+epoch: 8, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.0, rec loss: 4.357, entropy loss: -0.518, cl loss w: 1.782, cl loss xw: 2.184
+  dis loss: 0.095, adv loss: 3.075
+
+epoch: 9, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.1, rec loss: 4.358, entropy loss: -0.521, cl loss w: 1.794, cl loss xw: 2.555
+  dis loss: 0.086, adv loss: 3.176
+
+epoch: 10, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.0, rec loss: 4.357, entropy loss: -0.442, cl loss w: 1.777, cl loss xw: 3.242
+  dis loss: 0.083, adv loss: 3.238
+
+epoch: 11, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.6, rec loss: 4.364, entropy loss: -0.532, cl loss w: 1.781, cl loss xw: 2.395
+  dis loss: 0.048, adv loss: 3.895
+
+epoch: 12, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.2, rec loss: 4.359, entropy loss: -0.523, cl loss w: 1.790, cl loss xw: 2.702
+  dis loss: 0.131, adv loss: 2.810
+
+epoch: 1, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:99.0, rec loss: 4.595, entropy loss: -0.556, cl loss w: 1.757, cl loss xw: 2.076
+  dis loss: 0.192, adv loss: 2.296
+
+epoch: 2, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:105.1, rec loss: 4.655, entropy loss: -0.555, cl loss w: 1.754, cl loss xw: 2.653
+  dis loss: 0.255, adv loss: 1.840
+
+epoch: 3, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:113.1, rec loss: 4.729, entropy loss: -0.537, cl loss w: 1.752, cl loss xw: 3.219
+  dis loss: 0.274, adv loss: 1.918
+
+epoch: 1, lr: 0.001, tr: 0.85, tau: 1.000, noise: 0.220
+  ppl:19.5, rec loss: 2.971, entropy loss: -0.475, cl loss w: 1.770, cl loss xw: 2.159
+  dis loss: 0.408, adv loss: 1.499
+
+epoch: 2, lr: 0.001, tr: 1.00, tau: 1.000, noise: 0.087
+  ppl:81.7, rec loss: 4.403, entropy loss: -0.541, cl loss w: 1.799, cl loss xw: 1.453
+  dis loss: 0.602, adv loss: 0.885
+
+epoch: 3, lr: 0.001, tr: 1.00, tau: 1.000, noise: 0.000
+  ppl:79.4, rec loss: 4.375, entropy loss: -0.501, cl loss w: 1.794, cl loss xw: 1.417
+  dis loss: 0.606, adv loss: 0.947
+
+epoch: 4, lr: 0.000, tr: 1.00, tau: 1.000, noise: 0.000
+  ppl:78.3, rec loss: 4.361, entropy loss: -0.486, cl loss w: 1.785, cl loss xw: 1.674
+  dis loss: 0.333, adv loss: 1.537
+
+epoch: 5, lr: 0.000, tr: 0.90, tau: 1.000, noise: 0.000
+  ppl:78.6, rec loss: 4.364, entropy loss: -0.524, cl loss w: 1.797, cl loss xw: 1.928
+  dis loss: 0.547, adv loss: 1.282
+
+epoch: 6, lr: 0.000, tr: 0.87, tau: 1.000, noise: 0.000
+  ppl:77.2, rec loss: 4.346, entropy loss: -0.451, cl loss w: 1.792, cl loss xw: 2.265
+  dis loss: 0.125, adv loss: 2.451
+
+epoch: 7, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:77.0, rec loss: 4.343, entropy loss: -0.559, cl loss w: 1.790, cl loss xw: 2.365
+  dis loss: 0.248, adv loss: 2.283
+
+epoch: 8, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:78.6, rec loss: 4.364, entropy loss: -0.440, cl loss w: 1.796, cl loss xw: 3.195
+  dis loss: 0.118, adv loss: 2.600
+
+epoch: 9, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:76.6, rec loss: 4.339, entropy loss: -0.518, cl loss w: 1.789, cl loss xw: 3.580
+  dis loss: 0.058, adv loss: 3.491
+
+epoch: 10, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:76.8, rec loss: 4.341, entropy loss: -0.523, cl loss w: 1.795, cl loss xw: 3.273
+  dis loss: 0.053, adv loss: 3.791
+
+epoch: 11, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:77.0, rec loss: 4.344, entropy loss: -0.583, cl loss w: 1.791, cl loss xw: 2.771
+  dis loss: 0.029, adv loss: 4.185
+
+epoch: 12, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:77.5, rec loss: 4.350, entropy loss: -0.573, cl loss w: 1.793, cl loss xw: 2.635
+  dis loss: 0.035, adv loss: 3.972
+
+epoch: 1, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:100.1, rec loss: 4.606, entropy loss: -0.528, cl loss w: 1.782, cl loss xw: 2.530
+  dis loss: 0.043, adv loss: 4.003
+
+epoch: 2, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:105.8, rec loss: 4.662, entropy loss: -0.521, cl loss w: 1.777, cl loss xw: 3.178
+  dis loss: 0.035, adv loss: 4.219
+
+epoch: 3, lr: 0.000, tr: 0.85, tau: 1.000, noise: 0.000
+  ppl:113.3, rec loss: 4.730, entropy loss: -0.519, cl loss w: 1.778, cl loss xw: 3.268
+  dis loss: 0.021, adv loss: 4.413
+
