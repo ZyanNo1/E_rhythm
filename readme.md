@@ -100,7 +100,7 @@
 
 ## **Acknowledgements**
 
-This project incorporates MixPoet, an AI poetry generation framework developed by the THUNLP-AIPoet team at Tsinghua University, and trained on our own. We express our sincere gratitude to the researchers for making this exceptional work publicly available.
+This project incorporates MixPoet, an AI poetry generation framework developed by the THUNLP-AIPoet team at Tsinghua University, and we trained the model on our own. We express our sincere gratitude to the researchers for making this exceptional work publicly available.
 
 ***References:***
 
