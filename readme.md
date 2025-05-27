@@ -6,7 +6,7 @@
 
 ## Program structure
 
-** Only crucial parts are listed down below*
+**Only crucial parts are listed down below*
 
 - [**Main Module**](https://github.com/ZyanNo1/E_rhythm/tree/main/main) - Primary Node.js Web Application
   - routes - Express.js route handlers
